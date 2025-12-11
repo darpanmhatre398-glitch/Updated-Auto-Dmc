@@ -1,0 +1,77 @@
+{
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-SNS--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "SNS",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        },
+        {
+            "file": "AVS-A-04-10-02-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-ipd--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "ipd",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        },
+        {
+            "file": "AVS-A-04-10-03-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-sb--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "sb",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        },
+        {
+            "file": "AVS-A-04-10-04-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-SNS--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "SNS",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        },
+        {
+            "file": "AVS-A-04-10-05-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-sbs--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "sbs",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        },
+        {
+            "file": "Launcher_System.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-SNS--0000--870A-D",
+            "dmc_parts": {
+                "systemCode": "SNS",
+                "infoCode": "870",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        }
+    ],
+    "failed": []
+}

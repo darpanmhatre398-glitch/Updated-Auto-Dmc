@@ -1,0 +1,33 @@
+{
+    "successful": [
+        {
+            "original_file": "DMC-P15-A-A1-00-0000-00A-000A-D.docx",
+            "new_file": "DMC-P15-A-A1-00-0000-00A-002A-D.docx",
+            "llm_analysis": {
+                "system_name": "Electric Power",
+                "subsystem_name": "Specification",
+                "purpose_description": "Definition of Electric Power Specification"
+            },
+            "derived_codes": {
+                "systemCode": "A1",
+                "subSystemCode": "0",
+                "infoCode": "002"
+            }
+        },
+        {
+            "original_file": "DMC-P15-A-A4-00-0000-00A-040A-D.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-000A-D.docx",
+            "llm_analysis": {
+                "system_name": "",
+                "subsystem_name": "",
+                "purpose_description": ""
+            },
+            "derived_codes": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "000"
+            }
+        }
+    ],
+    "failed": []
+}

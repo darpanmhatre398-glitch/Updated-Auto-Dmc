@@ -1,0 +1,22 @@
+{
+    "successful": [
+        {
+            "file": "Launcher_System.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-SNS--0000--000A-D",
+            "dmc_parts": {
+                "systemCode": "SNS",
+                "infoCode": "000",
+                "subSystemCode": "",
+                "subSubSystemCode": "",
+                "disassyCode": "",
+                "disassyCodeVariant": ""
+            }
+        }
+    ],
+    "failed": [
+        {
+            "file": "~$uncher_System.docx",
+            "issue": "Could not read or extract content."
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-841A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C00",
+                "subSystemCode": "C02",
+                "infoCode": "841"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "841"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-C14A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C00",
+                "subSystemCode": "",
+                "infoCode": "C14"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "C14"
+            }
+        }
+    ],
+    "failed": []
+}

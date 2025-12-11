@@ -1,0 +1,33 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-C00A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C",
+                "subSystemCode": "0",
+                "infoCode": "C00"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "C00"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-C02A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C",
+                "subSystemCode": "00",
+                "infoCode": "C02"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "C02"
+            }
+        }
+    ],
+    "failed": []
+}

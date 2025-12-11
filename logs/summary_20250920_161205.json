@@ -1,0 +1,95 @@
+{
+    "successful": [
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-01-A-040A-D.docx",
+            "new_file": "DMC-P15-A-C3-00-0000-00A-040A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C3-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "C3",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-02-A-040A-D.docx",
+            "new_file": "DMC-P15-A-C3-00-0000-00A-040A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C3-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "C3",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-03-A-040A-D.docx",
+            "new_file": "DMC-P15-A-C3-00-0000-00A-040A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C3-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "C3",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-04-A-009A-D.docx",
+            "new_file": "DMC-P15-A-A5-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-A5-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "A5",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-05-A-009A-D.docx",
+            "new_file": "DMC-P15-A-A5-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-A5-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "A5",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-06-A-009A-D.docx",
+            "new_file": "DMC-P15-A-A4-00-0000-00A-040A-D.docx",
+            "assigned_dmc": "DMC-P15-A-A4-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "A4",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-07-A-009A-D.docx",
+            "new_file": "DMC-P15-A-A1-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-A1-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "A1",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "DMC-P15B-000-C0-00-56-08-A-009A-D.docx",
+            "new_file": "DMC-P15-A-A1-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-A1-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "A1",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C6-00-0000-00A-842A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C6-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "C6",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-C1-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C1-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "C1",
+                "infoCode": "000"
+            }
+        }
+    ],
+    "failed": []
+}

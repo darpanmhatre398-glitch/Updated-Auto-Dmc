@@ -1,0 +1,77 @@
+{
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-00-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "00",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-02-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-C2-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "C2",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-03-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-00-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "00",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-04-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-00-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "00",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-05-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-00-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "00",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "Launcher_System.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-C2-00-0000-00A-870A-D",
+            "dmc_parts": {
+                "systemCode": "C2",
+                "infoCode": "870",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": []
+}

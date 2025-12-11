@@ -1,0 +1,23 @@
+{
+    "successful": [
+        {
+            "original_file": "diesel_engine_faults.docx",
+            "new_file": "DMC-PROJECT-A-A1-00-0000-00A-842A-D_Troubleshooting_Diesel_Engine_Faults.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A1-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "A1",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-PROJECT-A-A0-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A0-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "A0",
+                "infoCode": "842"
+            }
+        }
+    ],
+    "failed": []
+}

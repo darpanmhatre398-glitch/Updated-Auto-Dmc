@@ -1,0 +1,17 @@
+2025-09-19 15:42:02,010 - INFO - --- Starting Autonomous S1000D DMC Generation Process ---
+2025-09-19 15:42:02,054 - INFO - --- Processing: diesel_engine_faults.docx ---
+2025-09-19 15:42:02,074 - INFO - Querying LLM (llama3.2:latest)...
+2025-09-19 15:42:02,706 - INFO - LLM successfully returned: {'systemCode': 'A6', 'infoCode': '842'}
+2025-09-19 15:42:02,708 - INFO - Successfully created: DMC-PROJECT-A-A6-00-0000-00A-842A-D_Troubleshooting_Diesel_Engine_Faults.docx
+2025-09-19 15:42:02,708 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:42:02,708 - INFO - --- Processing: DMC-P15B-000-C0-00-81-02-A-040A-D.docx ---
+2025-09-19 15:42:02,729 - INFO - Querying LLM (llama3.2:latest)...
+2025-09-19 15:42:03,067 - INFO - LLM successfully returned: {'systemCode': 'B3', 'infoCode': '842'}
+2025-09-19 15:42:03,069 - INFO - Successfully created: DMC-PROJECT-A-B3-00-0000-00A-842A-D_Unpacking_of_Mechanical_System.docx
+2025-09-19 15:42:03,069 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:42:03,069 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-19 15:42:03,094 - INFO - Querying LLM (llama3.2:latest)...
+2025-09-19 15:42:03,407 - INFO - LLM successfully returned: {'systemCode': 'B1', 'infoCode': '842'}
+2025-09-19 15:42:03,408 - INFO - Successfully created: DMC-PROJECT-A-B1-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx
+2025-09-19 15:42:03,410 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:42:03,411 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250919_154203.json' ---

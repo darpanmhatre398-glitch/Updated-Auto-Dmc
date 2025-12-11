@@ -1,0 +1,18 @@
+2025-09-19 15:53:41,159 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-19 15:53:41,195 - INFO - --- Processing: AVS-A-04-10-01-001A-D.docx ---
+2025-09-19 15:53:41,202 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 15:53:41,711 - INFO - LLM successfully returned: {'systemCode': 'D7', 'infoCode': '040'}
+2025-09-19 15:53:41,714 - INFO - Successfully created: DMC-P15-A-D7-00-0000-00A-040A-D_PURPOSE.docx
+2025-09-19 15:53:41,714 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:53:41,714 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-19 15:53:41,745 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 15:53:42,057 - INFO - LLM successfully returned: {'systemCode': 'C6', 'infoCode': '842'}
+2025-09-19 15:53:42,059 - INFO - Successfully created: DMC-P15-A-C6-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx
+2025-09-19 15:53:42,059 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:53:42,059 - INFO - --- Processing: system_composition.docx ---
+2025-09-19 15:53:42,095 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 15:53:42,409 - INFO - LLM successfully returned: {'systemCode': 'C1', 'infoCode': '009'}
+2025-09-19 15:53:42,410 - WARNING - LLM returned invalid infoCode '009'.
+2025-09-19 15:53:42,410 - INFO - Successfully created: DMC-P15-A-C1-00-0000-00A-000A-D_System_Composition.docx
+2025-09-19 15:53:42,410 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:53:42,410 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250919_155342.json' ---

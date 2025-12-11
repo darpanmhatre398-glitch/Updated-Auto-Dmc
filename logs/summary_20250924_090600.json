@@ -1,0 +1,35 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-996A-D.docx",
+            "assigned_dmc": "DMC-P15-A-00-00-0000-00A-996A-D",
+            "llm_derived_parts": {
+                "systemCode": "C00",
+                "subSystemCode": "900",
+                "infoCode": "996"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "00",
+                "infoCode": "996"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-P15-A-00-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "C00",
+                "subSystemCode": "C92",
+                "infoCode": "Procedure to remove preservation material (Type: proced)"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "00",
+                "infoCode": "000"
+            }
+        }
+    ],
+    "failed": []
+}

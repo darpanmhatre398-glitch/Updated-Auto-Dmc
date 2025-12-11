@@ -1,0 +1,12 @@
+2025-09-20 16:20:29,759 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-20 16:20:29,788 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-20 16:20:29,809 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:20:32,161 - INFO - LLM successfully returned: {'systemCode': 'C2', 'infoCode': '842'}
+2025-09-20 16:20:32,163 - INFO - Successfully created: DMC-P15-A-C2-00-0000-00A-842A-D.docx
+2025-09-20 16:20:32,163 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:20:32,163 - INFO - --- Processing: system_composition.docx ---
+2025-09-20 16:20:32,194 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:20:32,426 - INFO - LLM successfully returned: {'systemCode': 'C0', 'infoCode': '056'}
+2025-09-20 16:20:32,428 - INFO - Successfully created: DMC-P15-A-C0-00-0000-00A-056A-D.docx
+2025-09-20 16:20:32,429 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:20:32,430 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250920_162032.json' ---

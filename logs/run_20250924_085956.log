@@ -1,0 +1,16 @@
+2025-09-24 08:59:56,629 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 08:59:56,667 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 08:59:56,696 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 08:59:57,584 - INFO - LLM successfully returned: {'systemCode': 'C00', 'infoCode': ''}
+2025-09-24 08:59:57,585 - WARNING - LLM returned invalid systemCode 'C00'. Defaulting to '00'.
+2025-09-24 08:59:57,585 - WARNING - LLM returned invalid infoCode ''. Defaulting to '000'.
+2025-09-24 08:59:57,587 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 08:59:57,589 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 08:59:57,589 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 08:59:57,624 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 08:59:58,262 - INFO - LLM successfully returned: {'systemCode': 'C00', 'infoCode': 'computer systems, software and data'}
+2025-09-24 08:59:58,262 - WARNING - LLM returned invalid systemCode 'C00'. Defaulting to '00'.
+2025-09-24 08:59:58,265 - WARNING - LLM returned invalid infoCode 'computer systems, software and data'. Defaulting to '000'.
+2025-09-24 08:59:58,265 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 08:59:58,265 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 08:59:58,265 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_085958.json' ---

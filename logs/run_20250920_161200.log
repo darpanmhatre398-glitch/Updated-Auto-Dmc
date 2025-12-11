@@ -1,0 +1,57 @@
+2025-09-20 16:12:00,113 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-20 16:12:00,147 - INFO - --- Processing: DMC-P15B-000-C0-00-56-01-A-040A-D.docx ---
+2025-09-20 16:12:00,168 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:02,523 - INFO - LLM successfully returned: {'systemCode': 'C3', 'infoCode': '040'}
+2025-09-20 16:12:02,525 - INFO - Successfully created: DMC-P15-A-C3-00-0000-00A-040A-D.docx
+2025-09-20 16:12:02,525 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:02,525 - INFO - --- Processing: DMC-P15B-000-C0-00-56-02-A-040A-D.docx ---
+2025-09-20 16:12:02,563 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:02,877 - INFO - LLM successfully returned: {'systemCode': 'C3', 'infoCode': '040'}
+2025-09-20 16:12:02,880 - INFO - Successfully created: DMC-P15-A-C3-00-0000-00A-040A-D.docx
+2025-09-20 16:12:02,882 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:02,882 - INFO - --- Processing: DMC-P15B-000-C0-00-56-03-A-040A-D.docx ---
+2025-09-20 16:12:02,899 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:03,205 - INFO - LLM successfully returned: {'systemCode': 'C3', 'infoCode': '040'}
+2025-09-20 16:12:03,206 - INFO - Successfully created: DMC-P15-A-C3-00-0000-00A-040A-D.docx
+2025-09-20 16:12:03,206 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:03,206 - INFO - --- Processing: DMC-P15B-000-C0-00-56-04-A-009A-D.docx ---
+2025-09-20 16:12:03,225 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:03,549 - INFO - LLM successfully returned: {'systemCode': 'A5', 'infoCode': '009'}
+2025-09-20 16:12:03,549 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-20 16:12:03,552 - INFO - Successfully created: DMC-P15-A-A5-00-0000-00A-000A-D.docx
+2025-09-20 16:12:03,557 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:03,557 - INFO - --- Processing: DMC-P15B-000-C0-00-56-05-A-009A-D.docx ---
+2025-09-20 16:12:03,563 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:03,910 - INFO - LLM successfully returned: {'systemCode': 'A5', 'infoCode': '009'}
+2025-09-20 16:12:03,911 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-20 16:12:03,912 - INFO - Successfully created: DMC-P15-A-A5-00-0000-00A-000A-D.docx
+2025-09-20 16:12:03,913 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:03,913 - INFO - --- Processing: DMC-P15B-000-C0-00-56-06-A-009A-D.docx ---
+2025-09-20 16:12:03,918 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:04,246 - INFO - LLM successfully returned: {'systemCode': 'A4', 'infoCode': '040'}
+2025-09-20 16:12:04,248 - INFO - Successfully created: DMC-P15-A-A4-00-0000-00A-040A-D.docx
+2025-09-20 16:12:04,248 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:04,249 - INFO - --- Processing: DMC-P15B-000-C0-00-56-07-A-009A-D.docx ---
+2025-09-20 16:12:04,263 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:04,549 - INFO - LLM successfully returned: {'systemCode': 'A1', 'infoCode': '009'}
+2025-09-20 16:12:04,549 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-20 16:12:04,551 - INFO - Successfully created: DMC-P15-A-A1-00-0000-00A-000A-D.docx
+2025-09-20 16:12:04,551 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:04,551 - INFO - --- Processing: DMC-P15B-000-C0-00-56-08-A-009A-D.docx ---
+2025-09-20 16:12:04,557 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:04,857 - INFO - LLM successfully returned: {'systemCode': 'A1', 'infoCode': '009'}
+2025-09-20 16:12:04,858 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-20 16:12:04,858 - INFO - Successfully created: DMC-P15-A-A1-00-0000-00A-000A-D.docx
+2025-09-20 16:12:04,858 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:04,858 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-20 16:12:04,883 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:05,195 - INFO - LLM successfully returned: {'systemCode': 'C6', 'infoCode': '842'}
+2025-09-20 16:12:05,197 - INFO - Successfully created: DMC-P15-A-C6-00-0000-00A-842A-D.docx
+2025-09-20 16:12:05,197 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:05,197 - INFO - --- Processing: system_composition.docx ---
+2025-09-20 16:12:05,210 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-20 16:12:05,525 - INFO - LLM successfully returned: {'systemCode': 'C1', 'infoCode': '009'}
+2025-09-20 16:12:05,525 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-20 16:12:05,526 - INFO - Successfully created: DMC-P15-A-C1-00-0000-00A-000A-D.docx
+2025-09-20 16:12:05,527 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-20 16:12:05,528 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250920_161205.json' ---

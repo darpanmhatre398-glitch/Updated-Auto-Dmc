@@ -1,0 +1,2103 @@
+
+[
+  {
+    "system_id": "A",
+    "system_title": "Propulsion, General",
+    "tables": [
+      {
+        "table_id": "3",
+        "system_code": "A0",
+        "title": "Propulsion, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion, General",
+            "definition": "A system or equipment for producing and delivering power."
+          }
+        ]
+      },
+      {
+        "table_id": "4",
+        "system_code": "A1",
+        "title": "Power pack, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Power pack, General",
+            "definition": "The power pack element refers to a self-contained means for generating and delivering power. It includes such systems as the main engine, transmission and interfaces. Subsystems can include such items as cooling, fuel, air and exhaust, lubrication, auxiliaries and electrical."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Main engine",
+            "definition": "Refers to a diesel, petrol, electric, etc, fuelled means for generating power and a means whereby this power can be delivered to the transmission It can include, for example, engine-mounted flywheel and clutch assemblies, cooling, fuel, air and exhaust, lubrication, auxiliary and electrical systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Transmission",
+            "definition": "Refers to a system which transmits power from the engine to the driving member and can include torque converter and gearbox. It can also include flywheel and clutch assemblies, steering and brakes if they are integral to the transmission. Also included are differentials and power takeoffs."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Power pack interfaces",
+            "definition": "Refers to the mounting assemblies connecting the main engine and transmission, together with associated ancillaries, including such systems as cooling, fuel, air and exhaust, lubrication, auxiliary and electrical. It can also include transmission items."
+          }
+        ]
+      },
+      {
+        "table_id": "5",
+        "system_code": "A2",
+        "title": "Power unit, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Power unit, General",
+            "definition": "The power unit element refers to a discrete means for generating and delivering power to the transmission. It can include, for example, flywheel and clutch assemblies."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Engine",
+            "definition": "Refers to a diesel, petrol, electric, etc, fuelled means for generating power and a means whereby this power can be delivered to the transmission. It can include, for example, flywheel and clutch assemblies and engine mounted cooling, fuel, air and exhaust, lubrication, auxiliary and electrical systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Cooling system",
+            "definition": "Refers to systems designed to maintain the correct operating temperatures for the power unit. It includes, for example, cooling air ducting, coolant pumps, liquid filled radiators, intercoolers, fans and associated heat exchange equipment."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Fuel systems",
+            "definition": "Refers to a system or equipment designed to deliver fuel to the power unit. It includes, for example, fuel storage facilities, pumps, filters, delivery pipes, drainage and cut-off valves, Fuel Injector Pumps (FIP) and injectors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Air and exhaust systems",
+            "definition": "Refers to a system which supplies air to, or collects and removes exhaust gasses from the engine. It includes, for example, all pipes, ducting, filters, couplings, gaskets, turbochargers/superchargers, silencers and catalytic converters."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Lubrication systems",
+            "definition": "Refers to a system that provides lubrication to the power unit and any external components related to the power unit lubrication system. It includes, for example, delivery and return pipes, pumps, filters, intercoolers and separately mounted heat exchangers."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Electrical",
+            "definition": "Refers to a system that provides or uses electrical power associated with the power unit. It includes, for example, starter motors, alternators and generators directly mounted on the power unit. It also includes, for example, ignition system components including spark plugs, distributor, coils and leads."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Ancillary",
+            "definition": "Refers to ancillary controls, items and associated systems in, or directly mounted on, the power unit. It includes, for example, engine mountings."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Hydraulic",
+            "definition": "Refers to a system that provides or uses hydraulic power associated with the power unit. It includes, for example, hydraulic pumps, valves, pipes, and tanks. It also includes any external components related to the power unit hydraulic systems."
+          }
+        ]
+      },
+      {
+        "table_id": "6",
+        "system_code": "A3",
+        "title": "Engine cooling system, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Engine cooling system, General",
+            "definition": "This system includes cooling air ducting, coolant pumps, liquid filled radiators, fans and associated heat exchange equipment."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Fluid",
+            "definition": "Refers to fluid (water/oil) filled coolant systems. It includes pumps, radiators, fans, pipes and associated heat exchange equipment."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Air",
+            "definition": "Refers to cooling air ducting, fans and associated heat exchange equipment."
+          }
+        ]
+      },
+      {
+        "table_id": "7",
+        "system_code": "A4",
+        "title": "Fuel systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Fuel systems, General",
+            "definition": "Equipment to provide fuel storage facilities, filters, delivery pipes, drainage and cut-off valves, Fuel Injector Pumps (FIP) and injectors mounted externally to the power unit/pack."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Storage",
+            "definition": "Refers to the portion of the system which stores fuel. It includes, for example, tanks, filler necks, seals, valves, vents and drainage."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "Refers to the portion of the system which is used to distribute fuel from the storage system. It includes, for example, filters, restrictors, valves, controls and pipes."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Priming",
+            "definition": "Refers to the portion of the system which is used to pressurize/pump the fuel. It includes, for example, lift pumps, pressurization pumps, and cold starting systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Fuel injection",
+            "definition": "Refers to the portion of the system which delivers fuel. It includes, for example, FIP, fuel injectors, fuel pump metering and carburetors."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Indicating",
+            "definition": "Refers to the portion of the system which is used to monitor the condition of fuel (quantity, temperature and pressure). It includes, for example, transmitters, indicators, wiring and pressure warning systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Venting and de-fuelling",
+            "definition": "Refers to the portion of the system which is used to vent fumes from the fuel system and to provide a means for removing/dumping unwanted fuel."
+          }
+        ]
+      },
+      {
+        "table_id": "8",
+        "system_code": "A5",
+        "title": "Air and exhaust systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Air and exhaust systems, General",
+            "definition": "Refers to a system which supplies and filters air to the engine and collects and removes exhaust gases from the engine. It includes, for example, all filters, pipes, couplings, silencers, catalytic converters and ducting mounted externally to the power unit/pack."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Air system",
+            "definition": "Refers to a system which supplies and filters air to the engine. It includes, for example, pre-filters, main air filters, and associated ducting. It can also include air cooling/heating systems and intercoolers."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Collector",
+            "definition": "Refers to that portion of the system which collects exhaust gases from the engine manifold. It includes pipes, joints, gaskets, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Noise suppression",
+            "definition": "Refers to that portion of the system which reduces noise produced by the engine exhaust gases. It includes silencers, baffles, shields, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Emission control",
+            "definition": "Refers to that portion of the system which is designed to reduce or eliminate engine exhaust gas emissions. It includes, for example, catalytic converters and tail pipes."
+          }
+        ]
+      },
+      {
+        "table_id": "9",
+        "system_code": "A6",
+        "title": "Lubrication systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Lubrication systems, General",
+            "definition": "This system is to include lubrication storage facilities that are external to the engine/power pack. It includes delivery and return pipes, pumps, filters and heat exchangers mounted externally to the power unit/pack."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Storage",
+            "definition": "Refers to the part of the system used for storage of engine and/or transmission lubricating oil. It includes tanks, filling systems, sumps, drains, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "Refers to the part of the system used for distribution of lubricating oil to and from the engine and/or transmission. It includes pipes, pumps, filters, valves, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indicating",
+            "definition": "Refers to the part of the system used to monitor the condition of engine and/or transmission lubricating oil (quantity, temperature and pressure). It includes transmitters, indicators, wiring, pressure warning systems, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "10",
+        "system_code": "A7",
+        "title": "Transmission, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Transmission, General",
+            "definition": "Refers to a means to transmit power from the engine to the General driving member and can include clutch, torque converter, gearbox. It can also include steering and brakes if they are integral to the transmission. Also included are differentials and power takeoffs."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Gearbox",
+            "definition": "Refers to a means for varying the speed/torque delivered from the power unit to the driving member. It can include the steering control and brake assemblies."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Steering control assembly",
+            "definition": "Refers to a discrete means for varying the drive applied, through the transmission system, to each of the vehicle's driving members (eg, tracked vehicles)."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Brake assembly",
+            "definition": "Refers to a discrete means for applying braking forces through the vehicle transmission (eg, tracked vehicles)."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Auxiliary drive/ power takeoff",
+            "definition": "Refers to an auxiliary means of obtaining an output from the engine. It includes transfer gearboxes which can also include a slip differential."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Clutch",
+            "definition": "Refers to a means for engaging/disengaging the transmission to/from the engine, when fitted as a separate assembly (for clutches fitted to a flywheel, see A21000)."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Drive shaft",
+            "definition": "Refers to the means for connecting power output from the engine to the driving member. It includes muff couplings, propeller shafts, universal joints and final drives."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Torque converter",
+            "definition": "Refers to a means for varying the torque delivered from the engine to the driving member."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Differential",
+            "definition": "Refers to a means for changing the direction of rotation delivered from the engine to the driving member or wheels. For wheeled vehicles, it includes the driving axles, half shafts, hubs, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "11",
+        "system_code": "A8",
+        "title": "Automotive/remote piloting and digital control systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Automotive/ remote piloting and digital control systems, General",
+            "definition": "The automotive and remote piloting and Digital Automotive Control System (DACS) element refers to that equipment (hardware/software) installed in the vehicle which is used to plan and control vehicle speed and direction either autonomously or via tele-operation. This includes equipment which senses, processes and displays imagery data such as stereo vision systems, laser scanners, multiple sensor fusion algorithms and processors, image enhancement algorithms and processors etc. This includes, for example, equipment which performs intelligence analysis and planning functions such as automated route planners, image understanding algorithms and processors, computer aided driving algorithms, DACS and processors."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Control",
+            "definition": "Refers to processing and control elements. It includes central processors, analogue/digital converters, associated software, memory boards, servo units, actuators, associated wiring, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Sensors",
+            "definition": "Refers to sensors which are specifically associated with providing inputs to an automotive/remote piloting system or DACS."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indicators",
+            "definition": "Refers to the part of the system used to indicate/monitor an automotive/remote piloting system or DACS. It includes indicators, wiring, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "12",
+        "system_code": "A9",
+        "title": "Controls (drivers), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Controls (drivers), General",
+            "definition": "Given in this element are the controls required to start, stop, steer and generally control the vehicle commensurate with the mobility role of the equipment. It includes, for example, on-board diagnostic systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Foot controls",
+            "definition": "Refers to the foot-operated controls to start, stop, steer and generally control the vehicle. It includes, for example, pedal assemblies (clutch, brake, accelerator, etc), associated linkages, cables, hydraulic/pneumatic connections, master and slave cylinders, brake shoes and pads and disks and drums."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Hand controls",
+            "definition": "Refers to the hand-operated controls to start, stop, steer and generally control the vehicle. It includes, for example, stop/start, steering (wheel, tiller, etc) and braking controls."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Ancillary controls",
+            "definition": "Refers to ancillary controls and associated systems. It includes, for example, such items as screen wash equipment, windscreen wipers and adjustable wing mirrors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Propulsion control systems",
+            "definition": "Refers to systems which monitor and/or control engine speed and performance."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Instrumentation",
+            "definition": "Refers to systems (hardware/software) which monitor/report on the operation of vehicle systems. It includes, for example, the drivers instrumentation panel, warning lights and condition monitoring systems."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "B",
+    "system_title": "Structure, General",
+    "tables": [
+      {
+        "table_id": "13",
+        "system_code": "B0",
+        "title": "Structure, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Structure, General",
+            "definition": "Framework and/or basic structural housing for a system, including load bearing components."
+          }
+        ]
+      },
+      {
+        "table_id": "14",
+        "system_code": "B1",
+        "title": "Hull/frame, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Hull/frame, General",
+            "definition": "This element refers to the vehicles primary load bearing component which provides the structural integrity to withstand the operational loading stresses generated while traversing various terrain profiles. This element could be a simple wheeled vehicle frame or a more complicated combat vehicle hull which satisfies not only the structural requirements but also provides armor protection. It includes all structural subassemblies and appendages which attach directly to the primary structure. This element, for example, includes towing and lifting fittings, bumpers, hatches and grilles. It also includes provision to accommodate other Subsystems such as mountings for suspension, weapons, turret, track body, cab, special equipment, loads etc."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Internal mountings",
+            "definition": "Refers to internal fitments mounted on the hull/frame. It includes brackets, stud welding, floors and insulation panels."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "External mountings",
+            "definition": "Refers to the chassis and external fitments mounted on the hull/frame. It includes brackets, stud welding, steps, bumpers, mud-guards, windows, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Doors/hatches",
+            "definition": "Refers to loading/entry hatches and doors in, or directly mounted on, the hull/frame assembly. It includes shell loading doors, driver and passenger doors, hatches, locks, handles, drivers/operators hoods, cowls and windshields, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Seats",
+            "definition": "Refers to seating which is directly mounted on the hull/frame."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Drinking water tank",
+            "definition": "Refers to a system designed to provide drinking water for the driver and crew, which is directly mounted on the hull/frame. It includes tanks, filler necks, filters, pipes, seals, valves, vents, drainage, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Access cover plates",
+            "definition": "Refers to access cover plates directly mounted on the hull/frame. It includes, for example, guards, plugs, drain/inspection covers. It can also include deck area assemblies."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Gun crutch/ depression rails",
+            "definition": "Refers to gun crutch and depression rails directly mounted on the hull/frame."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Skirting plates/ brackets/splash plates",
+            "definition": "Refers to skirting plates, brackets and splash plates directly mounted on the hull/frame. It includes the plates and associated fittings, brackets, towing attachments, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "15",
+        "system_code": "B2",
+        "title": "Body/cab, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Body/cab, General",
+            "definition": "Refers to the major components to be mated to a chassis or frame to provide a complete vehicle having a defined mission capability. This element includes accommodation for personnel, cargo, and such subsystems as need to be placed in proximity of the operators."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Internal mountings",
+            "definition": "Refers to internal fitments mounted on the body/cab. It includes panels, brackets, clips, fascia, instrument panels, stud welding, internal windows, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "External mountings",
+            "definition": "Refers to external fitments mounted on the body/cab. It includes the external cab assembly, panels, brackets, stud welding, steps, windows, cab tilt and locking mechanism, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Doors/hatches",
+            "definition": "Refers to loading/entry hatches and doors in, or directly mounted on, the body/cab. It includes loading doors, driver and passenger doors, hatches, locks, handles, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Seats",
+            "definition": "Refers to seating and associated fittings which are directly mounted on the body/cab. It includes, for example, seat belts and harnesses."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Drinking water tank",
+            "definition": "Refers to a system designed to provide drinking water for the driver and crew, which is directly mounted on the body/cab. It includes tanks, filler necks, filters, pipes, seals, valves, vents, drainage, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Access panels",
+            "definition": "Refers to access panels directly mounted on the body/cab."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Load bay",
+            "definition": "Refers to load (or passenger) carrying areas in the body/cab and any soft/hard top covering, supports, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Ancillary",
+            "definition": "Refers to ancillary controls, items and associated systems in, or directly mounted on, the body or cab."
+          }
+        ]
+      },
+      {
+        "table_id": "16",
+        "system_code": "B3",
+        "title": "Suspension/track/wheels, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Suspension/ effort, track/wheels, General",
+            "definition": "This element refers to the means for generating tractive thrust and lift, generally at or in proximity to the earth's surface and adapting the vehicle to the irregularities of the surface. It includes, for example, wheels, tracks and steering gears for traction and control functions. Also, it includes springs, shock absorbers, skirts and other suspension members such as track adjusting mechanisms. It does not include specific steering mechanisms."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Suspension irregularities unit",
+            "definition": "Refers to the means for adapting the vehicle to of the surface. It includes hydrogas units, shock absorbers, leaf and coil springs, pneumatic suspension units, etc. Also included is the lift mechanism, skirts, etc, for hovercraft."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Road wheel/hub assembly",
+            "definition": "Refers to a means for distributing the nominal ground pressure of the vehicle. On wheeled vehicles, it includes wheels that transfer tractive effort to the surface and rolling wheels. It includes road wheels, hub assemblies, tires, valves, inner-tubes, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Sprocket wheel tractive assembly",
+            "definition": "Refers to the sprocket drive wheels which transfer effort to the track."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Track assembly",
+            "definition": "Refers to the track and associated linkages."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Idler wheels",
+            "definition": "Refers to the feed/guide mechanism(s) associated with track laying. It includes idler wheels and track tensioners."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Roller assembly",
+            "definition": "Refers to the track roller guide assemblies."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Axle",
+            "definition": "Refers to non-driving axles not covered under the transmission system. It includes axle arms, links, bearings, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "17",
+        "system_code": "B4",
+        "title": "Turret assembly, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Turret assembly, General",
+            "definition": "The turret assembly refers to the structures and equipment installation required to provide the fighting compartment element of combat vehicles. This element includes turret armour, EMC shielding, turret rings, slip rings, attachments and appendages such as latches and cupolas, and accommodation for personnel, weapons and C³I."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Internal mountings",
+            "definition": "Refers to internal fitments mounted in the turret. It includes drinking water installations, periscope mountings, panels, brackets, clips, stud welding, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "External mountings",
+            "definition": "Refers to external fitments mounted on the turret. It includes brush deflector assemblies, cooler boxes, gun covers, splash curtains, panels, brackets, stud welding, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Hatches",
+            "definition": "Refers to loading/entry hatches in, or directly mounted on, the turret. It includes loading hatches, crew hatches and associated locks, handles, fittings, etc. It does not include cupolas."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Seats",
+            "definition": "Refers to seating which is directly mounted in the turret."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Ring assembly",
+            "definition": "Refers to a circular track and roller/ball-race assembly designed to facilitate turret rotation."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Cupola",
+            "definition": "Refers to a roof aperture and domed hatch assembly, primarily for observation purposes. It can be capable of rotation, and can also provide access for entry/exit."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Elevating/ traversing gearbox",
+            "definition": "Refers to elevating traversing gearboxes mounted on the turret wall."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Turntable assembly",
+            "definition": "Refers to the turret turntable assembly. It includes drive and roller assemblies, RBJ mountings, etc."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Ancillary",
+            "definition": "Refers to ancillary controls, items and associated systems in, or directly mounted on, the turret. It includes such items as wash/wipe equipment, turret and elevation locks, position indicators and adjustable mirrors, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "18",
+        "system_code": "B5",
+        "title": "Structures and buildings, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Structures and buildings, General",
+            "definition": "This element refers to the structural portion of the electronic/automated software system. It includes, for example, frames, chassis, racks, etc."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Frame/chassis",
+            "definition": "Refers to the structural frame or chassis of the electronic/automated software system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Rack",
+            "definition": "Refers to the mounting rack of the electronic/automated software system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Fixtures/fittings",
+            "definition": "Refers to fixtures and fittings in the racks of the electronic/automated software system. It includes, for example, blank panels, runners, bonding rails, anti-vibration mounts, grilles, cable trays and guides."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Encapsulation",
+            "definition": "Refers to the enclosure of items within the electronic/automated software system by use of a potting compound."
+          }
+        ]
+      },
+      {
+        "table_id": "19",
+        "system_code": "B6",
+        "title": "Sites, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Sites, General",
+            "definition": "This element refers to the physical make-up of a site where an electronic/automated software system is installed or housed. It includes, for example, boundaries, buildings, chambers, radomes and hard-standing."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Buildings",
+            "definition": "Refers to the buildings in which the electronic/automated software system is housed."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Radomes",
+            "definition": "Refers to the radomes in which the electronic/automated software system is housed."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Chambers",
+            "definition": "Refers to the chambers in the electronic/automated software system. It includes, for example, underground chambers, cable and EMP vaults, secure and other storage areas."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Hard standing",
+            "definition": "Refers to hard standing on the site where the electronic/automated software system is installed or located."
+          }
+        ]
+      },
+      {
+        "table_id": "20",
+        "system_code": "B7",
+        "title": "Masts, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Masts, General",
+            "definition": "Refers to structures erected to provide support for antennas etc. It includes, for example, masts, towers and securing equipment."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Masts",
+            "definition": "Refers to those erected structures which are not free-standing."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Towers",
+            "definition": "Refers to those erected structures which are free-standing."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Securing equipment",
+            "definition": "Refers to the equipment and devices which is used to secure masts, towers and antennas."
+          }
+        ]
+      },
+      {
+        "table_id": "21",
+        "system_code": "B8",
+        "title": "Containers, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Containers, General",
+            "definition": "Refers to containers that form part of the electronic/automated software system. It includes, for example, ISO containers, cabins and cases."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "ISO containers",
+            "definition": "Refers to ISO containers which form part of the electronic/automated software system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Cabins",
+            "definition": "Refers to cabins which form part of the electronic/automated software system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Cases",
+            "definition": "Refers to covers and cases which form part of the electronic/automated software system."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "C",
+    "system_title": "Armaments, General",
+    "tables": [
+      {
+        "table_id": "22",
+        "system_code": "C0",
+        "title": "Armaments, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Armaments, General",
+            "definition": "A defensive or offensive system or equipment (including small arms and machine guns)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "D",
+    "system_title": "Electrical system, General",
+    "tables": [
+      {
+        "table_id": "23",
+        "system_code": "D0",
+        "title": "Electrical systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Electrical systems, General",
+            "definition": "A system or equipment for generation, distribution and/or control of electric power."
+          }
+        ]
+      },
+      {
+        "table_id": "24",
+        "system_code": "D1",
+        "title": "electrical systems (engine/power pack), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Mobile electrical systems (engine/power pack), General",
+            "definition": "This element refers to the electrical or electronic systems for the engine/power pack. It will include wiring harnesses, line replaceable units (LRUs), sensors, lighting, batteries, generators, etc."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Generating",
+            "definition": "Refers to generating systems and equipment in the engine/power pack compartment that are not directly mounted on the engine/power-pack. It includes such items as alternators, dynamos, generator panels, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Batteries",
+            "definition": "Refers to battery equipment mounted in the engine/power pack compartment. It includes such items as battery containers, lagging kits, battery assemblies, connecting straps, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Instrumentation",
+            "definition": "Refers to instrumentation systems and equipment mounted in the engine/power pack compartment. It includes such items as tachometers, speedometers, indicating panels, electronic circuit panels, control transmitters, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Lights",
+            "definition": "Refers to lighting systems and equipment mounted in the engine/power pack compartment. It includes such items as inspection lights, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Wiring",
+            "definition": "Refers to wiring and cable looms mounted in the engine/power pack compartment. It includes looms, wires, harnesses, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Electrical equipment",
+            "definition": "Refers to electrical equipment mounted in the engine/power pack compartment. It includes, for example, actuators, engine controls and ignition systems."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Distribution",
+            "definition": "Refers to electrical distribution systems and equipment mounted in the engine/power pack compartment. It includes such items as controllers, switches, relays, regulators, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Protection",
+            "definition": "Refers to electrical protection systems and equipment mounted in the engine/power pack compartment. It includes such items as fuses, fusible links, trip switches, etc."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Control",
+            "definition": "Refers to control systems and equipment mounted in the engine/power pack compartment. It includes such items as controllers, switches, relays, regulators, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "25",
+        "system_code": "D2",
+        "title": "Mobile electrical systems (hull/frame), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Mobile electrical systems (hull/ frame), General",
+            "definition": "This element refers to the electrical or electronic systems for the hull and frame. It will include both internal and external wiring harnesses, junction and distribution boxes, line replaceable units (LRUs), sensors and lighting systems. It also includes the interfaces and connectors associated with the engine, power pack, generating and starting systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Internal electrical systems",
+            "definition": "Refers to the internal electrical or electronic systems mounted in the hull/frame. It will include, for example, wiring harnesses, LRUs, junction and distribution boxes. It also includes the interfaces and connectors associated with the engine, power pack, generating and starting systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Batteries",
+            "definition": "Refers to battery equipment related to the hull/frame. It includes such items as battery containers, lagging kits, battery assemblies, connecting straps, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Internal lights",
+            "definition": "Refers to lighting systems mounted internally in the hull/frame."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "External electrical systems",
+            "definition": "Refers to the electrical or electronic systems mounted externally on the hull/frame. It will include, for example, external lighting systems, horns and flashing beacons."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Wiring",
+            "definition": "Refers to wiring, cable looms and clips related to the hull/frame or associated with connecting to the engine/power pack. It includes looms, wires, clips, harnesses, connectors, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Electrical equipment",
+            "definition": "Refers to electrical equipment related to the hull/frame. It includes, for example, actuators, wiper controls, heaters, cooking pots, horns, radio fittings and ancillary items."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Distribution",
+            "definition": "Refers to electrical distribution and interconnecting systems and equipment related to the hull/frame. It includes such items as controllers, switches, relays, regulators, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Protection",
+            "definition": "Refers to electrical protection systems and equipment related to the hull/frame. It includes such items as fuses, fuse panels, fusible links, trip switches, etc."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Control",
+            "definition": "Refers to control systems and equipment related to the hull/frame. It includes such items as controllers, switches, relays, regulators, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "26",
+        "system_code": "D3",
+        "title": "Mobile electrical systems (body/cab), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Mobile electrical systems (body/cab), General",
+            "definition": "This element refers to the electrical or electronic systems for either the body or cab. It will include wiring harnesses, line replaceable units (LRUs), sensors and lighting systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Generating",
+            "definition": "Refers to generating systems and equipment related to the body/cab. It includes such items as generator control panels, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Batteries",
+            "definition": "Refers to battery equipment related to the body/cab. It includes such items as battery containers, lagging kits, battery assemblies, connecting straps, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Instrumentation",
+            "definition": "Refers to instrumentation systems and equipment related to the body/cab. It includes such items as indicating panels, electronic circuit panels, control transmitters, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Lights",
+            "definition": "Refers to lighting systems and equipment related to the body/cab. It includes such items as inspection lights, head lights, spot lights, tail/side lights, indicators, panel lights, convoy lights, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Wiring",
+            "definition": "Refers to wiring and cable looms related to the body/cab. It includes looms, wires, harnesses, earthing straps, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Electrical equipment",
+            "definition": "Refers to electrical equipment related to the body cab. It includes, for example, actuators, wiper controls, heaters, cooking pots and horns."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Distribution",
+            "definition": "Refers to electrical distribution systems and equipment related to the body/cab. It includes such items as controllers, switches, relays, regulators, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Protection",
+            "definition": "Refers to electrical protection systems and equipment related to the body/cab. It includes such items as fuses, fuse panels, fusible links, trip switches, etc."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Control",
+            "definition": "Refers to control systems and equipment related to the body/cab. It includes such items as controllers, switches, relays, regulators, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "27",
+        "system_code": "D4",
+        "title": "Mobile electrical systems (turret), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Mobile electrical systems (turret), General",
+            "definition": "This element refers to the electrical or electronic systems for the turret. It will include wiring harnesses, line replaceable units (LRUs), sensors and lighting systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Generating",
+            "definition": "Refers to generating systems and equipment related to the turret. It includes such items as generator control panels, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Batteries",
+            "definition": "Refers to battery equipment related to the turret. It includes such items as battery containers, lagging kits, battery assemblies, connecting straps, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Instrumentation",
+            "definition": "Refers to instrumentation systems and equipment related to the turret. It includes such items as indicating panels, electronic circuit panels, control transmitters, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Lights",
+            "definition": "Refers to lighting systems and equipment related to the turret. It includes such items as inspection lights, panel lights, roof lights, spot lights, convoy lights, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Wiring",
+            "definition": "Refers to wiring and cable looms related to the turret. It includes looms, wires, harnesses, earthing straps, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Electrical includes, equipment cooking pots.",
+            "definition": "Refers to electrical equipment related to the turret. It for example, actuators, wiper controls, heaters and"
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Distribution",
+            "definition": "Refers to electrical distribution systems and equipment related to the turret. It includes such items as controllers, switches, relays, regulators, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Protection",
+            "definition": "Refers to electrical protection systems and equipment related to the turret. It includes such items as fuses, fuse panels, fusible links, trip switches, etc."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Control",
+            "definition": "Refers to control systems and equipment related to the turret. It includes such items as controllers, switches, relays, regulators, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "28",
+        "system_code": "D5",
+        "title": "Power Supply, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Power supply, General",
+            "definition": "Refers to the systems, subsystems, equipment and devices which provide power for a non-mobile facility. It includes, for example, AC power, DC power, external power and protection."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "E",
+    "system_title": "Communications, General",
+    "tables": [
+      {
+        "table_id": "29",
+        "system_code": "E0",
+        "title": "Communications, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Communications, General",
+            "definition": "A system or equipment for transferring information."
+          }
+        ]
+      },
+      {
+        "table_id": "30",
+        "system_code": "E1",
+        "title": "Communications systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Communications systems, General",
+            "definition": "This element refers to the devices within the electronic/automated software system which provide the means for transmitting and receiving data. It includes, for example, fixed, tactical and mobile systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "UHF/SHF/EHF",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for communications utilizing UHF/SHF/EHF carriers (excluding satellite). It includes, for example, transmitters, receivers, antennas, signal processors, modems, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "VHF",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for communications utilizing VHF carriers. It includes, for example, transmitters, receivers, antennas, signal processors, modems, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "HF",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for communications utilizing HF carriers. It includes, for example, transmitters, receivers, antennas, signal processors, modems, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "LF",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for communications utilizing LF carriers. It includes transmitters, receivers, antennas, signal processors, modems, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Digital",
+            "definition": "That portion of the electronic/automated software system that is used for digital/data communications. It includes, for example, data processors and DC line bays."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Audio/video",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for audio and visual communications. It includes, for example, telephone equipment, fax machines, public address systems, modems and audio line bays."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Satellite",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for communications via satellite. It includes, for example, satellite ground stations, fixed, transportable and portable satellite ground terminals."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Command & control",
+            "definition": "Refers to that portion of the electronic/automated software system that is used for command and control. It includes, for example, network and system control centers and other command and control subsystems."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Signal distribution",
+            "definition": "Refers to that portion of the electronic/automated software system that distributes signals. It includes, for example, switching matrices, combiners, dividers, slip-rings and commutators."
+          }
+        ]
+      },
+      {
+        "table_id": "31",
+        "system_code": "E2",
+        "title": "Connectivity, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Connectivity, General",
+            "definition": "Refers to that portion of the electronic/automated software system that provides connectivity. It includes, for example, landlines, twin-feeders, waveguides, inter and intra connection cabling, fiber optic cables and patching facilities."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Landlines",
+            "definition": "Refers to that portion of the electronic/automated software system that provides connectivity via landline."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Twin feeders",
+            "definition": "Refers to that portion of the electronic/automated software system that provides connectivity via twin feeders."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Interconnectivity",
+            "definition": "Refers to that portion of the electronic/automated software system that provides inter-connectivity"
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Intraconnectivity",
+            "definition": "Refers to that portion of the electronic/automated software system that provides intra-connectivity"
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Optical fibre",
+            "definition": "Refers to that portion of the electronic/automated software system that provides connectivity via optical fiber cables."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Patching facilities",
+            "definition": "Refers to that portion of the electronic/automated software system that provides patching/switching facilities within the connectivity area. It includes, for example, jack-field panels."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Power cables",
+            "definition": "Refers to that portion of the electronic/automated software system that provides power connectivity."
+          }
+        ]
+      },
+      {
+        "table_id": "32",
+        "system_code": "E3",
+        "title": "Antennas, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Antennas, General",
+            "definition": "Refers to that portion of the electronic/automated software system that radiates or absorbs electromagnetic waves."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "UHF/SHF/EHF",
+            "definition": "Refers to that portion of the electronic/automated software system that radiates or absorbs electromagnetic waves in the UHF/SHF/EHF frequency bands."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "VHF",
+            "definition": "Refers to that portion of the electronic/automated software system that radiates or absorbs electromagnetic waves in the VHF frequency band."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "HF",
+            "definition": "Refers to that portion of the electronic/automated software system that radiates or absorbs electromagnetic waves in the HF frequency band."
+          }
+        ]
+      },
+      {
+        "table_id": "33",
+        "system_code": "E4",
+        "title": "Tempest, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Tempest, General",
+            "definition": "Refers to that portion of the system that provides TEMPEST protection. It includes, for example, cages and vaults."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cages",
+            "definition": "Refers to the cages in the electronic/automated software systems that provide TEMPEST protection."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Vaults",
+            "definition": "Refers to the vaults in the electronic/automated software systems that provide TEMPEST protection."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "F",
+    "system_title": "Navigation, General",
+    "tables": [
+      {
+        "table_id": "34",
+        "system_code": "F0",
+        "title": "Navigation, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Navigation, General",
+            "definition": "A system or equipment used to determine, conduct, manage, or plot a position or course."
+          }
+        ]
+      },
+      {
+        "table_id": "35",
+        "system_code": "F1",
+        "title": "Navigation systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Navigation software systems, information General",
+            "definition": "Refers to that portion of the electronic/automated software system that provides range, bearing and/or height for the system."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Radar",
+            "definition": "Refers to that portion of the electronic/automated software system which uses radar principles to provide range, bearing and/or height information. It includes, for example, air defense, precision and tracking radars."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Radio guidance",
+            "definition": "Refers to that portion of the electronic/automated software system which uses modulated radio waves to provide range, bearing and/or height information. It includes, for example, beacons, landing aids and direction finding equipment."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Laser",
+            "definition": "Refers to that portion of the electronic/automated software system which uses laser principles to provide range, bearing and/or height information."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Satellite",
+            "definition": "Refers to that portion of the electronic/automated software system which uses satellites to provide range, bearing and/or height information. It includes, for example, both satellite and ground positioning elements."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Magnetic",
+            "definition": "Refers to that portion of the electronic/automated software system which uses magnetic principles to provide range and/or bearing information. It includes, for example, compasses."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Thermal",
+            "definition": "Refers to that portion of the electronic/automated software system which uses heat sensing or infra-red principles to provide range, bearing and/or height information."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Optical",
+            "definition": "Refers to that portion of the electronic/automated software system which uses optical sighting to provide range, bearing and/or height information."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "G",
+    "system_title": "Surveillance, General",
+    "tables": [
+      {
+        "table_id": "36",
+        "system_code": "G0",
+        "title": "Surveillance, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Surveillance, General",
+            "definition": "A system or equipment used to sense the environment."
+          }
+        ]
+      },
+      {
+        "table_id": "37",
+        "system_code": "G1",
+        "title": "Surveillance systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Surveillance software systems, provides General",
+            "definition": "Refers to that portion of the electronic/automated software system which senses, monitors and, where required alarms and environmental data. It includes, for example, radar, sonar, thermal, optical and environmental technologies."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Radar",
+            "definition": "Refers to that portion of the electronic/automated software system which uses the principles of radar."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Sonar",
+            "definition": "Refers to that portion of the electronic/automated software system which uses the principles of sonar."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Thermal",
+            "definition": "Refers to that portion of the electronic/automated software system which uses thermal imaging/intensifying and temperature monitoring principles. It includes, for example, electronic thermostats and IR detectors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Optical",
+            "definition": "Refers to that portion of the electronic/automated software system which uses optical and/or laser principles. It includes, for example, CCTV."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Magnetic",
+            "definition": "Refers to that portion of the electronic/automated software system which uses magnetic principles."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Acoustic",
+            "definition": "Refers to that portion of the electronic/automated software system which uses acoustic principles."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Pressure",
+            "definition": "Refers to that portion of the electronic/automated software system which operates through pressure sensing techniques."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Proximity",
+            "definition": "Refers to that portion of the electronic/automated software system which operates through proximity sensing techniques."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Environmental",
+            "definition": "Refers to that portion of the electronic/automated software system which provides environmental data. It includes, for example, air quality (NBC, smoke) and weather (anemometer) monitoring."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "H",
+    "system_title": "Steering, General",
+    "tables": [
+      {
+        "table_id": "38",
+        "system_code": "H0",
+        "title": "Steering, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Steering, General",
+            "definition": "A system or equipment used to guide or govern direction."
+          }
+        ]
+      },
+      {
+        "table_id": "39",
+        "system_code": "H1",
+        "title": "Steering systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Steering systems, General",
+            "definition": "Refers to those units and devices within the electronic/automated software system which govern movement and/or direction of assemblies. It includes, for example, motors, gearboxes, drives and turning gear."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Motors",
+            "definition": "Refers to the motor drive units within the electronic/automated software system which affect movement and/or direction of assemblies."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Gearboxes",
+            "definition": "Refers to the geared units within the electronic/automated software system which vary torque, speed and/or direction of movement of assemblies."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Drives",
+            "definition": "Refers to the interconnecting links between motor, gearbox and device, within the electronic/automated software system, which affect movement and/or direction of assemblies."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Turning gear",
+            "definition": "Refers to the final drive link to moving assemblies within the electronic/automated software system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Control systems",
+            "definition": "Refers to those units within the electronic/automated software system which control movement and/or direction of assemblies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "J",
+    "system_title": "Ventilation cooling & heating",
+    "tables": [
+      {
+        "table_id": "40",
+        "system_code": "J0",
+        "title": "Ventilation cooling & heating",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Ventilation & heating",
+            "definition": "A system or equipment used to provide a controlled cooling environment."
+          }
+        ]
+      },
+      {
+        "table_id": "41",
+        "system_code": "J1",
+        "title": "Ventilation cooling & heating systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Ventilation cooling & heating",
+            "definition": "Refers to those units and devices which furnish a means of pressurizing, heating, cooling, moisture controlling, filtering and treating the air/gas used to condition areas of the systems, electronic/automated software system environment. It includes, for example, cooling, heating, vents, ducts and seals."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Compression",
+            "definition": "Refers to that portion of the electronic/automated software system which supplies pressurized air/gas. It includes, for example, gas-filled systems, controls and indicating systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "Refers to that portion of the electronic/automated software system used to induct and distribute air/gas. It includes, for example, rack cooling, seals, demisting, blowers, ducting and inlets."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Heating",
+            "definition": "Refers to that portion of the electronic/automated software system and its controls which supply heated air/gas. It includes, for example, heater units, control and indicating systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Cooling",
+            "definition": "Refers to that portion of the electronic/automated software system and its controls which supply cooled air/gas. It includes, for example, cooling units, control and indicating systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Temperature software control",
+            "definition": "Refers to that portion of the electronic/automated system used to control the temperature of the air/gas. It includes, for example, sensing devices, switches and indicators."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Moisture/air",
+            "definition": "Refers to that portion of the electronic/automated software system used to contaminant control the air/gas. It includes, for example, control of moisture and/or ozone concentrations, filtration of radioactive debris and removal of chemical/biological contaminants."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Liquid coolant",
+            "definition": "Refers to those units and devices within the electronic/automated software system which supply liquid coolant to an equipment cooling system."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "K",
+    "system_title": "Hydraulic systems, General",
+    "tables": [
+      {
+        "table_id": "42",
+        "system_code": "K0",
+        "title": "Hydraulic systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Hydraulic systems, General",
+            "definition": "A system or equipment for generation, distribution and/or control of hydraulic (or pneumatic) power."
+          }
+        ]
+      },
+      {
+        "table_id": "43",
+        "system_code": "K1",
+        "title": "Hydraulic, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Hydraulic, General",
+            "definition": "Refers to that portion of the electronic/automated software system which generates, distributes and/or controls hydraulic power."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Main",
+            "definition": "Refers to that portion of the electronic/automated software system which generates, distributes and/or controls primary hydraulic power. It includes, for example, tanks, valves, pumps and plumbing. It does not include user systems classified elsewhere, or their connecting valves."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Auxiliary",
+            "definition": "Refers to that portion of the electronic/automated software hydraulic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main hydraulic system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indicating",
+            "definition": "Refers to that portion of the electronic/automated software hydraulic system which is used to monitor its condition. It includes, for example, transmitters, indicators and alarm systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Support",
+            "definition": "Refers to that portion of the electronic/automated software system which is used to hydraulically raise or lower other units."
+          }
+        ]
+      },
+      {
+        "table_id": "44",
+        "system_code": "K2",
+        "title": "Pneumatic, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Pneumatic, General",
+            "definition": "Refers to that portion of the electronic/automated software system which generates, distributes and/or controls pneumatic (including vacuum) power."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Main",
+            "definition": "Refers to that portion of the electronic/automated software system which generates, distributes and/or controls primary pneumatic (including vacuum) power. It includes, for example, tanks, valves, pumps and plumbing. It does not include user systems classified elsewhere, or their connecting valves."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Auxiliary",
+            "definition": "Refers to that portion of the electronic/automated software pneumatic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main pneumatic system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indicating",
+            "definition": "Refers to that portion of the electronic/automated software pneumatic system which is used to monitor its condition. It includes, for example, transmitters, indicators and alarm systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Pressurization",
+            "definition": "Refers to that portion of the electronic/automated software system which is used to pressurize cables, waveguides, and other system devices. It includes, for example, dehydrators and compressors."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "L",
+    "system_title": "Electronic system, General",
+    "tables": [
+      {
+        "table_id": "45",
+        "system_code": "L0",
+        "title": "Electronic system, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Electronic system, General",
+            "definition": "A system or equipment using electronic/automated software and/or firmware elements not specifically included in other systems."
+          }
+        ]
+      },
+      {
+        "table_id": "46",
+        "system_code": "L1",
+        "title": "Amplifiers/attenuators, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Amplifiers/ attenuators, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which increase or decrease the magnitude of a signal, voltage or current. It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Audio",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which increase or decrease the magnitude of a signal, voltage or current within the audio frequency range (up to 30 kHz)."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Power",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which increase or decrease the magnitude of a signal, voltage or current with a power of greater than or equal to 5 watts."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "RF",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which increase or decrease the magnitude of a signal, voltage or current within the radio frequency range."
+          }
+        ]
+      },
+      {
+        "table_id": "47",
+        "system_code": "L2",
+        "title": "Filters, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Filters, General",
+            "definition": "Refers to that portion of the electronic/automated software system, which passes or rejects a signal, voltage or current. It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Low-pass",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which pass lowfrequency and reject high frequency signals."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "High-pass",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which reject lowfrequency and pass high frequency signals."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Band-pass",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which pass signals within a defined frequency band."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Band-stop",
+            "definition": "Refers to equipment & devices within the electronic/ automated software which reject signals within a range."
+          }
+        ]
+      },
+      {
+        "table_id": "48",
+        "system_code": "L3",
+        "title": "Computer/logic hardware-analogue, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Computer/logic hardware- analogue, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which process or store analogue data. It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Processing",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which perform a process on a signal, voltage or current. It includes, for example, mixers, converters, decoders and microwave devices (including couplers, cavity devices and circulators)."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Input",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means for inputting analogue data. It includes, for example, acoustic couplers, work stations, analogue controls and microphones."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Output",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of outputting analogue data. It includes, for example, headphones, loudspeakers, moving coil displays, visual display units and projectors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Data storage",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which retain analogue data. It includes, for example, video and audio recorders."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Multiplexer",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which multiplex and/or switch signals. It includes, for example, time division multiplexers and switching multiplexers."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Comparator/ electronic/",
+            "definition": "Refers to equipment and devices within the discriminator/ automated software system which compare, integrator discriminate and/or integrate signals."
+          }
+        ]
+      },
+      {
+        "table_id": "49",
+        "system_code": "L4",
+        "title": "Computer/logic hardware-digital, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Computer/logic hardwaredigital, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which process or store digital data. It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Processing",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which receive and perform arithmetic and/or logic operations on digital data. It includes, for example, central processing units and math coprocessors."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Input",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of inputting digital data. It includes, for example, punched tape readers, keyboards, digital joysticks, mice and image scanners."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Output",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of outputting digital data. It includes, for example, printers, plotters and monitors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Data storage",
+            "definition": "Refers to equipment and devices (other than memory) within the electronic/automated software system which retain data and/or instructions. It includes, for example, floppy, hard and optical disks, magnetic tape and CD-ROM."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Memory",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which store data or instructions. It includes, for example, RAM, ROM and bubble memory."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Control",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which control internal and/or external processes."
+          }
+        ]
+      },
+      {
+        "table_id": "50",
+        "system_code": "L5",
+        "title": "Optoelectronics, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Optoelectronics, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which generate or detect radiation above the radio spectrum (including infrared, ultra-violet and x-rays). It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Fiber-optic",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which interface to and/or enhance the performance of fiber optic cables. It includes, for example, adapters, drivers, repeaters and ITLs."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Measurement",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which measure light. It includes, for example, photometers."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Detection",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which detect light. It includes, for example, photo-cells and cameras."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Emission",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which emit light. It includes, for example, bulbs, lasers and LEDs."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Switching",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which switches light. It includes (eg, beam splitters and resonating mirrors)."
+          }
+        ]
+      },
+      {
+        "table_id": "51",
+        "system_code": "L6",
+        "title": "Oscillators/waveform generators, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Oscillators/ waveform generators, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which produce varying or switched waveforms. It includes, for example, oscillating devices, timing subsystems and station clocks. It applies to elements not specifically included in other groups."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Astable",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which continually switch or oscillate from one state to another."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Bistable",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which can switch between two states."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "M",
+    "system_title": "Auxiliary systems, General",
+    "tables": [
+      {
+        "table_id": "52",
+        "system_code": "M0",
+        "title": "Auxiliary systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Auxiliary systems, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide services and/or support to the main systems or equipment. It applies to elements not specifically included in other groups."
+          }
+        ]
+      },
+      {
+        "table_id": "53",
+        "system_code": "M1",
+        "title": "Adapter kits, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Adapter kits, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which adapt the system to particular applications."
+          }
+        ]
+      },
+      {
+        "table_id": "54",
+        "system_code": "M2",
+        "title": "Fire, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Fire, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of alerting and/or dealing with fire hazards. It includes, for example, detection and extinguishing facilities."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Detecting",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which is used to sense the presence of excessive heat, smoke or flame."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Indicating",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which is used to indicate the presence of excessive heat, smoke or flame."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Protection",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which is used to extinguish fires."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "N",
+    "system_title": "Survivability, General",
+    "tables": [
+      {
+        "table_id": "55",
+        "system_code": "N0",
+        "title": "Survivability, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Survivability, General",
+            "definition": "A system or equipment used to provide hazard detection, protection, survivability and escape facilities."
+          }
+        ]
+      },
+      {
+        "table_id": "56",
+        "system_code": "N1",
+        "title": "Surface finish, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Surface finish, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provides protection against corrosion. It includes, for example, painting, plating, dip coating and laminating."
+          }
+        ]
+      },
+      {
+        "table_id": "57",
+        "system_code": "N2",
+        "title": "Intrusion, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Intrusion, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of detecting and indicating an intrusion."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Detecting",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of detecting an intrusion."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Indicating",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of indicating an intrusion."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Protection",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide a means of protecting against an intrusion."
+          }
+        ]
+      },
+      {
+        "table_id": "58",
+        "system_code": "N3",
+        "title": "Nuclear, biological, chemical",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Nuclear, biological, chemical",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provide nuclear, biological and chemical detection, protection and survivability. It applies to elements not specifically included in other groups and includes positive pressure and purification systems, NBC detection and warning devices, decontamination equipment and chemical resistant coatings. It can also include environmental control equipment, such as heaters, coolers, etc."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Detecting",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which detects an NBC hazard."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Indicating",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which indicates an NBC hazard."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Protection",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which provides a means of protection against an NBC hazard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "P",
+    "system_title": "Special Equipment, General",
+    "tables": [
+      {
+        "table_id": "59",
+        "system_code": "P0",
+        "title": "Special equipment, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Special General",
+            "definition": "A system or equipment used to provide a special mission equipment, capability."
+          }
+        ]
+      },
+      {
+        "table_id": "60",
+        "system_code": "P1",
+        "title": "Special equipment/systems, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Special equipment/ systems, General",
+            "definition": "Refers to equipment and devices within the electronic/automated software system which can be used to provide a special capability for the system."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Special recovery equipment",
+            "definition": "This element refers to that special recovery equipment to enable the achievement of a recovery capability. It includes cranes and towing equipment."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Launcher special fit equipment",
+            "definition": "This element refers to that special fit equipment to enable the achievement of a specialized capability. It will include supply, DROPS, lift trucks, side loaders, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Launcher special purpose equipment",
+            "definition": "This element refers to that special-to-purpose equipment for the achievement of a special mission purpose. It covers, for example, ISO container bodies and equipment and other special purpose vehicles."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Installation kit",
+            "definition": "The installation kit element refers to the equipment for installation of the system related to a particular application."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Portability kit",
+            "definition": "The portability kit refers to that equipment required to prepare the system for transportation, other than its prime means of movement."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Winterization kit",
+            "definition": "The winterization kit element refers to the equipment for protection of the equipment and/or crew, in adverse weather conditions."
+          }
+        ]
+      },
+      {
+        "table_id": "61",
+        "system_code": "P2",
+        "title": "Software, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Software, General",
+            "definition": "Refers to software and associated items for the electronic/automated software system which cannot be linked to other areas within the SNS."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "Q",
+    "system_title": "Outfit and furnishings, General",
+    "tables": [
+      {
+        "table_id": "62",
+        "system_code": "Q0",
+        "title": "Outfit and furnishings, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Outfit and furnishings, General",
+            "definition": "A function or equipment used to provide habitability or operability that is not specifically included in other systems."
+          }
+        ]
+      },
+      {
+        "table_id": "63",
+        "system_code": "Q1",
+        "title": "Stowage, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Stowage,",
+            "definition": "Refers to provision for stowage of operational and/or General personnel equipment."
+          }
+        ]
+      },
+      {
+        "table_id": "64",
+        "system_code": "Q2",
+        "title": "Complete equipment schedule (CES), General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Complete equipment schedule, General",
+            "definition": "This element refers to lists detailing the equipment required by the user to operate and maintain the system. It includes, for example, both fitted and loose items, spares, tools and operator manuals."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Production CES",
+            "definition": "This element refers to the production version of the CES."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Service CES",
+            "definition": "This element refers to the service version of the CES."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Complex CES",
+            "definition": "This element refers to the complex version of the CES."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "R",
+    "system_title": "Training, General",
+    "tables": [
+      {
+        "table_id": "65",
+        "system_code": "R0",
+        "title": "Training, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Training, General",
+            "definition": "The training element is defined as the deliverable training services, devices, accessories, aids, equipment and facilities used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the electronic/automated software system with maximum efficiency. This element includes all effort associated with design, development and production of deliverable training equipment as well as the execution of training services."
+          }
+        ]
+      },
+      {
+        "table_id": "66",
+        "system_code": "R1",
+        "title": "Training services, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Training services, General",
+            "definition": "Refers to the deliverable training services used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Training devices/ accessories/ aids",
+            "definition": "Refers to the deliverable devices, accessories and aids used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Training equipment",
+            "definition": "Refers to the deliverable training equipment used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Training facilities",
+            "definition": "Refers to the deliverable training facilities used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "S",
+    "system_title": "Repair test and support, General",
+    "tables": [
+      {
+        "table_id": "67",
+        "system_code": "S0",
+        "title": "Repair test and support, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Repair test and support, General",
+            "definition": "A system, equipment or facilities used to maintain operational capability."
+          }
+        ]
+      },
+      {
+        "table_id": "68",
+        "system_code": "S1",
+        "title": "Repair facilities, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Repair facilities, General",
+            "definition": "Refers to the facilities which will allow unserviceable electronic/automated software systems to be repaired, programmed, tested, calibrated and returned to service use."
+          }
+        ]
+      },
+      {
+        "table_id": "69",
+        "system_code": "S2",
+        "title": "Common support equipment, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Common support equipment, General",
+            "definition": "Refers to common equipment and devices required to support and maintain the electronic/automated software system, whilst not directly engaged in the performance of its mission. The common support equipment must presently exist in the MOD inventory for support of other systems (ie, GFE). It also includes the acquisition of additional quantities of this equipment, where necessary, to support introduction of the electronic/automated software system into operational service."
+          }
+        ]
+      },
+      {
+        "table_id": "70",
+        "system_code": "S3",
+        "title": "Test and measurement, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Test and measurement, evaluate General",
+            "definition": "Refers to that peculiar or unique test and measurement equipment which allows an operator or maintainer to operational conditions of the system, including specific diagnostics, screening or QA effort at a unit, intermediate or base level of equipment support. It includes, for example, installation and maintenance test equipment, BIT/BITE, GPTE and STTE."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Installation",
+            "definition": "Refers to the test and measurement equipment which is used during the installation and commissioning process of the system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Maintenance",
+            "definition": "Refers to the test and measurement equipment which is required during the performance of both corrective and preventive maintenance of the system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "BIT/BITE",
+            "definition": "Refers to the built-in test and measurement equipment which provides a means of monitoring and/or testing the performance and/or condition of the system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "GPTE",
+            "definition": "Refers to the test and measurement equipment which is general purpose. The GPTE must presently exist in the MOD inventory for support of other systems (ie, GFE). It also includes the acquisition of additional quantities of this equipment, where necessary, to support introduction of the electronic/automated software system into operational service."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "STTE",
+            "definition": "Refers to the test and measurement equipment which is special to type. The STTE must not exist in the present MOD inventory for support of other systems (ie, Not GFE)."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "NDT & specialist testing",
+            "definition": "Refers to the test and measurement of the structural integrity of structures and devices within the electronic/automated software system, through non-destructive means. It includes, for example, ultrasonic, dye-penetrant and X-ray techniques."
+          }
+        ]
+      },
+      {
+        "table_id": "71",
+        "system_code": "S4",
+        "title": "Support and handling equipment, General",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Support and handling equipment, General",
+            "definition": "The support and handling equipment element is defined as the deliverable tools and handling equipment used for support of the electronic/automated software system (eg, ground support equipment, mechanical handling equipment and software support equipment)."
+          }
+        ]
+      }
+    ]
+  }
+]

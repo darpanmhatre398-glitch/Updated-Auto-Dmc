@@ -1,0 +1,3 @@
+2025-09-19 15:44:27,171 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-19 15:44:27,172 - ERROR - Error loading SNS XML from s1000d_data\sns_codes.xml: name 'load_sns_data' is not defined
+2025-09-19 15:44:27,172 - CRITICAL - Could not load essential data. Aborting.

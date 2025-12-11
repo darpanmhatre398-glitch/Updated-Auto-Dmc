@@ -1,0 +1,77 @@
+{
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-P4-00-0000-00A-0A7A-D",
+            "dmc_parts": {
+                "systemCode": "P4",
+                "infoCode": "0A7",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-02-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-E8-00-0000-00A-C04A-D",
+            "dmc_parts": {
+                "systemCode": "E8",
+                "infoCode": "C04",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-03-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-U0-00-0000-00A-260A-D",
+            "dmc_parts": {
+                "systemCode": "U0",
+                "infoCode": "260",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-04-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-A7-00-0000-00A-0A4A-D",
+            "dmc_parts": {
+                "systemCode": "A7",
+                "infoCode": "0A4",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-05-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-A7-00-0000-00A-0A7A-D",
+            "dmc_parts": {
+                "systemCode": "A7",
+                "infoCode": "0A7",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "Launcher_System.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-U0-00-0000-00A-260A-D",
+            "dmc_parts": {
+                "systemCode": "U0",
+                "infoCode": "260",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": []
+}

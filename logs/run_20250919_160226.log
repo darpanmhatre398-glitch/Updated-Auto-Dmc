@@ -1,0 +1,23 @@
+2025-09-19 16:02:26,885 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-19 16:02:26,919 - INFO - --- Processing: AVS-A-04-10-01-001A-D.docx ---
+2025-09-19 16:02:26,919 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 16:02:29,310 - INFO - LLM successfully returned: {'systemCode': 'C1', 'infoCode': '040'}
+2025-09-19 16:02:29,312 - INFO - Successfully created: DMC-PROJECT-A-C1-00-0000-00A-040A-D.docx
+2025-09-19 16:02:29,312 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 16:02:29,312 - INFO - --- Processing: DMC-P15B-000-C0-00-81-02-A-040A-D.docx ---
+2025-09-19 16:02:29,337 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 16:02:29,678 - INFO - LLM successfully returned: {'systemCode': 'C0', 'infoCode': '842'}
+2025-09-19 16:02:29,680 - INFO - Successfully created: DMC-PROJECT-A-C0-00-0000-00A-842A-D.docx
+2025-09-19 16:02:29,680 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 16:02:29,681 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-19 16:02:29,711 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 16:02:30,026 - INFO - LLM successfully returned: {'systemCode': 'A6', 'infoCode': '842'}
+2025-09-19 16:02:30,028 - INFO - Successfully created: DMC-PROJECT-A-A6-00-0000-00A-842A-D.docx
+2025-09-19 16:02:30,028 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 16:02:30,028 - INFO - --- Processing: system_composition.docx ---
+2025-09-19 16:02:30,066 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-19 16:02:30,385 - INFO - LLM successfully returned: {'systemCode': 'C0', 'infoCode': '009'}
+2025-09-19 16:02:30,386 - WARNING - LLM returned invalid infoCode '009'. Defaulting to '000'.
+2025-09-19 16:02:30,387 - INFO - Successfully created: DMC-PROJECT-A-C0-00-0000-00A-000A-D.docx
+2025-09-19 16:02:30,388 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 16:02:30,389 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250919_160230.json' ---

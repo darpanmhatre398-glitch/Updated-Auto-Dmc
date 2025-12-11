@@ -1,0 +1,22 @@
+{
+    "successful": [
+        {
+            "file": "Launcher_System.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-C0-00-0000-00A-000A-D",
+            "dmc_parts": {
+                "systemCode": "C0",
+                "infoCode": "000",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": [
+        {
+            "file": "~$uncher_System.docx",
+            "issue": "Could not read or extract content."
+        }
+    ]
+}

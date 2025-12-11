@@ -1,0 +1,12 @@
+2025-09-24 09:17:52,140 - INFO - --- Starting S1000D DMC Generation Process (v3) ---
+2025-09-24 09:17:52,190 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 09:17:52,224 - INFO - Querying LLM for document analysis...
+2025-09-24 09:17:52,736 - INFO - LLM analysis returned: {'system_name': 'Guided missile systems', 'subsystem_name': 'General', 'purpose_description': 'Unpacking procedure'}
+2025-09-24 09:17:52,737 - INFO - Derived codes from descriptions: {'systemCode': 'C2', 'subSystemCode': '0', 'infoCode': '121'}
+2025-09-24 09:17:52,737 - INFO - Successfully created: DMC-P15-A-C2-00-0000-00A-121A-D.docx
+2025-09-24 09:17:52,740 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 09:17:52,765 - INFO - Querying LLM for document analysis...
+2025-09-24 09:17:53,009 - INFO - LLM analysis returned: {'system_name': 'Armaments system', 'subsystem_name': 'General', 'purpose_description': 'Equipment list'}
+2025-09-24 09:17:53,011 - INFO - Derived codes from descriptions: {'systemCode': '00', 'subSystemCode': '0', 'infoCode': '056'}
+2025-09-24 09:17:53,011 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-056A-D.docx
+2025-09-24 09:17:53,021 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_091753.json' ---

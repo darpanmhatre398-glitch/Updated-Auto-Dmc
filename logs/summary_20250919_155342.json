@@ -1,0 +1,32 @@
+{
+    "successful": [
+        {
+            "original_file": "AVS-A-04-10-01-001A-D.docx",
+            "new_file": "DMC-P15-A-D7-00-0000-00A-040A-D_PURPOSE.docx",
+            "assigned_dmc": "DMC-P15-A-D7-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "D7",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C6-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx",
+            "assigned_dmc": "DMC-P15-A-C6-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "C6",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-C1-00-0000-00A-000A-D_System_Composition.docx",
+            "assigned_dmc": "DMC-P15-A-C1-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "C1",
+                "infoCode": "000"
+            }
+        }
+    ],
+    "failed": []
+}

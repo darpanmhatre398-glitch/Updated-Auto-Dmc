@@ -1,0 +1,22 @@
+2025-09-24 09:24:22,142 - INFO - --- Starting S1000D DMC Generation Process (v4) ---
+2025-09-24 09:24:22,185 - INFO - --- Processing: DMC-P15-A-A1-00-0000-00A-000A-D.docx ---
+2025-09-24 09:24:22,185 - INFO - Querying LLM for document analysis...
+2025-09-24 09:24:22,810 - INFO - LLM analysis returned: {'system_name': 'Electric Power', 'subsystem_name': 'Specification of Electric Power', 'purpose_description': 'Definition of Electric Power Specification'}
+2025-09-24 09:24:22,811 - INFO - Derived codes from descriptions: {'systemCode': 'A1', 'subSystemCode': '0', 'infoCode': '002'}
+2025-09-24 09:24:22,811 - INFO - Successfully created: DMC-P15-A-A1-00-0000-00A-002A-D.docx
+2025-09-24 09:24:22,811 - INFO - --- Processing: DMC-P15-A-A4-00-0000-00A-040A-D.docx ---
+2025-09-24 09:24:22,819 - INFO - Querying LLM for document analysis...
+2025-09-24 09:24:23,075 - INFO - LLM analysis returned: {'system_name': 'Conveyor', 'subsystem_name': '', 'purpose_description': 'Specification of the Conveyor'}
+2025-09-24 09:24:23,077 - INFO - Derived codes from descriptions: {'systemCode': '00', 'subSystemCode': '0', 'infoCode': '0A4'}
+2025-09-24 09:24:23,079 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-0A4A-D.docx
+2025-09-24 09:24:23,080 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 09:24:23,106 - INFO - Querying LLM for document analysis...
+2025-09-24 09:24:23,408 - INFO - LLM analysis returned: {'system_name': 'Guided missile systems', 'subsystem_name': 'Launcher system', 'purpose_description': 'Procedure to unpack primary launcher assembly'}
+2025-09-24 09:24:23,410 - INFO - Derived codes from descriptions: {'systemCode': 'C2', 'subSystemCode': '0', 'infoCode': '842'}
+2025-09-24 09:24:23,412 - INFO - Successfully created: DMC-P15-A-C2-00-0000-00A-842A-D.docx
+2025-09-24 09:24:23,413 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 09:24:23,437 - INFO - Querying LLM for document analysis...
+2025-09-24 09:24:23,697 - INFO - LLM analysis returned: {'system_name': 'Armaments system', 'subsystem_name': 'None specified', 'purpose_description': 'Equipment list'}
+2025-09-24 09:24:23,698 - INFO - Derived codes from descriptions: {'systemCode': 'C0', 'subSystemCode': '0', 'infoCode': '056'}
+2025-09-24 09:24:23,698 - INFO - Successfully created: DMC-P15-A-C0-00-0000-00A-056A-D.docx
+2025-09-24 09:24:23,704 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_092423.json' ---

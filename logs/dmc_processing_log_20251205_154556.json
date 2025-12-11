@@ -1,0 +1,52 @@
+{
+    "data_sources": {
+        "info_codes_file": "Lake\\info_codes.json",
+        "sns_files_loaded": [
+            "general_air_vehicles.json"
+        ],
+        "total_sns_systems": 46,
+        "total_info_codes": 580
+    },
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-20-00-0000-00A-000A-D",
+            "output_file": "DMC-USERMODEL-A-20-00-0000-00A-000A-D.docx",
+            "dmc_parts": {
+                "systemCode": "20",
+                "infoCode": "000",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-09-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-25-00-0000-00A-000A-D",
+            "output_file": "DMC-USERMODEL-A-25-00-0000-00A-000A-D.docx",
+            "dmc_parts": {
+                "systemCode": "25",
+                "infoCode": "000",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-15-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-34-00-0000-00A-130A-D",
+            "output_file": "DMC-USERMODEL-A-34-00-0000-00A-130A-D.docx",
+            "dmc_parts": {
+                "systemCode": "34",
+                "infoCode": "130",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": []
+}

@@ -1,0 +1,77 @@
+{
+    "successful": [
+        {
+            "original_file": "Another_Document.docx",
+            "new_file": "DMC-PROJECT-A-A0-00-0000-00A-040A-D_General_Propulsion_System_Overview.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A0-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "A0",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "AVS-A-04-10-01-001A-D.docx",
+            "new_file": "DMC-PROJECT-A-R0-00-0000-00A-842A-D_PURPOSE.docx",
+            "assigned_dmc": "DMC-PROJECT-A-R0-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "R0",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "AVS-A-04-10-02-001A-D.docx",
+            "new_file": "DMC-PROJECT-A-B0-00-0000-00A-040A-D_FEATURES.docx",
+            "assigned_dmc": "DMC-PROJECT-A-B0-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "B0",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "AVS-A-04-10-03-001A-D.docx",
+            "new_file": "DMC-PROJECT-A-B0-00-0000-00A-000A-D_SYSTEM_SPECIFICATIONS.docx",
+            "assigned_dmc": "DMC-PROJECT-A-B0-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "B0",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "AVS-A-04-10-04-001A-D.docx",
+            "new_file": "DMC-PROJECT-A-A4-00-0000-00A-000A-D_Info-Name_TreeChart.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A4-00-0000-00A-000A-D",
+            "llm_derived_parts": {
+                "systemCode": "A4",
+                "infoCode": "000"
+            }
+        },
+        {
+            "original_file": "AVS-A-04-10-05-001A-D.docx",
+            "new_file": "DMC-PROJECT-A-A0-00-0000-00A-040A-D_SYSTEM_COMPOSITION.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A0-00-0000-00A-040A-D",
+            "llm_derived_parts": {
+                "systemCode": "A0",
+                "infoCode": "040"
+            }
+        },
+        {
+            "original_file": "diesel_engine_faults.docx",
+            "new_file": "DMC-PROJECT-A-A0-00-0000-00A-842A-D_Troubleshooting_Diesel_Engine_Faults.docx",
+            "assigned_dmc": "DMC-PROJECT-A-A0-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "A0",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-PROJECT-A-B1-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx",
+            "assigned_dmc": "DMC-PROJECT-A-B1-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "B1",
+                "infoCode": "842"
+            }
+        }
+    ],
+    "failed": []
+}

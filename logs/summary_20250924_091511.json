@@ -1,0 +1,61 @@
+{
+    "successful": [
+        {
+            "original_file": "DMC-P15-A-A1-00-0000-00A-000A-D.docx",
+            "new_file": "DMC-P15-A-C2-04-0000-00A-842A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C2",
+                "subSystemCode": "4",
+                "infoCode": "842"
+            },
+            "validated_parts": {
+                "systemCode": "C2",
+                "subSystemCode": "4",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "DMC-P15-A-A4-00-0000-00A-040A-D.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-998A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C00",
+                "subSystemCode": "C02",
+                "infoCode": "998"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "998"
+            }
+        },
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C2-04-0000-00A-842A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C2",
+                "subSystemCode": "4",
+                "infoCode": "842"
+            },
+            "validated_parts": {
+                "systemCode": "C2",
+                "subSystemCode": "4",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-C07A-D.docx",
+            "llm_derived_parts": {
+                "systemCode": "C",
+                "subSystemCode": "00",
+                "infoCode": "C07"
+            },
+            "validated_parts": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "C07"
+            }
+        }
+    ],
+    "failed": []
+}

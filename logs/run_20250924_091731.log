@@ -1,0 +1,2 @@
+2025-09-24 09:17:31,677 - INFO - --- Starting S1000D DMC Generation Process (v3) ---
+2025-09-24 09:17:31,677 - CRITICAL - SNS XML file not found at s1000d_data\sns.xml. Aborting.

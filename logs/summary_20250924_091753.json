@@ -1,0 +1,33 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C2-00-0000-00A-121A-D.docx",
+            "llm_analysis": {
+                "system_name": "Guided missile systems",
+                "subsystem_name": "General",
+                "purpose_description": "Unpacking procedure"
+            },
+            "derived_codes": {
+                "systemCode": "C2",
+                "subSystemCode": "0",
+                "infoCode": "121"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-00-00-0000-00A-056A-D.docx",
+            "llm_analysis": {
+                "system_name": "Armaments system",
+                "subsystem_name": "General",
+                "purpose_description": "Equipment list"
+            },
+            "derived_codes": {
+                "systemCode": "00",
+                "subSystemCode": "0",
+                "infoCode": "056"
+            }
+        }
+    ],
+    "failed": []
+}

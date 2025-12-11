@@ -1,0 +1,2443 @@
+[
+  {
+    "system_letter": "A",
+    "system_title": "Propulsion",
+    "subsystems": [
+      {
+        "system_code": "A0",
+        "title": "Propulsion, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment for producing and delivering power."
+          }
+        ]
+      },
+      {
+        "system_code": "A1",
+        "title": "Power pack, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Main propulsion drives, General",
+            "definition": "The propulsion prime mover. It includes, for example, nuclear, electrical, steam, gas turbine and diesel primary propulsion drives."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Propulsion nuclear",
+            "definition": "A nuclear fuelled propulsion prime mover"
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Propulsion electrical",
+            "definition": "An electrically powered propulsion prime mover."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Propulsion steam",
+            "definition": "A propulsion prime mover driven by steam. It includes, for example, boilers, hoppers and turbines."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Propulsion gas turbine",
+            "definition": "A gas turbine powered propulsion prime mover."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Propulsion diesel",
+            "definition": "A propulsion prime mover fuelled by diesel."
+          }
+        ]
+      },
+      {
+        "system_code": "A2",
+        "title": "Secondary propulsion drives, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Secondary propulsion drives, General",
+            "definition": "A secondary means of providing propulsion."
+          }
+        ]
+      },
+      {
+        "system_code": "A3",
+        "title": "Emergency propulsion drives, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Emergency propulsion drives, General",
+            "definition": "An emergency means of providing propulsion."
+          }
+        ]
+      },
+      {
+        "system_code": "A4",
+        "title": "Propulsion transmission systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion transmission systems, General",
+            "definition": "A system that transmits torque (main/secondary/emergency) to the platform's propulsion drive."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Propulsion gearing",
+            "definition": "A system that converts torque, speed or rotational direction between the propulsion and the drive system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Propulsion clutches and couplings",
+            "definition": "A system that connects or removes the drive from the propulsion system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Propulsion shafting",
+            "definition": "A means of transmitting drive from the propulsion system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Propulsion bearings",
+            "definition": "A means of support for propulsion shafting."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Propulsion propulsors/propellers",
+            "definition": "A means of converting propulsion energy into movement of the platform."
+          }
+        ]
+      },
+      {
+        "system_code": "A5",
+        "title": "Propulsion support systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion support systems, General",
+            "definition": "Ancillary systems in support of a platforms prime mover."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Circulating and cooling systems",
+            "definition": "This system includes cooling air ducting, coolant pumps, liquid filled radiators, fans and associated heat exchange equipment."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Uptakes and down takes",
+            "definition": "Refers to a system which supplies and filters air to the propulsion system and collects and removes exhaust gases from the propulsion system. It includes, for example, funnels, all filters, pipes, couplings, silencers, catalytic converters, ducting and combustion air systems."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Propulsion fuel systems",
+            "definition": "Equipment to provide fuel storage facilities, fuel filters, delivery pipes, drainage and cut-off valves, Fuel Injector Pumps (FIP) and injectors."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Propulsion lubricating systems",
+            "definition": "This system includes lubrication storage facilities. It includes delivery and return pipes, sumps and heat exchangers."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Propulsion lubrication transfer and purification",
+            "definition": "This system includes lubrication pumps and filters."
+          }
+        ]
+      },
+      {
+        "system_code": "A6",
+        "title": "Propulsion control systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion control systems, General",
+            "definition": "Systems designed to control the various propulsion modes of a platform."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Propulsion control systems automatic",
+            "definition": "Refers to those systems that automatically control propulsion."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Propulsion control systems manual",
+            "definition": "Refers to those systems that manually control propulsion."
+          }
+        ]
+      },
+      {
+        "system_code": "A7",
+        "title": "Propulsion control systems, Alarms",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion control systems - Alarms (General)",
+            "description": "Systems that are designed to provide alarms on propulsion systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Automatically control propulsion - Alarms",
+            "description": "Refers to those systems that automatically control propulsion."
+          },
+          {
+            "subsystem_code": "-20 thru -40",
+            "title": "Not given",
+            "description": null
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Manually control propulsion - Alarms",
+            "description": "Refers to those systems that manually control propulsion."
+          },
+          {
+            "subsystem_code": "-60 thru -90",
+            "title": "Not given",
+            "description": null
+          }
+        ]
+      },
+      {
+        "system_code": "A8",
+        "title": "Propulsion control systems, Data logging",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Propulsion modes of a control systems - Data logging (General)",
+            "description": "Systems designed to control the various propulsion platform."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Automatically control propulsion - Data logging",
+            "description": "Refers to data logger systems of automatically controlled propulsion."
+          },
+          {
+            "subsystem_code": "-20 thru -40",
+            "title": "Not given",
+            "description": null
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Manually control propulsion - Data logging",
+            "description": "Refers to data logger systems of manually controlled propulsion."
+          },
+          {
+            "subsystem_code": "-60 thru -90",
+            "title": "Not given",
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "B",
+    "system_title": "Structure",
+    "subsystems": [
+      {
+        "system_code": "B0",
+        "title": "Structure, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Framework and/or basic structural housing for a system, including load bearing components."
+          }
+        ]
+      },
+      {
+        "system_code": "B1",
+        "title": "Hull, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Hull, General",
+            "definition": "Structured contained envelope providing the overall platform for systems, weapons and personnel."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Hull fittings",
+            "definition": "Fittings that are permanently attached to the hull of a platform."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Hydrofoils",
+            "definition": "A structure designed to raise the hull out of the water when in motion enabling it to travel fast and economically."
+          }
+        ]
+      },
+      {
+        "system_code": "B2",
+        "title": "Body/cab, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Main supporting structures, General",
+            "definition": "Beams and columns that provide support for load bearing decks/bulkheads."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Transverse frames",
+            "definition": "Refers to a frame that runs athwart ships."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Longitudinal frames",
+            "definition": "Refers to a frame that runs fore and aft."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Superstructure",
+            "definition": "Refers to a structure that is above deck level. This does not include masts, towers, derricks etc."
+          }
+        ]
+      },
+      {
+        "system_code": "B3",
+        "title": "Special structures, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Special structures, General",
+            "definition": "Structures that are not main supporting but are integral to platform design (eg, sonar domes)."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Structural castings, forgings and welding",
+            "definition": "Refers to castings, forging and welding which form part of the structure."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Ballistic plating, sonar domes and stacks",
+            "definition": "Refers to armour plating, covers for sonar sensors and funnels."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Special purpose closures and structures",
+            "definition": "Refers to other structures not covered above."
+          }
+        ]
+      },
+      {
+        "system_code": "B4",
+        "title": "Bulkheads/decks, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Bulkheads/decks, General",
+            "definition": "Vertical/horizontal structures, which divide the interior of the hull into compartments or spaces with provision for personnel/stores access."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Watertight/non watertight bulkheads",
+            "definition": "Refers to all bulkheads."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Main decks",
+            "definition": "Refers to all main decks."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Floors",
+            "definition": "Refers to a deck in a land-based structure."
+          }
+        ]
+      },
+      {
+        "system_code": "B5",
+        "title": "Masts, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Masts, General",
+            "definition": "Exterior vertical structures which carry those items of equipment (or stores) which by their nature require to be given height well above the deck areas of the platform."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Submarine masts and periscope integration",
+            "definition": "Refers to masts and periscopes fitted to a submarine."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Fixed masts",
+            "definition": "Refers to solid structures that are fixed to a superstructure."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Service platforms",
+            "definition": "Refers to service platforms that are mounted on masts."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Towers",
+            "definition": "Refers to lattice (mast type) structures."
+          }
+        ]
+      },
+      {
+        "system_code": "B6",
+        "title": "Access, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to interior and exterior access points."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Doors",
+            "definition": "Refers to hinged or sliding covers for access points in a bulkhead. May be Watertight and/or Airtight."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Hatches",
+            "definition": "Refers to square or rectangular access point in the deck. May be Watertight and/or Airtight"
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Scuttles",
+            "definition": "Refers to round watertight openings and covers in a bulkhead."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Covers",
+            "definition": "Refers to something that protects hatches or scuttles. May be Watertight and/or Airtight."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Portable Plates",
+            "definition": "Refers to Removable Plates and/or Panels which are integral parts of the ships structure that are secured with bolts and/or screws to allow access for maintenance."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "C",
+    "system_title": "Armaments",
+    "subsystems": [
+      {
+        "system_code": "C0",
+        "title": "Armaments, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A defensive or offensive system or equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "C1",
+        "title": "Gun systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Gun systems, General",
+            "definition": "An integrated system for platform protection and destruction of the aggressor. Additionally will include Small Arms for personal protection and aggression."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Gun mountings",
+            "definition": "Refers to that part of a weapons system that secures the barrel/breach assembly."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Directors",
+            "definition": "Refers to that part of a weapon system that allows for aiming of the gun."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Ancillaries",
+            "definition": "Refers to that part of a weapon system that is not described above."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Small arms",
+            "definition": "Refers to personal weapon systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Portable weapons",
+            "definition": "Refers to portable weapon systems."
+          }
+        ]
+      },
+      {
+        "system_code": "C2",
+        "title": "Guided missile systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Guided missile systems, General",
+            "definition": "Equipment to deliver a self propelled warhead that can be guided through its flight to a target."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Control",
+            "definition": "Refers to that part of the guided weapon system that provides control."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aerials",
+            "definition": "Refers to the aerials of the guided weapon system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Radars",
+            "definition": "Refers to the target acquisition and guidance radar equipment within the guided weapon system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Launchers",
+            "definition": "Refers to the launching equipment within the guided weapon system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Ancillaries",
+            "definition": "Refers to all parts of the guided weapon system not described above."
+          }
+        ]
+      },
+      {
+        "system_code": "C3",
+        "title": "Rocket systems and pyrotechnics, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Rocket systems and pyrotechnics, General",
+            "definition": "Projectiles which are used as an aid, signal or illumination."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Signals",
+            "definition": "Refers to those projectiles used for signaling."
+          }
+        ]
+      },
+      {
+        "system_code": "C4",
+        "title": "Aircraft related weapon systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Aircraft related weapon systems, General",
+            "definition": "For protection in the surveillance role and additionally equipment to provide the ability to deliver/fire weapons to selected targets."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aircraft weapon systems",
+            "definition": "Refers to weapon systems mounted on an aircraft."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aircraft weapon control system",
+            "definition": "Refers to the control system of an aircraft mounted weapon."
+          }
+        ]
+      },
+      {
+        "system_code": "C5",
+        "title": "Fire control systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "Fire control systems, General",
+            "definition": "Equipment provided to fire weapons according to the protection or aggression scenario."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Weapon direction systems and sights",
+            "definition": "Refers to that part of a weapon system that directs fire to a given target."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Gun fire control systems",
+            "definition": "Refers to the control system of a weapon system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Missile fire control systems",
+            "definition": "Refers to the fire control systems for missiles."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Underwater fire control systems",
+            "definition": "Refers to fire control systems for underwater weapon control systems."
+          }
+        ]
+      },
+      {
+        "system_code": "C6",
+        "title": "Torpedo systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The equipment provided for the discharge of torpedoes to their targets in a timely and controlled manner."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Submarine torpedo systems",
+            "definition": "Refers to the submarine torpedo systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Surface launch torpedo equipment",
+            "definition": "Refers to the surface launch systems for torpedoes."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Torpedo handling and stowage",
+            "definition": "Refers to the handling and stowage facilities for torpedoes."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Acoustic",
+            "definition": "That portion of the system that uses sound to acquire information. It includes listening devices, amplifiers, processors, indicators etc"
+          }
+        ]
+      },
+      {
+        "system_code": "C7",
+        "title": "Electronic warfare, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Those units and components which furnish a means of detecting, analyzing, jamming, or nullifying the effectiveness of defensive detection devices and communication links."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Active",
+            "definition": "That portion of the system consisting of receivers, transmitters, repeaters, blanking and modulating devices (eg, infra-red, laser)."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Passive",
+            "definition": "That portion of the system that contains no active elements (eg, chaff)."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Data processing",
+            "definition": "That portion of the system that processes and analyses received data."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "D",
+    "system_title": "Electrical system",
+    "subsystems": [
+      {
+        "system_code": "D0",
+        "title": "Electrical system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment for generation, distribution and/or control of electric power."
+          }
+        ]
+      },
+      {
+        "system_code": "D1",
+        "title": "Electrical power generation, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Power produced to satisfy all electrical power requirements using a generator driven by a prime mover."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Turbo generators and control equipment",
+            "definition": "Refers to the control equipment for turbo generators."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Gas turbine generators and control equipment",
+            "definition": "Refers to the control equipment for gas turbine generators."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Diesel generators and control equipment",
+            "definition": "Refers to the control equipment for diesel generators."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Motor generators",
+            "definition": "Refers to motor generators."
+          }
+        ]
+      },
+      {
+        "system_code": "D2",
+        "title": "Primary supply and distribution systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the primary supply and distribution systems of electrical power."
+          }
+        ]
+      },
+      {
+        "system_code": "D3",
+        "title": "Electrical power converted supplies, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the converted electrical power supplies."
+          }
+        ]
+      },
+      {
+        "system_code": "D4",
+        "title": "Electrical power lighting, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Lighting equipment that is powered from the mains electrical distribution systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cabling",
+            "definition": "Refers to the cabling used in electrical power systems."
+          }
+        ]
+      },
+      {
+        "system_code": "D5",
+        "title": "Electrical power support systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The equipment that provides alternative/back-up electrical supplies for use with certain electrical circuits in the event of a power failure."
+          }
+        ]
+      },
+      {
+        "system_code": "D6",
+        "title": "Electrical power emergency supplies, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Emergency supply systems for use in the event of 'normal' power supply failure."
+          }
+        ]
+      },
+      {
+        "system_code": "D7",
+        "title": "Electrical control systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Systems designed to provide safe and effective control of electrical power requirements."
+          }
+        ]
+      },
+      {
+        "system_code": "D8",
+        "title": "Batteries, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Static and limited (dc) electrical power sources used to provide main, secondary, emergency and/or back-up supplies, additionally to provide supplies to certain portable electrical equipment."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Primary batteries",
+            "definition": "Refers to all primary batteries."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Secondary batteries",
+            "definition": "Refers to all secondary batteries."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Battery charging systems",
+            "definition": "Refers to the charging systems for all batteries."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "E",
+    "system_title": "Communications",
+    "subsystems": [
+      {
+        "system_code": "E0",
+        "title": "Communications, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The communications element refers to that equipment fitted to a platform which provides the means to receive information from off-ship source, to transmit to off-ship receivers and to distribute information throughout the ship."
+          }
+        ]
+      },
+      {
+        "system_code": "E1",
+        "title": "SHF/EHF, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The shipboard communications system/equipment using super and extra high frequency carriers."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aerials",
+            "definition": "Refers to the SHF/EHF aerials used in a communications system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aerial multicouplers and tuners",
+            "definition": "Refers to the aerial multi-couplers and tuners of an SHF/EHF communications system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Receivers",
+            "definition": "Refers to the receiver equipment of an SHF/EHF communications system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Transmitters",
+            "definition": "Refers to the transmitter equipment of an SHF/EHF communications system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Transceivers",
+            "definition": "Refers to the transceiver equipment of an SHF/EHF communications system."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Ancillaries",
+            "definition": "Refers to all parts of an SHF/EHF communications system not detailed above. It includes, for example, patching facilities, modems and other ancillary equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "E2",
+        "title": "UHF/VHF, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The shipboard communications system/equipment using very high frequency carriers."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aerials",
+            "definition": "Refers to the UHF/VHF aerials used in a communications system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aerial multicouplers and tuners",
+            "definition": "Refers to the aerial multi-couplers and tuners of a UHF/VHF communications system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Receivers",
+            "definition": "Refers to the receiver equipment of a UHF/VHF communications system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Transmitters",
+            "definition": "Refers to the transmitter equipment of a UHF/VHF communications system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Transceivers",
+            "definition": "Refers to the transceiver equipment of a UHF/VHF communications system."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Ancillaries",
+            "definition": "Refers to all parts of a UHF/VHF communications system not detailed above. It includes, for example, patching facilities, modems and other ancillary equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "E3",
+        "title": "HF/MF, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The communication system/equipment using high and medium frequency carriers."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aerials",
+            "definition": "Refers to the HF/MF aerials used in a communications system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aerial multicouplers and tuners",
+            "definition": "Refers to the aerial multi-couplers and tuners of an HF/MF communications system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Receivers",
+            "definition": "Refers to the receiver equipment of an HF/MF communications system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Transmitters",
+            "definition": "Refers to the transmitter equipment of an HF/MF communications system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Transceivers",
+            "definition": "Refers to the transceiver equipment of an HF/MF communications system."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Ancillaries",
+            "definition": "Refers to all parts of an HF/MF communications system not detailed above. It includes, for example, patching facilities, modems and other ancillary equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "E4",
+        "title": "LF/VLF, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "LF/VLF, General",
+            "definition": "The shipboard communications system/equipment using low and very low frequency carriers."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aerials",
+            "definition": "Refers to the LF/VLF aerials used in a communications system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aerial multi-couplers and tuners",
+            "definition": "Refers to the aerial multi-couplers and tuners of an LF/VLF communications system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Available for projects",
+            "definition": null
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Receivers",
+            "definition": "Refers to the receiver equipment of an LF/VLF communications system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Transmitters",
+            "definition": "Refers to the transmitter equipment of an LF/VLF communications system."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Transceivers",
+            "definition": "Refers to the transceiver equipment of an LF/VLF communications system."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Ancillaries",
+            "definition": "Refers to all parts of an LF/VLF communications system not detailed above. It includes, for example, patching facilities, modems and other ancillary equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "E5",
+        "title": "Audio integration, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The shipboard communications system/equipment that is used for integration distribution and control of communications."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Control outfits",
+            "definition": "Refers to the control equipment for the shipboard communications system."
+          }
+        ]
+      },
+      {
+        "system_code": "E6",
+        "title": "Digital, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The shipboard communications system/equipment that is used for digital data transmission and reception. It includes, for example, modems, encryption devices and teletypes."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cryptographic receivers",
+            "definition": "Refers to the receiver encryption devices."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Cryptographic transmitters",
+            "definition": "Refers to the transmitter encryption devices."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Teletype/message handling",
+            "definition": "Refers to the teletype and message handling devices that form part of the shipboard communications system."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Tele-printers",
+            "definition": "Refers to the tele-printers used in a shipboard communications system"
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Modems",
+            "definition": "Refers to the modems used in a shipboard communications system."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Displays",
+            "definition": "Refers to the visual display equipment used in a shipboard communications system."
+          }
+        ]
+      },
+      {
+        "system_code": "E7",
+        "title": "Internal, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The shipboard communications system/equipment that provides communications within the confines of the platform."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Broadcasts",
+            "definition": "Refers to the shipboard broadcasting and public address systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Inter-communication",
+            "definition": "Refers to the shipboard intercommunications system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Networks",
+            "definition": "Refers to all shipboard networks. It includes, for example, Local Area Networks (LAN), Wide Area Networks (WAN), etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Recreational",
+            "definition": "Refers to all shipboard domestic electronic devices. It includes, for example, radios, televisions and video recorders, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Alarms",
+            "definition": "Refers to the shipboard alarm systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Control",
+            "definition": "Refers to the control equipment used for shipboard communications systems."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Telephones",
+            "definition": "Refers to the telephone equipment used on shipboard communications systems."
+          }
+        ]
+      },
+      {
+        "system_code": "E8",
+        "title": "Flight control and instrument landing systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Communication equipment provided for the safe take-off, operation and landing of aircraft."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "F",
+    "system_title": "Navigation",
+    "subsystems": [
+      {
+        "system_code": "F0",
+        "title": "Navigation, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment used to determine, conduct, manage or plot a position or course for the system."
+          }
+        ]
+      },
+      {
+        "system_code": "F1",
+        "title": "Independent, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the navigation equipment fitted to a platform that is independent of ground stations and orbiting satellites (eg, NATO SINS, compasses, Log Systems, wind gear)."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Gyro compasses",
+            "definition": "Refers to compasses using gyro principles."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Magnetic compasses",
+            "definition": "Refers to all compasses using magnetic principles."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Inertial",
+            "definition": "Refers to all aspects of inertial navigation. It includes, for example, inertial platforms and gyroscope assemblies, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Speed and distance",
+            "definition": "Ship speed and distance systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Depth",
+            "definition": "Refers to shipboard depth determining systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Wind speed and direction",
+            "definition": "Systems to measure and indicate wind speed and direction. It includes, for example, standard wind gear and lightweight wind gear."
+          }
+        ]
+      },
+      {
+        "system_code": "F2",
+        "title": "Dependent, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the navigation equipment fitted to a platform that is dependent on ground stations and orbiting satellites. It includes, for example, Global Positioning System, Hyper fix, etc."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Satellite",
+            "definition": "Refers to the satellite navigation equipment fitted to a platform."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Radio",
+            "definition": "Refers to the radio navigation equipment fitted to a platform."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Radar",
+            "definition": "Refers to the radar navigation equipment fitted to a platform."
+          }
+        ]
+      },
+      {
+        "system_code": "F3",
+        "title": "Computing, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the navigation equipment fitted to a platform which combines/processes navigational data to compute or manage the platforms geographical position. It includes the ship data distribution systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Plotting",
+            "definition": "Refers to those navigational aids used for plotting."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Data distribution",
+            "definition": "Refers to that equipment used for the distribution of navigational data."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Data retransmission",
+            "definition": "Refers to the equipment used for the retransmission of navigational data."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "G",
+    "system_title": "Surveillance",
+    "subsystems": [
+      {
+        "system_code": "G0",
+        "title": "Surveillance, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that portion of equipment fitted to a platform which senses, monitors and, where required provides alarms and environmental data. It includes, for example, radar, sonar, thermal, optical and environmental technologies."
+          }
+        ]
+      },
+      {
+        "system_code": "G1",
+        "title": "Control, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that processes and controls the sensor systems. It includes combat systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Data processing",
+            "definition": "Refers to the equipment used for the processing surveillance data."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Displays",
+            "definition": "Refers to that equipment used to visually display surveillance data."
+          }
+        ]
+      },
+      {
+        "system_code": "G2",
+        "title": "Radar, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that uses radar devices to acquire information. It includes, for example, aerial outfits and surveillance radar."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aerials",
+            "definition": "Refers to the aerials used as part of radar surveillance."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Receiver",
+            "definition": "Refers to the receiver equipment used as part of radar surveillance."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Transmitter",
+            "definition": "Refers to the transmitter equipment used as part of radar surveillance."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Ancillaries",
+            "definition": "Refers to the ancillary equipment used as part of radar surveillance."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Distribution",
+            "definition": "Refers to the equipment used to distribute radar surveillance data."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Displays",
+            "definition": "Refers to the equipment used to visually display radar surveillance data."
+          }
+        ]
+      },
+      {
+        "system_code": "G3",
+        "title": "Sonar, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that uses sonar devices to acquire information"
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Transducers",
+            "definition": "Refers to the transducers used as part of sonar surveillance."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Receiver",
+            "definition": "Refers to the receiver equipment used as part of sonar surveillance."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Transmitter",
+            "definition": "Refers to the transmitter equipment used as part of sonar surveillance."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Ancillaries",
+            "definition": "Refers to the ancillary equipment used as part of sonar surveillance."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Distribution",
+            "definition": "Refers to the equipment used to distribute radar sonar data."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Displays",
+            "definition": "Refers to the equipment used to visually display sonar surveillance data."
+          }
+        ]
+      },
+      {
+        "system_code": "G4",
+        "title": "Electromagnetic, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that is used to detect and identify EM emissions."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "ESM aerials",
+            "definition": "Refers to aerials used for Electronic Surveillance Measures (ESM)."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "ESM receivers",
+            "definition": "Refers to receivers used for Electronic Surveillance Measures (ESM)."
+          }
+        ]
+      },
+      {
+        "system_code": "G5",
+        "title": "Optical, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that uses optical devices to acquire information. It includes, for example, periscopes and GPEOD."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Thermal imaging",
+            "definition": "This element refers to that equipment (hardware/software) which provides a thermal picture surveillance and weapon guidance. It includes thermal imaging sensor heads, drive units, processors, sights, power supply units, and display units."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Periscopes",
+            "definition": "Refers to the periscopes used as part of the optical surveillance equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "G6",
+        "title": "Digital, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to that part of the surveillance equipment fitted to a platform that provides data transfer capabilities. It includes, for example, data highways and combat system highways."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Data highway",
+            "definition": "Refers to the digital data busses used as part of the surveillance system."
+          }
+        ]
+      },
+      {
+        "system_code": "G7",
+        "title": "Identification systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Surveillance equipment provided for the selection and identification of friendly and hostile targets."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Radar aerials",
+            "definition": "Refers to the radar aerials used as part of the identification system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Integrators transponders",
+            "definition": "Refers to the shipboard, built-in transponders used as part of the identification system of the surveillance system."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "H",
+    "system_title": "Steering",
+    "subsystems": [
+      {
+        "system_code": "H0",
+        "title": "Steering, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to those units and devices within the platform which govern movement and/or direction of assemblies. It includes, for example, motors, gearboxes, drives, thrusters and rudders."
+          }
+        ]
+      },
+      {
+        "system_code": "H1",
+        "title": "Steering systems and control, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The system designed to transmit the requirements given at the steering position, to the receiver that controls the movements of the rudders or other steering mechanisms."
+          }
+        ]
+      },
+      {
+        "system_code": "H2",
+        "title": "Thrusters, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "Power units fitted in the ship below the surface to give lateral thrust when maneuvering the ship."
+          }
+        ]
+      },
+      {
+        "system_code": "H3",
+        "title": "Stabilizing systems and control, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "The equipment provided to minimize the effect of wave movement on a ship."
+          }
+        ]
+      },
+      {
+        "system_code": "H4",
+        "title": "Diving control systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "The system designed to control the submerged depth of a submersible"
+          }
+        ]
+      },
+      {
+        "system_code": "H5",
+        "title": "Hydroplanes, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "Equipment provided to control the attitude of a submersible underwater."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "J",
+    "system_title": "Ventilation/heating/cooling",
+    "subsystems": [
+      {
+        "system_code": "J0",
+        "title": "Ventilation/heating/cooling, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment used to provide a controlled environment"
+          }
+        ]
+      },
+      {
+        "system_code": "J1",
+        "title": "Climatic control systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Equipment provided to control climatic/environmental conditions within a given space."
+          }
+        ]
+      },
+      {
+        "system_code": "J2",
+        "title": "Ventilation systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Air supply and exhaust systems which provide habitable conditions in working and living spaces within a platform."
+          }
+        ]
+      },
+      {
+        "system_code": "J3",
+        "title": "Air conditioning systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Systems which control the humidity and temperature of living spaces, and some working spaces within a platform."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Compartment heating systems",
+            "definition": "That portion of the system and its controls which supply heat. It includes items such as heater units, wiring, etc."
+          }
+        ]
+      },
+      {
+        "system_code": "J4",
+        "title": "Oxygen generating system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A machinery plant that generates oxygen which can be stored in liquid or gaseous form."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "K",
+    "system_title": "Hydraulic system",
+    "subsystems": [
+      {
+        "system_code": "K0",
+        "title": "Hydraulic system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment for generation, distribution and/or control of hydraulic power."
+          }
+        ]
+      },
+      {
+        "system_code": "K1",
+        "title": "Main hydraulic power systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Equipment required to provide fluidic power for a prime mover/requirement."
+          }
+        ]
+      },
+      {
+        "system_code": "K2",
+        "title": "Auxiliary hydraulics power systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "Equipment required to provide fluidic power for the control of engineering systems and machinery."
+          }
+        ]
+      },
+      {
+        "system_code": "K3",
+        "title": "Pneumatic system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Systems that are designed to move and store air under pressure."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Servo air systems",
+            "definition": "Systems that move under air under pressure."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "L",
+    "system_title": "Electronic system",
+    "subsystems": [
+      {
+        "system_code": "L0",
+        "title": "Electronic system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment using electronic/automated software and/or firmware elements not included in other systems."
+          }
+        ]
+      },
+      {
+        "system_code": "L1",
+        "title": "Cathodic protection, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system that uses electrolysis for the protection of a ships hull against wastage caused by the corrosive effect of salt water."
+          }
+        ]
+      },
+      {
+        "system_code": "L2",
+        "title": "Degaussing, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system designed to neutralize the magnetic field surrounding a platform."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "M",
+    "system_title": "Auxiliary",
+    "subsystems": [
+      {
+        "system_code": "M0",
+        "title": "Auxiliary, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Subsidiary systems that provide services or support to main systems or equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "M1",
+        "title": "Aircraft handling systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The equipment provided for the safe movement of aircraft within the hangar or to and from the flight deck or runway."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Aircraft handling systems servicing and stowage",
+            "definition": "Aircraft handling and associated support facilities."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aircraft recovery support systems",
+            "definition": "Aircraft recovery and associated support facilities."
+          }
+        ]
+      },
+      {
+        "system_code": "M2",
+        "title": "Sea water systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Systems to provide firefighting, machinery cooling, controlled flooding of watertight compartments and some domestic services."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Firemain and flushing systems",
+            "definition": "Piping, firemain and flushing pumps, and controls."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Sprinkler systems",
+            "definition": "Sea water sprinkler systems."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Pre-wetting systems",
+            "definition": "Countermeasure pre-wetting systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Auxiliary sea water systems",
+            "definition": "Auxiliary machinery sea water system pumps and associated pipes, controls, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Scuppers and deck drains",
+            "definition": "Refers to scuppers, deck drains and associated equipment."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Plumbing and drainage",
+            "definition": "Refers to drains, plumbing and associated pipes, control valves, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Drainage and ballasting systems",
+            "definition": "Refers to piping, drainage and ballasting system, pumps and controllers."
+          }
+        ]
+      },
+      {
+        "system_code": "M3",
+        "title": "Fresh water systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to systems provided for domestic purposes and other services, where the corrosive effect of sea water would be unacceptable."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Distilling plant",
+            "definition": "Flash type, vapor compression, heat recovery and submerged tube type."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Auxiliary fresh water cooling",
+            "definition": "Cooling water, electronics, DW/CW."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Potable water",
+            "definition": "Refers to fresh and distilled water services. It includes, for example, drinking water supplies."
+          }
+        ]
+      },
+      {
+        "system_code": "M4",
+        "title": "Fuels and lubricants systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to systems that are designed to move and store propellant and lubricating fluids."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Ship fuel and fuel compensating systems",
+            "definition": "Ship fuel filling and transfer system pumps, fuel transfer systems and associated equipment."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Aviation and general purpose fuels",
+            "definition": "Piping aviation and general purpose fuel system pumps, aviation and general purpose fuel MOGAS handling and piping."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Aviation and general purpose lubricating oil",
+            "definition": "Lubricating oil systems, aviation and general purpose."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Auxiliary lubrication systems",
+            "definition": "Lubrication outboard and lubrication inboard."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Special fuel and lubricants handling and storage",
+            "definition": "Handling and storage systems for special fuel and lubricants."
+          }
+        ]
+      },
+      {
+        "system_code": "M5",
+        "title": "Gas systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Systems that are designed to move and store air and certain gases, under pressure."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Compressed air systems",
+            "definition": "This element refers to a system or equipment (hardware/software) for the generation, distribution and/or control of pneumatic power and compressed air."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Compressed gases",
+            "definition": "Compressed gas system nitrogen."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Vacuum systems",
+            "definition": "This element refers to a system or equipment (hardware/software) for the generation, distribution and/or control of vacuum power."
+          }
+        ]
+      },
+      {
+        "system_code": "M6",
+        "title": "Cargo handling replenishment systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Cargo handling machinery and systems which are used for replenishment."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "RAS systems",
+            "definition": "RAS Winches, RAS booms, rigging and hardware, control stations."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Vertical replenishment systems",
+            "definition": "VETREP systems."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Ships stores and equipment handling systems",
+            "definition": "Refers to ships stores and equipment handling systems."
+          }
+        ]
+      },
+      {
+        "system_code": "M7",
+        "title": "Machinery, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Any item of machinery other than those directly associated with weapons system not identified elsewhere."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Engineering and functional machinery",
+            "definition": "Refers to engineering and functional machinery."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Domestic machinery",
+            "definition": "Refers to machinery installed for domestic purposes."
+          }
+        ]
+      },
+      {
+        "system_code": "M8",
+        "title": "Deck machinery",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Any item of machinery other than those directly associated with deck machinery."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cranes",
+            "definition": "Refers to cranes used on deck."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Winches",
+            "definition": "Refers to winches used on deck."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "N",
+    "system_title": "Survivability",
+    "subsystems": [
+      {
+        "system_code": "N0",
+        "title": "Survivability, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "A system or equipment used to provide hazard detection, protection, survivability and escape facilities"
+          }
+        ]
+      },
+      {
+        "system_code": "N1",
+        "title": "Damage control, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Equipment for the limitation, control and repair (within the platform resources) of material damage however caused in peace and war."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Detection systems",
+            "definition": "Refers to equipment for the detection of material damage."
+          }
+        ]
+      },
+      {
+        "system_code": "N2",
+        "title": "Escape facilities, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The facilities that are fitted specifically to assist in escaping from danger or to prolong life in times of crisis. It includes, for example, BIBS and HIS"
+          }
+        ]
+      },
+      {
+        "system_code": "N3",
+        "title": "Firefighting systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "The equipment that provides the ability to limit the spread of fire, extinguish and prevent re-ignition. It includes, for example, detecting, indicating and extinguishing systems."
+          }
+        ]
+      },
+      {
+        "system_code": "N4",
+        "title": "Nuclear, biological, chemical, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "The NBC element refers to those subassemblies or components which provide nuclear, biological and chemical detection, protection and survivability to the platform and crew, either individually or collectively, during an NBC attack. This includes positive pressure and purification systems, ventilated face pieces (masks), NBC detection and warning devices, decontamination equipment and chemical resistant coatings."
+          }
+        ]
+      },
+      {
+        "system_code": "N5",
+        "title": "Salvage systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to systems for the performance of salvage operations."
+          }
+        ]
+      },
+      {
+        "system_code": "N6",
+        "title": "Stability, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to systems for the provision of stability, following damage to or flooding of compartments."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "P",
+    "system_title": "Special equipment/system",
+    "subsystems": [
+      {
+        "system_code": "P0",
+        "title": "Special equipment/system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment used to provide a special mission capability."
+          }
+        ]
+      },
+      {
+        "system_code": "P1",
+        "title": "Special to type equipment, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "This element refers to that special equipment (hardware/software) to enable the achievement of a special mission capability."
+          }
+        ]
+      },
+      {
+        "system_code": "P2",
+        "title": "Special recovery equipment, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "This element refers to that special recovery equipment (hardware/software) to enable the achievement of a recovery capability. It includes cranes, winches and towing equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "P3",
+        "title": "Special fit equipment, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "This element refers to that special fit equipment (hardware/software) to enable the achievement of a specialized capability."
+          }
+        ]
+      },
+      {
+        "system_code": "P4",
+        "title": "Special purpose equipment, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "This element refers to that special-to-purpose equipment (hardware/software) for the achievement of a special mission purpose. It covers, for example, equipment for repair workshops, medical and other special purpose platforms."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "Q",
+    "system_title": "Outfit, Furnishings and stowage system",
+    "subsystems": [
+      {
+        "system_code": "Q0",
+        "title": "Outfit, Furnishings and stowage system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A function or equipment used to provide habitability, operability or stowage facilities that is not specifically included in other systems."
+          }
+        ]
+      },
+      {
+        "system_code": "Q1",
+        "title": "Preservations and coverings, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Coverings made from weatherproof fabrics, plastics and synthetics to protect items of exposed equipment and machinery from the elements (particularly salt water spray)"
+          }
+        ]
+      },
+      {
+        "system_code": "Q2",
+        "title": "Protective coatings, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Protective paint (usually oil based and anti fouling) applied to surfaces which are exposed to sea water or other corrosive elements."
+          }
+        ]
+      },
+      {
+        "system_code": "Q3",
+        "title": "Storerooms, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that are designed to hold stores of a long term or ready use nature (other than weapons, ammunition and food supplies."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Utility space",
+            "definition": "Spaces that are designed and specifically fitted out for the storage or provision of utilities."
+          }
+        ]
+      },
+      {
+        "system_code": "Q4",
+        "title": "Bathrooms and toilets, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that are designed and specifically fitted out for the provision of bathroom and toilet facilities."
+          }
+        ]
+      },
+      {
+        "system_code": "Q5",
+        "title": "Workshops, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that are designed and specifically fitted out for the maintenance of machinery and certain specialized equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "Q6",
+        "title": "Laboratories, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Rooms that are used for carrying out scientific tests on items of equipment and some substances."
+          }
+        ]
+      },
+      {
+        "system_code": "Q7",
+        "title": "Test areas, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Rooms that are used for carrying out tests on items of equipment."
+          }
+        ]
+      },
+      {
+        "system_code": "Q8",
+        "title": "Galley/pantry scullery, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "00",
+            "title": "General",
+            "definition": "Rooms that are used for preparation and serving of food and refreshments."
+          }
+        ]
+      },
+      {
+        "system_code": "Q9",
+        "title": "Commissary, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Rooms that are used for storage of food and drink, sometimes with specialized storing requirements such as frozen food."
+          }
+        ]
+      },
+      {
+        "system_code": "QA",
+        "title": "Accommodation spaces, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that are designed and fitted to provide habitable (living and recreational) accommodation."
+          }
+        ]
+      },
+      {
+        "system_code": "QB",
+        "title": "Offices, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces in which work of an administrative nature is carried out."
+          }
+        ]
+      },
+      {
+        "system_code": "QC",
+        "title": "Control centers, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Rooms that are used for the control of operations and/or processes."
+          }
+        ]
+      },
+      {
+        "system_code": "QD",
+        "title": "Machinery spaces, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that contain permanent and fixed items of machinery."
+          }
+        ]
+      },
+      {
+        "system_code": "QE",
+        "title": "Medical, dental and pharmaceutical spaces, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Rooms that are used for the provision of medical, dental and pharmaceutical facilities."
+          }
+        ]
+      },
+      {
+        "system_code": "QF",
+        "title": "Laundry, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Spaces that are designed and specially fitted for the washing and drying of linen and fabrics."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "R",
+    "system_title": "Training",
+    "subsystems": [
+      {
+        "system_code": "R0",
+        "title": "Training, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system or equipment used to provide training capabilities."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Training",
+            "definition": "The training element is defined as the deliverable training services, devices, accessories, aids, equipment and facilities used to enable instruction through which personnel will acquire sufficient concepts, skill and aptitudes to operate and maintain the system with maximum efficiency. This element includes all effort associated with the design, development and production of deliverable training equipment as well as the execution of training services."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Non weapon trainers and simulators",
+            "definition": "A system or equipment used to provide training capabilities for non weapon systems and simulators"
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Weapon systems trainers and simulators",
+            "definition": "A system or equipment used to provide training capabilities for weapon systems and simulators."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "S",
+    "system_title": "Repair test and support",
+    "subsystems": [
+      {
+        "system_code": "S0",
+        "title": "Repair test and support, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to maintain operational capability."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "T",
+    "system_title": "Management system",
+    "subsystems": [
+      {
+        "system_code": "T0",
+        "title": "Management system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to manage the totality of complex integrated management systems."
+          }
+        ]
+      },
+      {
+        "system_code": "T1",
+        "title": "Platform management system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to monitor and manage the totality of Power systems."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Operator facilities",
+            "definition": "Refers to the roles and facilities provided to the operator at the Consoles by the MMI"
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Data processing",
+            "definition": "Refers to equipment fitted to a platform, which combines and processes Power systems data"
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Consoles",
+            "definition": "Refers to the consoles fitted to the platform."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Monitor",
+            "definition": "Refers to the equipment fitted to the platform which monitors systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Cabinets",
+            "definition": "Refers to Equipment Cabinets, which can be configured with equipment units from multiple systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Maintainer facilities",
+            "definition": "Refers to the Maintainers and Diagnostic facilities fitted to the platform"
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Peripheral equipment",
+            "definition": "Refers to any peripheral support equipment fitted to the platform (eg; printers)."
+          }
+        ]
+      },
+      {
+        "system_code": "T2",
+        "title": "Not available for projects",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00 thru -90",
+            "title": "Available for projects",
+            "definition": null
+          }
+        ]
+      },
+      {
+        "system_code": "T3",
+        "title": "Combat management and data transfer system, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to a platform which combines, processes, and distributes Central Maintenance System (CMS) Data."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Operator facilities",
+            "definition": "Refers to the roles and facilities provided to the operator at the Consoles by the MMI."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Combat management",
+            "definition": "Refers to equipment fitted to a platform, which combines and processes CMS data."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Consoles",
+            "definition": "Refers to the consoles fitted to the platform."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Data transfer",
+            "definition": "Refers to the DTS equipment fitted to the platform which distributes the CMS data."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Cabinets",
+            "definition": "Refers to Equipment Cabinets, which can be configured with equipment units from multiple systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Maintainer facilities",
+            "definition": "Refers to the Maintainers and Diagnostic facilities fitted to the platform"
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Peripheral equipment",
+            "definition": "Refers to any peripheral support equipment fitted to the platform (eg, printers)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_letter": "U",
+    "system_title": "Meteorological and Oceanography systems",
+    "subsystems": [
+      {
+        "system_code": "U0",
+        "title": "Meteorological and Oceanography systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A platform system, equipment or facilities used to collect, process, and distribute meteorological and oceanographic data."
+          }
+        ]
+      },
+      {
+        "system_code": "U1",
+        "title": "Meteorological systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to collect, process systems, and distribute meteorological data."
+          }
+        ]
+      },
+      {
+        "system_code": "U2",
+        "title": "Oceanography systems, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used to collect, process systems and distribute oceanographic data."
+          }
+        ]
+      },
+      {
+        "system_code": "U3",
+        "title": "Data transmission, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "A system, equipment or facilities used for the transmission and distribution of meteorological and oceanographic (METOC) data, including ship borne Ethernet."
+          }
+        ]
+      },
+      {
+        "system_code": "U4",
+        "title": "Data processing, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the equipment used for the collation and processing of METOC data."
+          }
+        ]
+      },
+      {
+        "system_code": "U5",
+        "title": "Man-Machine Interfaces, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the equipment used for receiving non-ship borne (remote) METOC data (eg, consoles, laptops, etc)."
+          }
+        ]
+      },
+      {
+        "system_code": "U6",
+        "title": "Data receivers, General",
+        "sub_subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Refers to the equipment used for receiving non-ship borne (remote) METOC data."
+          }
+        ]
+      }
+    ]
+  }
+]

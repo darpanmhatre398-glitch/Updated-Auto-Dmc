@@ -1,0 +1,24 @@
+2025-09-24 09:15:08,778 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 09:15:08,814 - INFO - --- Processing: DMC-P15-A-A1-00-0000-00A-000A-D.docx ---
+2025-09-24 09:15:08,848 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:15:09,730 - INFO - LLM successfully returned: {'systemCode': 'C2', 'subSystemCode': '4', 'infoCode': '842'}
+2025-09-24 09:15:09,732 - INFO - Successfully created: DMC-P15-A-C2-04-0000-00A-842A-D.docx
+2025-09-24 09:15:09,733 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:15:09,734 - INFO - --- Processing: DMC-P15-A-A4-00-0000-00A-040A-D.docx ---
+2025-09-24 09:15:09,747 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:15:10,368 - INFO - LLM successfully returned: {'systemCode': 'C00', 'subSystemCode': 'C02', 'infoCode': '998'}
+2025-09-24 09:15:10,369 - WARNING - LLM returned invalid SNS code 'C00-C02'. Defaulting.
+2025-09-24 09:15:10,370 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-998A-D.docx
+2025-09-24 09:15:10,372 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:15:10,372 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 09:15:10,405 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:15:11,073 - INFO - LLM successfully returned: {'systemCode': 'C2', 'subSystemCode': '4', 'infoCode': '842'}
+2025-09-24 09:15:11,075 - INFO - Successfully created: DMC-P15-A-C2-04-0000-00A-842A-D.docx
+2025-09-24 09:15:11,077 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:15:11,077 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 09:15:11,115 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:15:11,806 - INFO - LLM successfully returned: {'systemCode': 'C', 'subSystemCode': '00', 'infoCode': 'C07'}
+2025-09-24 09:15:11,807 - WARNING - LLM returned invalid SNS code 'C-00'. Defaulting.
+2025-09-24 09:15:11,809 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-C07A-D.docx
+2025-09-24 09:15:11,810 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:15:11,812 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_091511.json' ---

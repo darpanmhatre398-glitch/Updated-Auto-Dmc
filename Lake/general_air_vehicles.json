@@ -1,0 +1,1927 @@
+
+[
+  {
+    "system_id": "Airframe Systems",
+    "tables": [
+      {
+        "table_id": "3",
+        "system_code": "20",
+        "title": "Standard practices - Airframe systems",
+        "definition": "This System contains those standard mechanical and electrical electric/engineering practices applicable to more than one airframe system task which are not covered in systems 21 thru 49. It excludes those practices which are recognized as standard trade practices and also those practices/processes which are only applicable to manufacture. Practices for a particular application must be included in the appropriate airframe system as part of the procedure.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Standard practices applicable to all airframe systems."
+          },
+          {
+            "subsystem_code": "-10 thru -90",
+            "title": "",
+            "definition": "Sections -10 thru -90 are used to describe standard practice. The manufacturer or manufacturing partners can assign the section numbers to suit generic standard practices related to more than one airframe system."
+          }
+        ]
+      },
+      {
+        "table_id": "4",
+        "system_code": "21",
+        "title": "Environmental control",
+        "definition": "Those units and components which furnish a means of pressurizing, heating, cooling, moisture controlling, filtering and treating the air used to ventilate the areas of the fuselage within the pressure seals. Includes cabin supercharger, equipment cooling, heater, heater fuel system, expansion turbine, valves, scoops, ducts, cabin seals, etc. Also includes such systems as canopy/door seals, anti-g, demisting, waveguide pressurization, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Compression",
+            "definition": "That portion of the system and its controls which supplies compressed air. Includes items such as controls and indicating systems related to the compressors, wiring, etc. Does not include the pressure control and indicating system for the cabin pressurization."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "That portion of the system used to induct and distribute air. Includes equipment rack cooling, canopy/door seals, anti-g, demisting, waveguide pressurization system and items of such systems like blowers, scoops, ducting, inlets, valves, wiring, etc. Does not include valves which are part of pressurization and temperature control."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Pressurization",
+            "definition": "That portion of the system used to control the pressure within control the fuselage. Includes items such as control valves, relief valves, indicators, switches, amplifiers, wiring, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Heating",
+            "definition": "That portion of the system and its controls which supply heated air. Includes items such as heater units, fuel system and control, ignition indicating systems related to heater operation, wiring, etc. Does not include temperature control and indicating systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Cooling",
+            "definition": "That portion of the system and its controls which supply cooled air. Includes items such as the cooling unit, indicating systems related to the cooler operation, wiring, etc. Does not include temperature control and indicating systems."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Temperature control",
+            "definition": "That portion of the system used to control the temperature of the air. Includes items such as control valves, thermal sensing devices, switches, indicators, amplifiers, wiring, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Moisture/air contaminant control",
+            "definition": "That portion of the system used to control moisture in the air, to control ozone concentrations, to filter radioactive debris and chemical/biological contaminants from conditioned air, and to treat the air with deodorizers, insecticides, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Liquid/gas coolant",
+            "definition": "Those components required to supply liquid/gas coolant to an equipment cooling system."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Integrated environmental control system (ECS)",
+            "definition": "That portion of the system which provides integrated functionality for conditioned, cooled, heated, pressurized air, NBC filtration, and emergency ventilation to sustain crew and component operation over wide range of temperatures. This includes avionics (component racks) cooling."
+          }
+        ]
+      },
+      {
+        "table_id": "5",
+        "system_code": "22",
+        "title": "Auto flight",
+        "definition": "Those units and components which furnish a means of automatically controlling the flight of the air vehicle. Includes those units and components which control direction, heading, attitude, altitude and speed.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Autopilot",
+            "definition": "That portion of the system that uses radio/radar signals, directional and vertical references, air data (pitot static), computed flight path data, or manually induced inputs to the system to automatically control the flight path of the air vehicle through adjustment to the pitch/roll/yaw axis or wing lift characteristics and provide visual cues for flight path guidance (ie, Integrated Flight Director). This includes power source devices, interlocking devices and amplifying, computing, integrating, controlling, actuating, indicating and warning devices such as computers, servos, control panels, indicators, warning lights, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Speed-attitude correction",
+            "definition": "That portion of the system that automatically maintains safe flight conditions by correcting for effects of speed and out-oftrim conditions by such means as automatic trim, mach trim or speed stability and mach feel. This includes sensing, computing, actuating, indicating, internal monitoring, and warning devices, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Auto throttle",
+            "definition": "That portion of the system that automatically controls the position of the throttles to properly manage engine power during all phases of flight/attitude. This includes engaging, sensing, computing, amplifying, controlling, actuating and warning devices such as amplifiers, computers, servos, limit switches, clutches, gear boxes, warning lights, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "System monitor",
+            "definition": "That which provides separate or external monitoring/remote readout (for maintenance or other purposes) not directly related to the internal system monitoring (for system integrity flight crew warning). This includes sensing, computing, indicating and warning devices, control panels, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Aerodynamic load alleviating",
+            "definition": "The system or portion of the system that automatically corrects/provides for gust loading/ upset, aerodynamic augmentation/ alleviations/ suppression, ride control, etc. This includes sensing, computing, actuating indicating internal monitoring, warning devices, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "6",
+        "system_code": "23",
+        "title": "Communications",
+        "definition": "Those units and components which furnish a means of communicating from one part of the air vehicle to another and between the air vehicle or ground stations. Includes voice, data C-W communicating components, PA system, intercom and tape reproducers-record player.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Speech communication",
+            "definition": "That portion of the system which utilizes voice modulated electromagnetic waves to transmit and/or receive messages from air to air, or air to ground installations. Includes HF, VHF, UHF, etc, in-flight telephone, communication transmitting and receiving equipment."
+          },
+          {
+            "subsystem_code": "-15",
+            "title": "SATCOM",
+            "definition": "That portion of the system which utilizes satellite communication systems (SATCOM)."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Data transmission and automatic calling",
+            "definition": "That portion of the system which presents information derived from pulse coded transmissions. Includes Teleprinter, Selcal, Calsel, ACARS, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Passenger address and entertainment",
+            "definition": "That portion of the system used to address and entertain the passengers. Includes items such as amplifiers, speakers, handsets, reproducers, control panels, etc. Also includes items of audio, video and film equipment."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Interphone",
+            "definition": "That portion of the system which is used by flight and ground personnel to communicate between areas on the air vehicle. Includes items such as amplifier, handset, etc. Does not include the interphone system within the flight compartment which is part of the integrating system."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Audio integrating and voice command systems",
+            "definition": "That portion of the system which controls the output of the communications and navigation receivers into the flight crew headphones and speakers and the output of the flight crew microphones into the communications transmitters. Includes items such as audio selector control panel, microphones, headphones, cockpit loudspeakers, etc. Also includes those items which provide for voice command systems used by the operating crew members. (Not including items which are components of an associated air vehicle system)."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Static discharging",
+            "definition": "That portion of the system which is used to dissipate static electricity."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Audio and video monitoring",
+            "definition": "Those installations that record, or monitor crew or passenger conversation or movement for security of safety purposes. Includes voice recorders, television, monitors, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Integrated automatic tuning",
+            "definition": "That portion of the system which maintains integrated control of the operating frequencies of communication and navigation transmitter/receivers after either a manually inserted command or a preprogrammed integrated flight system command. Includes such items as integrated frequency selector panels, digital frequency control computers, integrated frequency display panels, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "7",
+        "system_code": "24",
+        "title": "Electrical power",
+        "definition": "Those electrical units and components which generate, power and control and supply AC and/or DC electrical power for other systems, including generators and relays, inverters, batteries etc, through the secondary busses. Also includes those units and components which provide for multiplexing of electrical power and common electrical items such as wiring, switches, connectors, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Generator drive",
+            "definition": "Mechanical devices that drive the generators at a desired RPM. Includes items such as oil system, connecting devices, indicating and warning systems for the drive, ram air turbine, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "AC generation",
+            "definition": "That portion of the systems used to generate, regulate, control, and indicate AC electrical power. Includes items such as inverters, AC generators/alternators, control and regulating components, indicating systems etc, all wiring to but not including main busses."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "DC generation",
+            "definition": "That portion of the systems used to generate, regulate, control and indicate DC electrical power. Includes items such as generators/alternators, transformers, rectifiers, batteries, control and regulating components, indicating systems etc, all wiring to but not including main busses."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "External power",
+            "definition": "That portion of the system within the air vehicle which connects external electrical power to the air vehicle's electrical system. Includes items such as receptacles, relays, switches, wiring, warning lights, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "AC electrical load distribution",
+            "definition": "That portion of the system which provides for connection of AC power to using systems. Includes items such as main and secondary busses, main system circuit breakers, power system devices, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "DC electrical load distribution",
+            "definition": "That portion of the system which provides for connection of DC power to using systems. Includes items such as main and secondary busses, main system circuit breakers, power system devices, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Electrical monitoring and protection",
+            "definition": "That portion of the system used to supply aircraft or ground power to use the ground power switching system, avionics low cooling protection system, essential 28 V DC bus monitoring system and system monitoring. Also includes air vehicle grounding receptacles."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Electrical power multiplexing",
+            "definition": "Those units or components which provide for multiplexing of electrical power. Includes computers, remote terminals and related interfaces to transmit electrical power control signals."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Multipurpose equipment",
+            "definition": "Those units or components which are applicable to more than one system or system interfaces, such as junction boxes, relay panels, terminal blocks, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "8",
+        "system_code": "25",
+        "title": "Equipment/furnishings",
+        "definition": "Those removable items of equipment and furnishings contained in the flight and passenger compartments. Includes emergency, buffet and lavatory equipment. Does not include structures of equipment assigned specifically to other systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Flight compartment",
+            "definition": "The compartment above the floor and between the forward passenger partition and the forward pressure dome. Includes items such as flight crew seats, tables, pilot check lists and food containers, wardrobes, curtains, manuals, electronic equipment rack, spare bulbs, fuses, etc. Does not include cargo compartments."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Passenger/operating crew compartment",
+            "definition": "The areas in which the passengers/operating are accommodated. Includes lounges but not dressing rooms. Includes items such as seats, consoles, equipment racks, berths, overhead storage compartments, curtains, wall coverings, carpets, magazine racks, movable partitions, wall type thermometers, spare bulbs, fuses, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Buffet/galley",
+            "definition": "The areas in which food and beverages are stored and prepared. Includes items such as removable and fixed cabinets, ovens, refrigerators, garbage containers, dish racks, coffee maker and dispensers, containers, electrical outlets, wiring, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Lavatories",
+            "definition": "The toilet and dressing room areas containing wash basins, dressing tables and water closet. Includes items such as mirrors, seats, cabinets, dispensing equipment, electrical outlets, wiring, etc. Wash basins and water closets are included in System 38."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Additional compartments",
+            "definition": "Those additional compartments for the use of passengers and/or crew. Includes such compartments as crew rest compartments, sleeping compartments etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Emergency",
+            "definition": "Those items of equipment carried for use in emergency procedures. Includes items such as evacuation equipment, life rafts, life jackets, emergency locator transmitters, underwater locator devices, first aid kit, incubators, oxygen tents, medical stretchers, landing and signal flares, drag parachutes, evacuation signaling systems, etc. Does not include fire extinguishers, oxygen equipment or masks."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Available for projects",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Insulation and lining",
+            "definition": "Those blankets which are used for heat and sound insulation. Includes flight compartments, passenger compartment, additional compartment insulation etc."
+          }
+        ]
+      },
+      {
+        "table_id": "9",
+        "system_code": "26",
+        "title": "Fire protection",
+        "definition": "Those fixed and portable units and components which detect and indicate fire or smoke and store and distribute fire extinguishing agent to all protected areas of the air vehicle; including bottles, valves, tubing, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Detection",
+            "definition": "That portion of the system which is used to sense and indicate the presence of overheats, smoke or fire."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Extinguishing",
+            "definition": "That portion of those fixed or portable systems which is used to extinguish fire."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Explosion suppression",
+            "definition": "That portion of the system which is used to sense, indicate and extinguish a flame propagating into the fuel system to prevent an explosion."
+          }
+        ]
+      },
+      {
+        "table_id": "10",
+        "system_code": "27",
+        "title": "Flight controls",
+        "definition": "Those units and components which furnish the means of controlling the flight attitude characteristics of the air vehicle. Also includes the functioning and maintenance of the primary and secondary flying control surfaces and lift augmenting systems but not the maintenance of the structure of control surfaces which is covered by the system structures. Includes items such as control stick grips, rudder pedals, gearboxes, control rods and cables, linkages, hydraulic valves, actuators, control units, controls and indicators, computers, transducers, transformers, sensor units, displays, gyros, accelerometers, servos, warning systems and control locking devices. This includes rotorcraft rotor controls which are covered in the rotor systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Roll control",
+            "definition": "That portion of the system which controls the roll axis of the aircraft. Includes items such as the control wheels, cables, booster, linkages, control surfaces, indicators, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Yaw control",
+            "definition": "That portion of the system which controls the yaw axis of the aircraft. Includes items such as the rudder pedals, tab control wheel, cables, boosters, linkages, control surfaces, position indicators, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Pitch control",
+            "definition": "That portion of the system which controls the pitch axis of the aircraft. Includes items such as the control column, stickshaker units, automatic stall recovery devices, tab control wheels, cables, boosters, linkages, control surfaces, position indicators, stall warning systems etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Horizontal stabilizers",
+            "definition": "That portion of the system which controls the position and movement of the horizontal stabilizer/canard. Includes items such as control handle, cables, jackscrews, motors, warning systems, linkages, control surfaces, position indicators, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Flaps",
+            "definition": "That portion of the system which controls the position and movement of the trailing edge flaps. Includes items such as control handles, cables, actuators, warning systems, linkages, control surfaces, position indicators, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Spoilers, drag devices and variable aerodynamic fairings",
+            "definition": "That portion of the system which controls the position and movement of the spoilers, drag devices and variable aerodynamic fairings. Includes items such as control handles, cables, warning systems, linkages, spoilers, drag devices, position indicators, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Gust lock and damper",
+            "definition": "That portion of the system which protects the control surfaces from movement by wind while the aircraft is on the ground. Does not include locking the control by means of flight control boost system."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Lift augmenting",
+            "definition": "That portion of the system which controls the position and movement of variable opening wings slots, leading edge wing flaps and similar auxiliary devices used for increasing aerodynamic lift. Includes items such as control handles, cables, actuators, linkages, warning systems, control surfaces, position indicators, etc. This does not include trailing edge flaps."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Primary Flight Control System (PFCS)",
+            "definition": "That portion of the system, which centralizes all controls and computing means common to multiple primary flying control surfaces. This includes items such as flight control computer, flight data concentrator, side sticks, BUS coupler, rate gyro meter, accelerometer, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "11",
+        "system_code": "28",
+        "title": "Fuel",
+        "definition": "Those units and components which store and deliver fuel to the engine. Includes engine driven fuel pumps for reciprocating engines, includes tanks (bladder), valves, boost pumps etc, and those components which furnish a means of dumping fuel overboard. Includes integral and tip fuel tank leak detection and sealing. Does not include the structure of integral or tip fuel tanks and the fuel cell backing boards which are covered by the system structures, and does not include fuel flow rate sensing, transmitting and/or indicating, which are covered in System 73.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Storage",
+            "definition": "That portion of the system which stores fuel. Includes tank sealing, bladder type cells, venting system, drainage provisions for tank pumps, cell and tank inter-connectors, over wing filler necks and caps, etc. Also includes reservoir feed pumping systems and reservoirs within the tanks which are not part of the distribution system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "That portion of the system which is used to distribute fuel from the filler connector to the storage system and from the storage system to and including the power plant fuel quick disconnect. Includes items such as plumbing, pumps, valves, controls, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Dump",
+            "definition": "That portion of the system which is used to dump fuel overboard during flight. Includes items such as plumbing, valves, controls, chutes, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate the quantity, temperature and pressure of the fuel. Includes pressure warning systems for pumping systems within the tank, etc. Does not include engine fuel flow or pressure."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "In-flight refueling",
+            "definition": "That portion of the system which provides the means of accepting in-flight refueling. This will include access door controls/actuators, fuel receptor, distribution system to fuel storage or interface with standard fuel distribution system, flow controls and indicators, and audio interconnections with the tanker aircraft. Includes manual transfer and refueling controls but excludes automatic systems based on fuel quantity and c.g. constraints which are covered in Fuel/c.g. Management (System 28-60) on air vehicles so equipped."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Fuel/center of gravity management",
+            "definition": "That portion of the system which controls fuel distribution during aerial and ground refueling to maintain a safe c.g. configuration. Utilizes fuel quantity and stores data to compute air vehicle c.g. Includes fuel quantity and c.g. indication for in-flight and ground refueling operations."
+          }
+        ]
+      },
+      {
+        "table_id": "12",
+        "system_code": "29",
+        "title": "Hydraulic power",
+        "definition": "Those units and components which furnish hydraulic fluid under pressure (includes pumps, regulators, lines, valves etc) to a common point (manifold) for redistribution to other defined systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Main",
+            "definition": "That portion of the system which is used to store and deliver hydraulic fluid to using systems. Includes items such as tanks, accumulators, valves, pumps, levers, switches, cables, plumbing, wiring, external connectors, etc. Does not include the supply valves to the using systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Auxiliary",
+            "definition": "That portion of the system which is classified as auxiliary, emergency or standby, and which is used to supplement or take the place of the main hydraulic system. Includes items such as tanks and accumulators which are separate from the main system, hand pumps, auxiliary pumps, ram air turbine, valves, plumbing, wiring, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate the quantity, temperature and pressure of the hydraulic fluid. Includes items such as transmitters, indicators, wiring, warning systems, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "13",
+        "system_code": "30",
+        "title": "Ice and rain protection",
+        "definition": "Those units and components which provide a means of preventing or disposing of formation of ice and rain on various parts of the aircraft. Includes alcohol pump, valves, tanks, propeller/rotor anti-icing system, wing heaters, water line heaters, pitot heaters, scoop heaters, windshield wipers and the electrical and heated air portion of windshield ice control. Does not include the basic windshield panel. For turbine type power plants using air as the anti-icing medium, engine anti-icing is contained in System 75.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Airfoil",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation of ice on all airfoil surfaces. Includes wings, airfoil sections of the empennage and pylons."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Air intakes",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation of ice in or around air intakes. Includes power plant cowling anti-icing."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Pitot and static",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation of ice on the pitot and static systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Windows, windshields, canopies and doors",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation and accumulation of ice, frost or rain on the windows, windshields, canopies and doors."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Antennas and radomes",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation of ice on antennas and radomes."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Propellers/rotors",
+            "definition": "That portion of the system which is used to eliminate or prevent the formation of ice on propellers or rotors. Includes all components up to but not including rotating assembly."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Water lines",
+            "definition": "That portion of the system which is used to prevent the formation of ice in water supply and drain lines."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Detection",
+            "definition": "That portion of the system which is used to detect and indicate the formation of ice."
+          }
+        ]
+      },
+      {
+        "table_id": "14",
+        "system_code": "31",
+        "title": "Indicating/recording systems",
+        "definition": "Pictorial coverage of all instruments, instrument and controls. Procedural coverage of those systems which give visual or aural warning of conditions in unrelated systems. Includes units which record, store or compute data from unrelated systems and those units/systems that integrate indicating instruments into a central display system and instruments not related to any specific system.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Instrument and panels",
+            "definition": "Coverage of all panels fixed or movable with their control replaceable components such as instruments, switches, circuit breakers, fuses, etc. Also includes general coverage of instrument panel vibrators and other panel."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Independent instruments",
+            "definition": "Those instruments, units and components which are not related to specific systems. Includes items such as inclinometers, clocks, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Recorders",
+            "definition": "Those systems and components used for recording data not related to specific systems. Includes items such as flight recorders, performance or maintenance recorders, VG recorders, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "General computers",
+            "definition": "Those systems and components used for computing data from a number of different sources without a preponderance of functions in any one system. Includes items such as Digital Core Avionic System (DCAS), stored check list, emergency procedures, company regulations etc, for call up on a display, integrated instrument systems such as engine, air vehicle power and central warning indicators when combined into a central display."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Central warning systems",
+            "definition": "Those systems and components which give audible or visual warning of conditions in unrelated systems. Includes items such as master warning or flight warning systems, central instrument warning or caution and warning systems, tone generators, annunciators, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Display systems",
+            "definition": "Those systems and components which give visual display of conditions in unrelated systems."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Automatic data reporting systems",
+            "definition": "Those systems and components used for collating and computing data from unrelated systems and transmitting same automatically. Includes ASDAR systems and components."
+          }
+        ]
+      },
+      {
+        "table_id": "15",
+        "system_code": "32",
+        "title": "Landing gear",
+        "definition": "Those units and components which furnish a means of supporting and steering the air vehicle on the ground or water, and make it possible to retract and store the landing gear in flight. Includes tail skid assembly, arresting hooks, landing assistance equipment, drag chutes, brakes, wheels, floats, skids, skis, doors, shock struts, tires, linkages, position indicating and warning systems. Also includes the functioning and maintenance aspects of the landing gear doors but does not include the structure which is covered in System 52.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Main gear and support doors",
+            "definition": "That portion of the system which provides the major support doors for the air vehicle while on the ground. Includes items such as shock struts, bogie axles, drag struts, doors, linkages, attach bolts, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Nose/tail gear and doors",
+            "definition": "That portion of the system which supports the nose/tail of the air vehicle while the air vehicle is on the ground. Includes items such as shock struts, drag struts, doors, linkages, attach bolts, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Extension and retraction",
+            "definition": "That portion of the system which is used to extend and retract the landing gear and open and close the landing gear doors. Includes items such as actuating mechanisms, bogie trim, bungees, up and down latches, operating controls, valves and motors, cables, wiring, plumbing, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Wheels and brakes",
+            "definition": "That portion of the system which provides for rolling and stopping the air vehicle while on the ground and stopping wheel rotation after retraction. Includes items such as bearings, tires, valves, de-boosters, swivel glands, anti-skid devices, pressure indicators, plumbing, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Steering",
+            "definition": "That portion of the system which is used to control the direction of movement of the air vehicle on the ground. Includes items such as actuating cylinders, controls, bogie swivel unlock, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Position and warning",
+            "definition": "That portion of the system which is used to indicate and warn of the position of the landing gear/doors. Includes items such as switches, relays, lights, indicators, horns, wiring, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Supplementary gear",
+            "definition": "Devices used to stabilize the air vehicle while on the ground and prevent damage by ground contact. Includes items such as shock strut, ski block, wheels, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Drag chute",
+            "definition": "That portion of the system used to aid in slowing the speed of the air vehicle when landing."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Arresting hook/landing assistance equipment",
+            "definition": "That portion of the system which is used to extend, retract and indicate the position of an arresting hook. Alternatively, those items providing landing assistance, such as helicopter winch-down systems and Harpoon system."
+          }
+        ]
+      },
+      {
+        "table_id": "16",
+        "system_code": "33",
+        "title": "Lights",
+        "definition": "Those units and components (electrically powered) which provide for external and internal illumination such as landing lights, taxi lights, position lights, rotating lights, ice lights, master warning lights, passenger reading and cabin dome lights, etc. Includes light fixtures, switches and wiring. Does not include warning lights for individual systems or selfilluminating signs. Does not include lamps/bulbs which are covered in System 25. Note For those aircraft that do not contain passenger compartments, and where the flight compartment(s) can be reasonably divided, subsystem - 20 can be used to aid in defining such division.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Flight compartment",
+            "definition": "The lighting subsystems in the compartment above the floor and between the forward passenger partition and the forward pressure dome. Does not include cargo compartment. Includes primary and secondary lighting and lighting control of work areas, panels, instruments, night vision goggles (NVG), lighting mode selection and lamp test operation. Includes master warning light and warning light dimming systems, where not integrated with a central audio or visual system under System 31-50."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Passenger compartments",
+            "definition": "The lighting subsystems in the areas in which the passengers are seated and in buffet/galley, lavatories, lounges and coat rooms. Includes items such as direct and indirect illumination, passenger call system, lighted signs, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Cargo and service compartments",
+            "definition": "The lighting subsystems in the compartments for stowage or cargo and the housing of various components of accessories."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Exterior",
+            "definition": "The lighting subsystems used to provide illumination outside of the aircraft. Includes lights such as landing, navigation, position indicating, wing illumination, rotating, courtesy, taxi, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Emergency lighting",
+            "definition": "The separate and independent subsystems used to provide illumination in case of primary electrical power failure. Includes items such as inertia flashlights, lanterns, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "17",
+        "system_code": "34",
+        "title": "Navigation",
+        "definition": "Those units and components which provide air vehicle navigational information. Includes VOR, pitot, static, ILS, flight director, compasses, indicators, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Flight environment data",
+            "definition": "That portion of the system which senses environmental conditions and uses the data to influence navigation. Includes such items as Central Air Data Computers, pitot/static systems, air temperature, rate-of-climb, airspeed, high speed warning, altitude, altitude reporting, altimeter correction system, air disturbance detection system, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Attitude and inertia direction",
+            "definition": "That portion of the system which uses magnetic or forces to sense and display the direction or attitude of the air vehicle. This includes sensing, computing, indicating and warning devices such as magnetic compasses, vertical and directional references, magnetic heading systems, attitude director systems, symbol generators, turn and bank, rate of turn, amplifiers, indicators, etc. Includes Flight Director when it is not integral with the auto pilot computation."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Landing and taxiing aids",
+            "definition": "That portion of the system which provides guidance during approach, landing and taxiing. Includes items such as localizer, glide slope, ILS, markers, paravisual director ground guidance systems, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Independent position determining",
+            "definition": "That portion of the system which provides information to determine position and is mainly independent of ground installations or orbital satellites. Includes items such as inertial guidance systems, weather radar, Doppler, electronic/radar altimeter, proximity warning, collision avoidance, star tracker, etc. Also includes sextants/octants, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Dependent position determining",
+            "definition": "That portion of the system which provides information to determine position and is mainly dependent on ground installations or orbital satellites. Includes items such as DME, transponders, radio compass, LORAN, VOR, ADF, OMEGA, GLOBAL POSITIONING, IFF, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Flight management computing",
+            "definition": "That portion of the system which combines navigational data to compute or manage the air vehicle's geographical position or theoretical flight path. Includes items such as course computers, flight management computers, performance data computers and associated control display units, warning annunciators, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Environment surveillance system",
+            "definition": "That portion of the system that integrates dependent and independent position determining, which identifies all kind of hazards external to the aircraft on its potential aircraft flight path and manage the actions to avoid these threads. Includes items that combine surveillance of weather events, windshear, turbulence, airborne collision, collision with terrain, etc. Functions are described under another 34 subsystem when they are managed as a standalone system."
+          }
+        ]
+      },
+      {
+        "table_id": "18",
+        "system_code": "35",
+        "title": "Oxygen",
+        "definition": "Those units and components which store, generate, regulate, indicate, deliver and control oxygen to the passengers and crew, including bottles, relief valves, shut-off valves, outlets, regulators, masks, walk-around bottles, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Crew",
+            "definition": "That portion of the system which furnishes oxygen to the crew."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Passenger",
+            "definition": "That portion of the system which furnishes oxygen to the passengers."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Portable",
+            "definition": "That portion of the system which has an independent oxygen supply and which can be transported about the airplane."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "On board oxygen generating system",
+            "definition": "That portion of the system which generates oxygen for distribution in the other subsystems."
+          }
+        ]
+      },
+      {
+        "table_id": "19",
+        "system_code": "36",
+        "title": "Pneumatic",
+        "definition": "Those units and components (ducts and valves) which deliver large volumes of compressed air from a power source to connecting points for such other systems as air conditioning, pressurization, deicing, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Distribution",
+            "definition": "That portion of the system which is used to distribute high or low pressure air to using systems. Includes items such as ducts, valves, actuators, heat exchangers, controls, etc. Does not include the supply valves to the using systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate temperature and pressure of the pneumatic system. Includes temperature and pressure warning systems."
+          }
+        ]
+      },
+      {
+        "table_id": "20",
+        "system_code": "37",
+        "title": "Vacuum",
+        "definition": "Those units and components used to generate, deliver and regulate negative air pressure, including pumps, regulators, lines etc, through and including the manifold.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Distribution",
+            "definition": "That portion of the system which is used to distribute negative pressure air to using systems."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate pressure. Includes pressure warning system."
+          }
+        ]
+      },
+      {
+        "table_id": "21",
+        "system_code": "38",
+        "title": "Water/waste",
+        "definition": "Those fixed units and components which store and deliver for use, fresh water, and those fixed components which store and furnish a means of removal of water and waste. Includes wash basins, toilet assemblies, tanks, valves, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Potable",
+            "definition": "That portion of the system which is used to store and deliver fresh drinking water. Includes wash water system if the potable water is also used for washing."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Wash",
+            "definition": "That portion of the system which is used to store and deliver washwater which is not potable."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Waste disposal",
+            "definition": "That portion of the system which is used for disposal of water and waste. Includes items such as wash basins, water closets, flushing systems, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Air supply",
+            "definition": "That portion of the system common to more than one subsystem which is used for pressurizing supply tanks to insure fluid flow."
+          }
+        ]
+      },
+      {
+        "table_id": "22",
+        "system_code": "39",
+        "title": "Attack system management",
+        "definition": "Those functions and hardware used for attack system management. That includes digital information networking, crew-machine communication management (including knowledge-based help), stores management etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Architecture management",
+            "definition": "General organization and its management depending on missions and their phases."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Attack system functions",
+            "definition": "Management of the different functions of the attack system depending on type of the missions and the different phases. In this section, the classification of these functions is indicated with the management of their activity during the missions."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Attack system listed resources",
+            "definition": "All the contributing resources of the attack system are and their role is presented depending on the missions and their different phases."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "General rules of man-machine communication",
+            "definition": "Management of the man-machine communication by system side (including knowledge based functions)."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Digital networks",
+            "definition": "Hardware and software related to digital networks (eg, MIL1553B or Stanag-3810). Management of exchanges by these means is also to be presented."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Other information networks",
+            "definition": "These other networks needed in attack systems (eg, network for video signals, network for blanking signals, etc)."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Stores management",
+            "definition": "Hardware and software within the air vehicle itself used for stores management."
+          }
+        ]
+      },
+      {
+        "table_id": "23",
+        "system_code": "40",
+        "title": "Operational attack functions",
+        "definition": "Those functions and hardware used for attack system attack operational aim. Links of these functions with technical functions functions are included.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Navigational",
+            "definition": "Include localization (with updating), flight management, functions approach and landing management etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Nap of the earth flight",
+            "definition": "Terrain following and obstacle avoidance management."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Self-protection",
+            "definition": "Defensive maneuvers and tactics elaboration against threats."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Information exchange and air cooperation",
+            "definition": "Elaboration of pieces of information to be exchanged for cooperation with other air vehicles including AWACS-type vehicles and ground or surface weapons systems."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Identification",
+            "definition": "Aerial and surface objects identification based on autonomous but also external (available through cooperation) identification means."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Air-to-air functions",
+            "definition": "Fire control functions related to air-to-air attacks. These sections can be divided as required to deal with bullet gun firing, short range missiles, medium range or beyond visual range missiles firing (for single or multiple targets attack). These functions are generally spread between weapons seekers and computers and aircraft sensors, computers, etc. This also includes air-to-air management after weapon launch (to guide or help the weapon for the target hitting)."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Air-to-surface functions",
+            "definition": "Fire control functions related to air-to-surface attacks. These functions sections can be divided as required to deal with bombs delivery, rockets or missiles firing (either short range, medium range or of fire and forget type). These weapons can be guided or not. These functions are generally spread between weapons seekers, computers, and aircraft sensors, computers, etc. Management of guidance when made onboard is also to consider in these sections."
+          }
+        ]
+      },
+      {
+        "table_id": "24",
+        "system_code": "41",
+        "title": "Water ballast",
+        "definition": "Those units and components provided for the storage, balancing, control, filling, discharge and dumping of water ballast. Does not include units or components covered in System 38.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Storage",
+            "definition": "That portion of the system which stores water solely for the purpose of providing airship ballast. Includes removable tanks (bladder cells), interconnecting balance pipes, filler valves, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Dump",
+            "definition": "That portion of the system used to dump water ballast during flight. Includes valves (remote/direct) manual/automatic controls, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Indication",
+            "definition": "That portion of the system used to indicate quantity, condition and relative distribution of the water ballast."
+          }
+        ]
+      },
+      {
+        "table_id": "25",
+        "system_code": "42",
+        "title": "Cross-technical attack functions",
+        "definition": "Those functions and hardware used for attacks execution. These technical functions considered in this System are attack common to many attack system operational functions, and functions therefore within the 'crossroad' of the attack system.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Mission system control",
+            "definition": "Functions in charge of scheduling and deciding about and planned actions, priority management for resources management consumption, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Trajectory management",
+            "definition": "Functions dealing with trajectory constraints given by management execution of operational functions and in charge of determination of the exact trajectory to follow (by autopilot) or to indicate (to the pilot)."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Attack system compatibilities and management",
+            "definition": "Function in charge of all the aspects related to electromagnetic compatibility between all the transmitters receivers (including radios, ECM, radars, external stores, lasers, etc)."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Tactical situation awareness",
+            "definition": "Functions in charge of establishing knowledge about tactical environment and its distribution to other functions (eg, fire control). The tactical situation awareness is based on information received from aircraft sensors, weapons seekers, cooperation, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Mission preparation",
+            "definition": "Embedded functions dedicated to deal with data given before flight and dispatch them to the other attack functions."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Mission restitution",
+            "definition": "Embedded functions dedicated to take care of all the data needed to replay the whole or part of the mission later on."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Warnings and cautions management",
+            "definition": "Functions in charge of telling crew or ground personnel bad events. Here is to consider only the result of each system warning and caution activity and mainly the filtering process (including knowledge based filters) to provide crew only with accurate messages depending on mission phases or aircraft status."
+          }
+        ]
+      },
+      {
+        "table_id": "26",
+        "system_code": "42",
+        "title": "Integrated modular avionics",
+        "definition": "Generalize computing devices that can host software applications for system functions that had traditionally been implemented in dedicated hardware. The actual system functions are covered in their respective systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Core System",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Network Components",
+            "definition": ""
+          }
+        ]
+      },
+      {
+        "table_id": "27",
+        "system_code": "43",
+        "title": "Tactical communications",
+        "definition": "Those units and components that furnish the crew with a means of communicating within the air vehicle, one air vehicle to another, and from the air vehicle to ground stations. Includes voice, C-W communicating components, PA system, intercom and recorder/record player.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Ultra, super and extra high frequencies (UHF/SHF/EHF)",
+            "definition": "That portion of the system which is used for communications utilizing UHF/SHF/EHF carriers. Includes items such as transmitters, receivers, control panel, selcal decoder, antenna, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Very high frequency (VHF)",
+            "definition": "That portion of the system which is used for communications utilizing VHF carriers. Includes items such as transmitters, receivers, control panel, selcal decoder, antenna, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "High frequency (HF)",
+            "definition": "That portion of the system which is used for communications utilizing HF carriers. Includes items such as transmitters, receivers, power supply, control panel, antenna, coupler, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Low and very low frequency (LF/VLF)",
+            "definition": "That portion of the system which is used for communications utilizing LF/VLF carriers. Includes items such as transmitters, receivers, power supply, control panel, antenna, coupler, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Audio integrating",
+            "definition": "That portion of the system which controls the output of the communications and navigation receivers into the crews' headphones and speakers and the output of the crews' microphones into the communications transmitter. Includes items such as audio selector control panel, microphones, headphones, loudspeakers, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Digital",
+            "definition": "That portion of the system which is used for air vehicle to air vehicle or air vehicle to ground stations utilizing C-W. Includes items such as teletypewriters, modems, keyers, encryption devices, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Multiplex and audio switching",
+            "definition": "That portion of the system which is used for telephone communications between air vehicles or ground stations. Includes items such as telephones and multiplexing equipment."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Interphone and passenger address",
+            "definition": "That portion of the system used to address the passengers and which is used by the crew to communicate between areas of the air vehicle. Includes items such as amplifiers, speakers, handsets, control panels, audio, video and film equipment. Does not include the interphone system within the flight compartment which is part of the integrating system."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Satellite communications",
+            "definition": "That portion of the system which is used for air vehicle to satellite communications. Includes items such as receivers, transmitters, modems, amplifiers, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "28",
+        "system_code": "44",
+        "title": "Cabin systems",
+        "definition": "Those units and components which furnish a means of entertaining the passengers and providing communication within the aircraft and between the aircraft cabin and ground stations. Includes voice, data, music and video transmissions. Does not include SATCOM, HF, VHF, UHF, and all transmitting/receiving equipment, antennas, etc, which are covered in System 23 or System 46.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cabin core system",
+            "definition": "That portion of the system used to accomplish the integrated functional control, operation, testing and monitoring of cabin systems and the increase cabin comfort (such as active noise control). Includes items such as controllers, cabin control panels, handsets, signs, loudspeakers, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Inflight entertainment system",
+            "definition": "That portion of the system used to entertain the passengers with music, video, information, games, etc. Includes items such as controllers, cabin control panels, audio and video equipment, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "External communication system",
+            "definition": "That portion of the system used by passengers and cabin crew to transmit and/or receive data/messages from air to air or from air to ground installations. Includes items such as telephones, telefaxes, modems, AM/FM radio units, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Cabin mass memory system",
+            "definition": "That portion of the system used to store and process cabin related data, such as systems configuration data, multimedia programs, etc. Includes items such as controllers, terminals, keyboards, disk drives, printers, modems, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Cabin monitoring system",
+            "definition": "The portion of the system used to monitor parts of the cabin area. Includes items such as surveillance cameras, monitors, etc. Does not include external anti-hijack devices or external video monitoring which are covered in System 23."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Miscellaneous cabin system",
+            "definition": "That portion of the system used to support miscellaneous cabin functions."
+          }
+        ]
+      },
+      {
+        "table_id": "29",
+        "system_code": "45",
+        "title": "Central maintenance system (CMS)",
+        "definition": "Those units, components and associated system which interfaces with multiple air vehicle systems. Contains checkout and fault isolation procedures using a central computer complex and/or standard fault isolation procedures to locate a single system or component malfunction.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-04 thru -19",
+            "title": "CMS/Air vehicle general",
+            "definition": "CMS interfaces with general air vehicle systems and identification of maintenance functions related to air vehicles."
+          },
+          {
+            "subsystem_code": "-20 thru -44 and -46 thru -49",
+            "title": "CMS/Airframe systems",
+            "definition": "CMS interfaces with airframe systems and identification of maintenance functions related to airframe systems."
+          },
+          {
+            "subsystem_code": "-45",
+            "title": "Central maintenance system",
+            "definition": "That portion of the system which interfaces with other airplane systems, flight line mechanics and radio communications. Includes computers, storage devices, control and display devices."
+          },
+          {
+            "subsystem_code": "-50 thru -59",
+            "title": "CMS/structures",
+            "definition": "CMS interfaces with structures and identification of maintenance functions related to structures."
+          },
+          {
+            "subsystem_code": "-60 thru -69",
+            "title": "CMS/propellers",
+            "definition": "CMS interfaces with propeller and identification of maintenance functions related to propellers."
+          },
+          {
+            "subsystem_code": "-70 thru -89",
+            "title": "CMS/power plant",
+            "definition": "CMS interfaces with power plant and identification of maintenance functions related to power plant."
+          },
+          {
+            "subsystem_code": "-91 thru -99",
+            "title": "CMS/military systems",
+            "definition": "CMS interfaces with military systems and identification of maintenance functions related to military systems."
+          }
+        ]
+      },
+      {
+        "table_id": "30",
+        "system_code": "46",
+        "title": "Systems integration and display",
+        "definition": "The primary air vehicle system used to provide central acquisition, processing and display of data from multiple and sources such as flight controls, navigation computation, air data computation, warnings, engine parameters, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Acquisition",
+            "definition": "Those units and components used to acquire data for integration and processing. Excludes components which are covered by the system dealing with the system/subsystem from which the data is being obtained."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Processing and process integration",
+            "definition": "Those units and components used to integrate and data acquired from a variety of sources and output signals to display or warning devices. Includes such items as interfaces, central processing units, data bus controls."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Display",
+            "definition": "Those units which display data warning units, remote displays, etc."
+          },
+          {
+            "subsystem_code": "-40 thru -79",
+            "title": "Systems integration, software packages",
+            "definition": "These sections are used to provide information about those software packages which are applicable to more than one system of the air vehicle and can be classified as multi-system applicable software. This can be taken to mean software for computers which, in the event of failure of the computer(s) in another system, assume responsibility for the management of that system and thus provides backup to the failed systems, even though the computer which is providing backup normally has no connection with the system for which it is the backup."
+          }
+        ]
+      },
+      {
+        "table_id": "31",
+        "system_code": "46",
+        "title": "Information system",
+        "definition": "Those units and components, which furnish a means of storing, updating and retrieving digital information traditionally provided on paper, microfilm, or microfiche. Includes units that are dedicated to the information storage and retrieval function such as the Electronic Library mass storage and controller. Does not include units or components installed for other uses and shared with other systems, such as flight deck printer or general use display.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Airplane general information systems",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Flight deck supports information operations. systems",
+            "definition": "That portion of the onboard information system that supports the flight deck systems, flight deck crew and flight operations."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Maintenance information",
+            "definition": "That portion of the onboard flight information system that supports all onboard maintenance system functions, systems maintenance technicians, and any ground based maintenance activity."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Passenger cabin information systems",
+            "definition": "That portion of the onboard information system that supports the passenger cabin, cabin operations, and flight attendants."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Miscellaneous information systems",
+            "definition": "That portion of the onboard information system that supports other functions, as defined by the user that cannot be related to the flight deck, passenger cabin, or maintenance."
+          }
+        ]
+      },
+      {
+        "table_id": "32",
+        "system_code": "47",
+        "title": "Liquid nitrogen",
+        "definition": "Those units and components used to generate, store, deliver and regulate liquid nitrogen to 2 or more using systems. Includes regulators, lines, manifolds, etc. Does not include liquid nitrogen handling components of the using system (ie, System 21-80).",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Generation/storage",
+            "definition": "That portion of the system which generates and/or stores nitrogen. Includes tanks, cells reservoirs, accumulators, etc. Does not include plumbing, pumps, valves, controls, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "That portion of the system which is used to distribute nitrogen to the using systems. Includes plumbing, pumps, valves, regulators, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Controlling",
+            "definition": "The nitrogen controls which meter the nitrogen to the distribution components and into the using systems. Includes items such as levers, switches, cables, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate the flow rate, temperature and pressure of the nitrogen. Includes items such as transmitters, indicators, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "33",
+        "system_code": "48",
+        "title": "In-flight refueling tanker",
+        "definition": "Those units and components which store, and deliver fuel to a receiver vehicle while in flight. Includes fuel storage units, tanker distribution system, controls, sensors, etc, specifically used for in-flight refueling supply. Includes interfaces with other systems but does not include any dual purpose item that is identified with another system. Note When systems and components serve both the operational and refueling system they are identified with the operational fuel system (System 28-00).",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Storage",
+            "definition": "That portion of the system which stores fuel specifically for the purpose of in-flight refueling. Includes tank sealing, bladder type cells, ventilating system, cell and tank inter-connectors, over wing filler necks and caps, etc. Also includes reservoir feed pumping systems and reservoirs within the tanks which are not part of the distribution system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Distribution",
+            "definition": "That portion of the system which is used to distribute fuel from the filler connector to the storage system and from the storage system to and including the interface with the vehicle to vehicle transfer system. Includes such items as plumbing, pumps, valves, controls, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Delivery",
+            "definition": "That portion of the system that accepts the fuel from the distribution portion and conducts it to the receiving vehicle. Includes refueling boom and nozzle or hose and drogue, boom control surfaces, actuators and hoist and stowage system. Does not include operator controls."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Controls",
+            "definition": "That portion of the system which is used to control the transfer of fuel from tanker to receiving vehicle. Includes operator controls, indicators, inter vehicle communications."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Indicating",
+            "definition": "That portion of the system which is used to indicate fuel quantity, temperature and pressure. Includes pressure warning systems for pumping within the storage and distribution areas."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Dump",
+            "definition": "That portion of the system which is used to dump fuel overboard during flight. When the tanker vehicle dump system (System 28-30) is used, the interface with it is identified in this system. Includes such items as plumbing, controls, indicators, chutes, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "34",
+        "system_code": "49",
+        "title": "Airborne auxiliary power",
+        "definition": "Those airborne power plants (engines) which are installed on the air vehicle for the purpose of generating and supplying a single type or combination of auxiliary electric, hydraulic, pneumatic or other power. Includes power and drive section, fuel, ignition and control systems; also wiring, indicators, plumbing, valves and ducts up to the power unit. Does not include generators, alternators, hydraulic pumps etc, or their connecting systems which supply and deliver power to their respective air vehicle systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Power plant",
+            "definition": "For definitions see System 71."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Engine",
+            "definition": "For definitions see System 72."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Engine fuel and control",
+            "definition": "For definitions see System 73."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Ignition/starting",
+            "definition": "For definitions see System 74 and 80."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Air",
+            "definition": "For definitions see System 75."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Engine controls",
+            "definition": "For definitions see System 76."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Engine indicating",
+            "definition": "For definitions see System 77."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Exhaust",
+            "definition": "For definitions see System 78."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Oil",
+            "definition": "For definitions see System 79."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "Structures",
+    "tables": [
+      {
+        "table_id": "35",
+        "system_code": "50",
+        "title": "Cargo and accessory compartment",
+        "definition": "Those compartments for storage of cargo and various accessory components and accessories. Includes those systems used compartment to load/unload cargo and other cargo related systems. Does not include aircraft structure which is in System 53.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Cargo compartments",
+            "definition": "Those compartments for storage of cargo."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Cargo loading systems",
+            "definition": "Those systems which have components which are or can be mounted on the aircraft and used to load/unload, restrain, guide or service cargo. Includes drive systems rollers, latches, restraint nets, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Cargo related systems",
+            "definition": "Those systems which are related to loading/unloading of cargo. Includes aircraft leveling, loader alignment systems etc. Does not include Cargo Loading Systems."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Aerial delivery",
+            "definition": "Those items required for air drop of cargo or personnel. Includes platforms, parachutes and drogue chutes, load release mechanisms and load transfer devices, anchor cables, static lines, retrieval winches, jump lines, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Accessory compartments",
+            "definition": "Those compartments used for the housing of various components and accessories. Includes wheel wells, tellhydraulic-electrical/electronic equipment racks, main battery structure, etc."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Insulation",
+            "definition": "Those insulation blankets which are used for heat and sound insulation. Includes cargo compartments and accessory compartments, insulation, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "36",
+        "system_code": "51",
+        "title": "Standard practices - Structures",
+        "definition": "This System contains those standard practices, general procedures and typical repairs applicable to more than one structural task which are not specifically covered in Systems 52 thru 57. This excludes those standard practices which are recognized as standard trade practices, also those practices/processes which are only applicable to manufacture. Practices for a particular application are included in the appropriate structural system as part of the procedure.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Standard practices applicable to all structural systems. Air vehicle major structural breakdown and primary and secondary structure diagrams. Principal area and dimensional data. Restricted area diagram. Zoning diagram. Access door and panel identification. Glossary."
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Investigation, cracks, cleanup and aerodynamic smoothness",
+            "definition": "Definition of damage classifications. Cleanup of dents, scratches, corrosion, etc. Aerodynamic smoothness requirements for the airplane, and permissible contour variations, gaps and mismatch data."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Processes",
+            "definition": "Special processes for use in the repair of the airplane. It does not include general engineering practices unless specific deviations are required. Unique processes such as welding specifications, etc., relative to a single repair are to be incorporated in the repair and only referenced here."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Materials",
+            "definition": "Description of materials (metallic and non-metallic) including extrusions, formed sections, sheet, sealants, adhesives, and special materials used in airplane repair. Where possible, permissible substitutes and sources of supply will be given."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Fasteners",
+            "definition": "Description of fastener types, materials, and sizes. Procedures for fastener installation and removal including hole preparation. Fastener strength values and substitution data."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Support of during airplane for repair and alignment check procedures",
+            "definition": "Procedure for supporting the airplane to relieve loads repairs. Includes location for supports and contour dimensions for required support equipment."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Control-surface balancing",
+            "definition": "Procedures for adjusting the mass balance of control surfaces after repair. Where applicable, individual repairs will contain their own balancing instructions."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Repairs",
+            "definition": "Typical repairs suited for general use, not limited to one S1000D System"
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Electrical bonding",
+            "definition": "Topics concerning the electrical bonding of aircraft structures as well as electrical bonding of subsystems to aircraft structure."
+          }
+        ]
+      },
+      {
+        "table_id": "37",
+        "system_code": "52",
+        "title": "Doors",
+        "definition": "Removable units used for entrance or exit and for enclosing other structure contained within the fuselage. Includes passenger and crew doors, cargo doors, emergency exits, etc. Electrical and hydraulic systems associated with door control are included as appropriate.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Passenger/crew",
+            "definition": "Doors used for entrance and exit of the passengers and crew to and from the air vehicle. Includes items such as structure, latching mechanisms, handles, insulation, lining, controls, integral steps, ramps, handrails, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Emergency exit",
+            "definition": "Exit doors used to facilitate evacuation that are normally used for exit. Includes items such as structure, latching mechanisms, handles, insulation, lining, controls, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Cargo",
+            "definition": "Exterior doors used primarily to gain access to cargo compartments. Includes items such as structure, latching mechanisms, handles, insulation, lining, controls, integral steps, ramps, handrails, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Service and air miscellaneous",
+            "definition": "Exterior doors used primarily to gain access for servicing vehicle systems and equipment. Includes items such as structure, latching mechanisms, handles, insulation, lining, controls, integral steps, handrails, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Fixed interior",
+            "definition": "Doors inside the fuselage installed in fixed partitions. Includes items such as structure, latching mechanisms, handles, lining, attach/attached fittings, etc. Does not include doors installed in movable partitions which are covered in System 25."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Entrance stairs",
+            "definition": "Stairs which operate in conjunction with but are not an integral part of entrance doors. Stairs whose primary structure is a door are covered under the appropriate topic. Includes items such as structure, actuating mechanisms and controls, handrails, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Door warning",
+            "definition": "That portion of the system which is used to indicate whether the doors are closed and properly latched. Includes items such as switches, lights, bells, horns, etc. Does not include landing gear door warning which is covered in System 32."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Landing gear",
+            "definition": "Structure of the doors used to enclose the landing gear compartments. Includes items such as structure, latching mechanisms, handles, insulation, lining, controls, attach/attached fittings, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "38",
+        "system_code": "53",
+        "title": "Fuselage",
+        "definition": "Structural units and associated components and members which make up the compartments for equipment, passengers, crew, cargo, plus the structure of the envelope and gondola of airships. Includes skins, belt frames, stringers, floor beams, floor, pressure dome, scuppers, tail cone, fuselage-to-wingand- empennage fillets, attach/attached fittings, load curtains, cables, ballonets, etc. Also includes structural and removable pylons used for the carriage of external stores. Does not cover those pylons used for weapons which are covered in System 94-30.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10 thru -90",
+            "title": "Fuselage sections",
+            "definition": "Skins, main structure, secondary structure and fairings of the complete fuselage with any structural differences grouped together and highlighted by fuselage section location. The section locations are defined by manufacturing joints or other suitable demarcations in sequence from front to rear. Does not include movable partitions covered in System 25 nor the functional and maintenance aspects of variable aerodynamic fairings covered in System 27."
+          }
+        ]
+      },
+      {
+        "table_id": "39",
+        "system_code": "54",
+        "title": "Nacelles/pylons",
+        "definition": "Structural units and associated components and members which furnish a means of mounting and housing the power plant or rotor assembly. Includes skins, longerons, belt frames, stringers, clamshells, scuppers, doors, nacelle fillets, attach/attached fittings, etc. Also includes the structure of power plant cowling inclusive of the structural portion of the inlet whether or not integral with the air vehicle. Structural portions of the exhaust systems are excluded where they are not integral with the airframe.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10 thru -40",
+            "title": "Nacelle section",
+            "definition": "Skins, primary structure, secondary structure, fillets and fairings of a complete nacelle with any structural differences grouped together and highlighted by specific nacelle designator. The section locations are defined by manufacturing joints or other suitable demarcations in a logical sequence."
+          },
+          {
+            "subsystem_code": "-50 thru -80",
+            "title": "Pylon",
+            "definition": "Skins, primary structure, secondary structure, fillets and fairings of a complete pylon with any structure differences grouped together and highlighted by specific pylon designator. The section locations are defined by manufacturing joints or other suitable demarcations in a logical sequence."
+          },
+          {
+            "subsystem_code": "-90",
+            "title": "Air management",
+            "definition": "Consists of those components which regulate and direct inlet air flow and/or provide engine air particle separation (EAPS)."
+          }
+        ]
+      },
+      {
+        "table_id": "40",
+        "system_code": "55",
+        "title": "Stabilizers",
+        "definition": "Horizontal and vertical stabilizers. Includes the structure of the elevator, rudder, auxiliary stabilizers and strakes.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Horizontal stabilizer or canard",
+            "definition": "The horizontal airfoil of the tail or nose section to which an elevator can be attached. Includes items such as spars, ribs, stringers, skins, access covers, tips, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Elevator",
+            "definition": "Removable airfoil which is attached to the horizontal stabilizer or canard and used for pitch control. Includes items such as spars, ribs, stringers, skins, access covers, tabs, balance devices, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Vertical stabilizer",
+            "definition": "Vertical airfoil to which the rudder is attached. Includes items such as spars, ribs, stringers, skins, access covers, tips, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Rudder",
+            "definition": "Removable airfoil which is attached to the vertical stabilizer and used for yaw control. Includes items such as spars, ribs, stringers, skins, access covers, tabs, balance devices, attach/attached fitting, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Auxiliary stabilizers and strakes",
+            "definition": "Fuselage mounted auxiliary stabilizers and strakes includes items such as spars, ribs, stringers, skins, access covers."
+          }
+        ]
+      },
+      {
+        "table_id": "41",
+        "system_code": "56",
+        "title": "Windows and canopies",
+        "definition": "Fuselage and crew compartment windows and canopies, inclusive of windshield; also those windows installed in doors. Associated electrical/hydraulic/pneumatic actuation systems are to be included.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Flight compartment",
+            "definition": "Compartment in which the crew fly the aircraft. Includes items such as the transparent material and its frame of movable and fixed windows, windshields and canopies, handles, latching mechanisms and associated electrical/hydraulic/pneumatic actuation systems, etc. Does not include doors or inspection/observation windows."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Fuselage compartment",
+            "definition": "The compartment used for passengers/tactical crew/cargo, etc. Includes lounges, lavatories, buffets/galleys and coatrooms. Includes items such as transparent material, its frame, frost shield, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Door",
+            "definition": "Doors in the flight and fuselage compartments. Includes items such as transparent material, its frame, etc. Does not include emergency exit windows."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Inspection and observation",
+            "definition": "Windows used for examining compartments and equipment in and about the air vehicle, astrodomes used for celestial navigation, and in-flight refueling operator's windows. Includes items such as transparent material, its frame, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "42",
+        "system_code": "57",
+        "title": "Wings",
+        "definition": "Center wing and outer wing structural units and associated components and members which support the air vehicle in flight. Includes spars, skins, ribs, stringers, clamshells, scuppers etc, and integral fuel tank structure of the flaps, slats, ailerons or elevons (complete with tabs) and spoilers. Also includes structural and removable pylons used for carriage of external stores. Does not cover those pylons used for weapons which are covered in System 94-30.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Center wing",
+            "definition": "Skins, primary structure, fillets and fairings of the center wing and attach/attached fittings."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Outer wing",
+            "definition": "Skins, primary structure, fillets and fairings of the outer wing and attach/attached fittings."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Wing tip",
+            "definition": "Skins and structure of the wing tip and attached fittings."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Leading edge and leading edge devices",
+            "definition": "Skins and structure of the wing leading edge and removable leading edge airfoils such as flaps, slats, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Trailing edge and trailing edge devices",
+            "definition": "Skins and structure of the wing trailing edge and removable trailing edge ailerons such as flaps and attach/attached fittings."
+          },
+          {
+            "subsystem_code": "-60",
+            "title": "Ailerons, elevons and flaperons",
+            "definition": "The skin and structure of ailerons, elevons, flaperons and tabs including balancing devices and attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-70",
+            "title": "Spoilers",
+            "definition": "Skins and structure of wing-mounted spoilers, airbrakes, lift dumpers, attach/attached fittings, etc."
+          },
+          {
+            "subsystem_code": "-80",
+            "title": "Wing folding",
+            "definition": "System that controls the on-ground movement of any portion of the main wing structure. Includes mechanisms linkages, actuators, locks, indicating/warning systems, etc. Note This represents the wing stow system and is not to be confused with System 66 Folding blades/pylon."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "system_id": "Propeller/Rotor",
+    "tables": [
+      {
+        "table_id": "43",
+        "system_code": "60",
+        "title": "Standard practices, Propeller/rotor",
+        "definition": "This system contains those standard mechanical and electrical/electronic engineering practices applicable to more than one propeller/rotor which are not covered in Systems 61 thru 69. It excludes those practices which are recognized as standard trade practices, also those practices/processes which are only applicable to manufacture. Practices for a particular application are included in the appropriate propeller/rotor system as part of the procedure.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": "Standard practices applicable to all propeller/rotor systems."
+          },
+          {
+            "subsystem_code": "-10 thru -90",
+            "title": "",
+            "definition": "Sections -10 thru -90 are used to describe standard practices. The manufacturer or manufacturing partners can assign the section numbers to suit generic standard practices related to more than one propeller or rotor system."
+          }
+        ]
+      },
+      {
+        "table_id": "44",
+        "system_code": "61",
+        "title": "Propellers/propulsors",
+        "definition": "The complete mechanical or electrical propeller, pumps, motors, governor, alternators and those units and components external to or integral with the engine used to control the propeller blade angle. Includes propeller spinner synchronizers. Also includes propulsor duct assemblies, including aerodynamic fairing of mechanical components, stators, vectoring systems, etc.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Propeller assembly",
+            "definition": "That portion of the system which rotates except the engine propeller shaft. Includes items such as blades, dome, hub, spinner, slip ring, deicer boot, distributor valve, etc."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Controlling",
+            "definition": "That portion of the system which controls the pitch of the propeller blades. Includes items such as governor synchronizers, switches, wiring, cables, levers, etc. Does not include any parts which rotate with the propeller assembly. Also includes all those units and components provided for the propulsor vector drive system. Includes flight deck control, drive motors, gearboxes, drive shafts, synchronizing shafts, etc."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Braking",
+            "definition": "That portion of the system which is used to decrease run-down time or stop propeller rotation during engine power-off conditions. Includes brake mechanisms, levers, pulleys, cables, switches, wiring, plumbing, etc."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system used to indicate operation or activation of propeller/propulsor systems. Includes items such as light, switches, wiring, etc."
+          },
+          {
+            "subsystem_code": "-50",
+            "title": "Propulsor duct",
+            "definition": "The complete duct assembly including vector drive attachment, fairings, stators, gearbox covers, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "45",
+        "system_code": "62",
+        "title": "Main rotors",
+        "definition": "Rotor head assemblies and rotor blades, including the swash plate assemblies and the rotor shaft units if not an integral part of the gearboxes. Does not include the rotor anti-icing system which is dealt with in System 30, Ice and Rain Protection.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Rotor blades",
+            "definition": "Rotor blade assemblies, including the heating mat (electrical resistors) for anti-icing."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Rotor heads",
+            "definition": "Complete rotor heads, including blade folding systems. Includes sleeves, spindles, dampers, rotor head fairings as well as rotor shafts and swash plates if the rotor head and shaft constitute a non-dissociable assembly."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Rotating controls, rotor shafts/swash plate assemblies",
+            "definition": "Includes pitch change rods and swash plate assemblies if not included in Section -20."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which indicates operation or activation of rotor systems. Includes items such as lights, gauges, switches, wiring, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "46",
+        "system_code": "63",
+        "title": "Main rotor drives",
+        "definition": "Includes all components transmitting power to the rotors: engine coupling components, drive shafts, clutch and free wheel units, gearboxes, it's (their) components, systems and securing elements.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Engine/gearbox gearboxes, gearbox couplings free wheel units.",
+            "definition": "Drive shafts between engines and main to gearbox, and, if applicable, clutch and"
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Gearboxes",
+            "definition": "Part of the system driving the rotors. Includes the mechanical power take-offs and accessory drives but does not include the accessories themselves (alternators, hydraulic pumps etc). Includes the gearbox lubricating systems and the rotor brakes if the latter forms part of the gearboxes."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Mounts and attachments",
+            "definition": "Suspension bars, vibration damping system providing attachment of the gearboxes to the airframe."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which indicates operation or activation of rotor systems. Includes items such as lights, gauges, switches, wiring, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "47",
+        "system_code": "64",
+        "title": "Tail rotor",
+        "definition": "Assembly that rotates in a plane nearly parallel to the symmetry plane and delivers a thrust opposing to the main rotor torque thus ensuring yaw control. Includes the rotor blades and rotor head. Does not include the rotor anti-icing system which is dealt with in System 30, Ice and Rain Protection.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Rotor blades",
+            "definition": "Blade assemblies, including the heating mats (electrical resistors) for anti-icing. Note For an integral unit, only one section will be used."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Rotor head",
+            "definition": "Tail rotor head Note For an integral unit, only one section will be used."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Rotating controls",
+            "definition": "Includes pitch control beams, links and associated components."
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which indicates operation or activation of rotor systems. Includes items such as lights, gauges, switches, wiring, etc. Note For an integral unit, only one section will be used."
+          }
+        ]
+      },
+      {
+        "table_id": "48",
+        "system_code": "65",
+        "title": "Tail rotor drive",
+        "definition": "Includes all the components transmitting power to the tail rotor: drive shafts, bearings, gearboxes.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Shafts",
+            "definition": "Drive shafts, bearings, flexible couplings."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Gearboxes",
+            "definition": "Intermediate gearbox. Tail gearbox."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Not available for projects",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-40",
+            "title": "Indicating",
+            "definition": "That portion of the system which indicates operation or activation of rotor system. Includes items such as lights, gauges, switches, wiring, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "49",
+        "system_code": "66",
+        "title": "Folding blades/pylon",
+        "definition": "The whole of the system which provides automatic or manual folding and spreading of the rotor blades and/or tail pylon. Note Procedures produced in accordance with this system can also affect the components described by other systems.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Rotor blades",
+            "definition": "Part of the system ensuring rotor blade folding and spreading; includes the mechanical, hydraulic and electrical means permanently fitted on the air vehicle."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Tail pylon",
+            "definition": "Part of system ensuring tail pylon folding and spreading; includes mechanical, hydraulic and electrical means permanently fitted on the air vehicle."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Controls and indicating",
+            "definition": "Part of the system intended for controlling folding/spreading sequences and for indicating the system operation. Includes the control units, caption lights, indicator, wiring, etc."
+          }
+        ]
+      },
+      {
+        "table_id": "50",
+        "system_code": "67",
+        "title": "Rotors flight control",
+        "definition": "The system which provides means of manually controlling the flight attitude of the helicopter. Includes items such as control linkage and control cables for collective pitch, cyclic pitch, directional control, servo-controls and corresponding system. The trim system and the indicating and monitoring system.",
+        "subsystems": [
+          {
+            "subsystem_code": "-00",
+            "title": "General",
+            "definition": ""
+          },
+          {
+            "subsystem_code": "-10",
+            "title": "Rotor control",
+            "definition": "That portion of the system which controls the attitude by the angle of attack of the rotor blades. Includes items such as collective pitch lever, cyclic pitch stick and corresponding linkage and cable controls, coupling and mixing units and artificial feel unit systems. Also includes the control position indicating system."
+          },
+          {
+            "subsystem_code": "-20",
+            "title": "Anti-torque rotor control (yaw control)",
+            "definition": "That portion of the controls which control the direction of the helicopter (yaw control). Includes items such as tail rotor control pedals, relevant linkage and cable controls, bell cranks constituting the yaw control channel and the control position indicating system."
+          },
+          {
+            "subsystem_code": "-30",
+            "title": "Servo-control system",
+            "definition": "That portion of the system which from a power source ensures distribution to the rotor servo-control system. Includes items such as pressure relief valves, electro valves, check valves, accumulators and equipment needed for the operation of the servo-control system, the servo-controls, the systems used for monitoring and indicating the operation of the servo-control system."
+          }
+        ]
+      }
+    ]
+  }
+]

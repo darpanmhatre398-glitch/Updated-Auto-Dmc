@@ -1,0 +1,12 @@
+2025-09-24 09:26:30,549 - INFO - --- Starting S1000D DMC Generation Process (v4) ---
+2025-09-24 09:26:30,602 - INFO - --- Processing: DMC-P15-A-A1-00-0000-00A-000A-D.docx ---
+2025-09-24 09:26:30,606 - INFO - Querying LLM for document analysis...
+2025-09-24 09:26:31,154 - INFO - LLM analysis returned: {'system_name': 'Electric Power', 'subsystem_name': 'Specification', 'purpose_description': 'Definition of Electric Power Specification'}
+2025-09-24 09:26:31,156 - INFO - Derived codes from descriptions: {'systemCode': 'A1', 'subSystemCode': '0', 'infoCode': '002'}
+2025-09-24 09:26:31,156 - INFO - Successfully created: DMC-P15-A-A1-00-0000-00A-002A-D.docx
+2025-09-24 09:26:31,156 - INFO - --- Processing: DMC-P15-A-A4-00-0000-00A-040A-D.docx ---
+2025-09-24 09:26:31,166 - INFO - Querying LLM for document analysis...
+2025-09-24 09:26:31,387 - INFO - LLM analysis returned: {'system_name': '', 'subsystem_name': '', 'purpose_description': ''}
+2025-09-24 09:26:31,390 - INFO - Derived codes from descriptions: {'systemCode': '00', 'subSystemCode': '0', 'infoCode': '000'}
+2025-09-24 09:26:31,390 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 09:26:31,397 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_092631.json' ---

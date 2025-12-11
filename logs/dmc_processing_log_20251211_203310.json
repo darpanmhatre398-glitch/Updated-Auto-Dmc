@@ -1,0 +1,57 @@
+{
+    "data_sources": {
+        "sns_files": [
+            "Maintained SNS - Generic.json"
+        ],
+        "total_systems": 14,
+        "total_info_codes": 580
+    },
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-15-10-0000-00A-130A-D",
+            "output_file": "DMC-USERMODEL-A-15-10-0000-00A-130A-D.docx",
+            "dmc_parts": {
+                "systemCode": "15",
+                "infoCode": "130",
+                "subSystemCode": "10",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A",
+                "confidence": 85,
+                "reasoning": "The document is primarily focused on providing information for the crew to perform their designed missions, which matches with the system code '15' (Crew information). The main topic of the document is 'Normal operation procedure', which corresponds to the info code '130'."
+            }
+        },
+        {
+            "file": "AVS-A-04-10-09-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-14-30-0000-00A-160A-D",
+            "output_file": "DMC-USERMODEL-A-14-30-0000-00A-160A-D.docx",
+            "dmc_parts": {
+                "systemCode": "14",
+                "infoCode": "160",
+                "subSystemCode": "30",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A",
+                "confidence": 85,
+                "reasoning": "The document describes the loading and offloading procedures for internal and external stores, which matches the system code 14 (Product Loading and Offloading). The subSystemCode is 30 (Internal and External Stores), as it specifically mentions 'internal and external stores' in several places. The infoCode is 160 (Loading/Unloading procedure) because the document provides detailed procedures for loading and offloading various types of payloads, including smoke flares, IR flares, and RADAR Altimeter."
+            }
+        },
+        {
+            "file": "AVS-A-04-10-15-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-15-10-0000-00A-130A-D",
+            "output_file": "DMC-USERMODEL-A-15-10-0000-00A-130A-D__001.docx",
+            "dmc_parts": {
+                "systemCode": "15",
+                "infoCode": "130",
+                "subSystemCode": "10",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A",
+                "confidence": 85,
+                "reasoning": "The document is primarily focused on the operation and control of a UAV system. The main system being discussed is 'Crew information' (system code: 15), specifically 'Normal procedures' (subSystemCode: 10). The infoCode matches the document type as it is a procedure for normal operation."
+            }
+        }
+    ],
+    "failed": []
+}

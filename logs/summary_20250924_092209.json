@@ -1,0 +1,33 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C2-00-0000-00A-842A-D.docx",
+            "llm_analysis": {
+                "system_name": "Guided missile systems",
+                "subsystem_name": "Launcher",
+                "purpose_description": "Procedure to unpack the primary launcher assembly"
+            },
+            "derived_codes": {
+                "systemCode": "C2",
+                "subSystemCode": "0",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-C0-00-0000-00A-056A-D.docx",
+            "llm_analysis": {
+                "system_name": "Armaments system",
+                "subsystem_name": "None specified",
+                "purpose_description": "Equipment list"
+            },
+            "derived_codes": {
+                "systemCode": "C0",
+                "subSystemCode": "0",
+                "infoCode": "056"
+            }
+        }
+    ],
+    "failed": []
+}

@@ -1,0 +1,15 @@
+2025-09-24 09:05:59,139 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 09:05:59,155 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 09:05:59,189 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:06:00,156 - INFO - LLM successfully returned: {'systemCode': 'C00', 'subSystemCode': '900', 'infoCode': '996'}
+2025-09-24 09:06:00,156 - WARNING - LLM returned invalid system/subsystem: 'C00-900'. Defaulting to '00-00'.
+2025-09-24 09:06:00,158 - INFO - Successfully created: output\DMC-P15-A-00-00-0000-00A-996A-D.docx
+2025-09-24 09:06:00,162 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:06:00,162 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 09:06:00,201 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:06:00,881 - INFO - LLM successfully returned: {'systemCode': 'C00', 'subSystemCode': 'C92', 'infoCode': 'Procedure to remove preservation material (Type: proced)'}
+2025-09-24 09:06:00,883 - WARNING - LLM returned invalid system/subsystem: 'C00-C92'. Defaulting to '00-00'.
+2025-09-24 09:06:00,883 - WARNING - LLM returned invalid infoCode 'Procedure to remove preservation material (Type: proced)'. Defaulting to '000'.
+2025-09-24 09:06:00,883 - INFO - Successfully created: output\DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 09:06:00,883 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:06:00,883 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_090600.json' ---

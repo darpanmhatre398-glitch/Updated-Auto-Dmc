@@ -1,0 +1,15 @@
+2025-09-24 09:07:28,566 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 09:07:28,574 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 09:07:28,599 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:07:29,505 - INFO - LLM successfully returned: {'systemCode': 'C', 'subSystemCode': '00', 'infoCode': 'C20'}
+2025-09-24 09:07:29,507 - WARNING - LLM returned invalid SNS code 'C-00'. Defaulting.
+2025-09-24 09:07:29,507 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-C20A-D.docx
+2025-09-24 09:07:29,510 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:07:29,510 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 09:07:29,537 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 09:07:30,149 - INFO - LLM successfully returned: {'systemCode': 'C00', 'subSystemCode': '', 'infoCode': ''}
+2025-09-24 09:07:30,149 - WARNING - LLM returned invalid SNS code 'C00-'. Defaulting.
+2025-09-24 09:07:30,149 - WARNING - LLM returned invalid infoCode ''. Defaulting.
+2025-09-24 09:07:30,151 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 09:07:30,154 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 09:07:30,154 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_090730.json' ---

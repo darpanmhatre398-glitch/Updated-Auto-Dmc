@@ -1,0 +1,23 @@
+{
+    "successful": [
+        {
+            "original_file": "launcher_unpacking_guide.docx",
+            "new_file": "DMC-P15-A-C2-00-0000-00A-842A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C2-00-0000-00A-842A-D",
+            "llm_derived_parts": {
+                "systemCode": "C2",
+                "infoCode": "842"
+            }
+        },
+        {
+            "original_file": "system_composition.docx",
+            "new_file": "DMC-P15-A-C0-00-0000-00A-009A-D.docx",
+            "assigned_dmc": "DMC-P15-A-C0-00-0000-00A-009A-D",
+            "llm_derived_parts": {
+                "systemCode": "C0",
+                "infoCode": "009"
+            }
+        }
+    ],
+    "failed": []
+}

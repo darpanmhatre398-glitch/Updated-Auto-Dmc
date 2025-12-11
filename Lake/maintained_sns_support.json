@@ -1,0 +1,532 @@
+{
+  "System_categories": [
+    {
+      "System": "A",
+      "Title": "Measuring, testing and adjusting",
+      "Subsystems": [
+        {
+          "System": "AA",
+          "Title": "Voltage, current leakage, and resistance measuring and indicating",
+          "Definition": "Includes voltage, current and resistance measuring, voltage short circuit, continuity and cable testing and multimeters."
+        },
+        {
+          "System": "AB",
+          "Title": "Standing wave and impedance measuring",
+          "Definition": "Includes standing wave ratio, impedance and related parameter ratio measuring."
+        },
+        {
+          "System": "AC",
+          "Title": "Waveform measuring and analyzing",
+          "Definition": "Includes oscillographs, oscilloscopes, synchroscopes, waveform and spectrum analyzing."
+        },
+        {
+          "System": "AD",
+          "Title": "Power and mechanical energy measuring",
+          "Definition": "Includes electrical power measuring (including metered loads), radiated (non-cabled) and mechanical power measuring."
+        },
+        {
+          "System": "AE",
+          "Title": "Intensity measuring",
+          "Definition": "Includes mechanical force, sound and light measuring, motion, displacement, impact, electric and magnetic field detecting and measuring, infrared, ultraviolet, X and nuclear radiation detecting and measuring."
+        },
+        {
+          "System": "AF",
+          "Title": "Acceleration, velocity, rate, frequency and time measuring and counting",
+          "Definition": "Includes acceleration, velocity, rate and mechanical frequency measuring, electrical frequency measuring and indicating, mechanical and electrical counting, reference time, elapsed time and duration measuring and interval measuring (chronoscopes)."
+        },
+        {
+          "System": "AG",
+          "Title": "Optical measuring, testing and aligning",
+          "Definition": "Includes collimation and similar optical measuring, spectroscopic, spectrographic and microscopic testing, photographic measuring and testing."
+        },
+        {
+          "System": "AH",
+          "Title": "Material measuring and testing",
+          "Definition": "Includes physical dimension, weight, density, volume, pressure, stress and strain, tension and compression, static and dynamic balance measuring, shock testing, solid, liquid and gas analysis."
+        },
+        {
+          "System": "AJ",
+          "Title": "Multifunction measuring and testing (excludes engines and missile systems but includes most test sets)",
+          "Definition": "Includes electronic, electrical, mechanical and hydraulic systems and components testing, circuit board, circuit card, electron tube, semiconductor, relay, selsyn, synchro, etc testing."
+        },
+        {
+          "System": "AK",
+          "Title": "Standards and calibration equipment for measuring and testing",
+          "Definition": "Includes calibration equipment for voltage, current and resistance measuring devices, SWR, impedance and related parameters, waveform measuring and analyzing devices, power, mechanical energy and intensity measuring devices, velocity, frequency and time measuring devices, optical devices, material measuring and testing devices."
+        },
+        {
+          "System": "AL",
+          "Title": "Active devices for test purposes (excludes most test sets)",
+          "Definition": "Includes transducers, active filters, active mixers and modulators, active couplings matching and distribution devices, test amplifiers, active terminations and dummy loads."
+        },
+        {
+          "System": "AM",
+          "Title": "Passive devices for test purposes (excludes most test sets)",
+          "Definition": "Includes variable resistors and unqualified variable attenuators, variable capacitors, variable inductances, passive electrical coupling matching and distribution devices (including fixed attenuators and most dividers and probes), passive electromagnetic and electro-static coupling, matching and distribution devices (including inductive voltage dividers and probes), mounting devices and passive mechanical coupling devices, passive filters, passive delay devices, passive non-power measuring terminations and dummy loads, passive mixer, modulator and detectors."
+        },
+        {
+          "System": "AN",
+          "Title": "Nondestructive inspection and oil analysis",
+          "Definition": "Includes fluorescent penetrant, magnetic particle, X-ray, ultrasonic, eddy current, oil analysis and acoustic emission."
+        }
+      ]
+    },
+    {
+      "System": "B",
+      "Title": "Signal and power generating, supplying, storing and converting (excludes transducers)",
+      "Subsystems": [
+        {
+          "System": "BA",
+          "Title": "Signal generating",
+          "Definition": "Includes AM/FM pulse-modulated, audio, sweep, square-wave, triangular-wave, saw tooth etc generators, random noise and noise generators and waveform synthesizers."
+        },
+        {
+          "System": "BB",
+          "Title": "Electrical power supplying, generating, storing and converting",
+          "Definition": "Includes electrical generators, converters, inverters, dynamotors, power supplies and battery chargers, transformers and distribution networks."
+        },
+        {
+          "System": "BC",
+          "Title": "Mechanical, hydraulic, pneumatic and vacuum power supplying, storing and converting",
+          "Definition": "Includes mechanical power supplying, storage and converting (including motors, turbines etc), general purpose compressing and pumping, hydraulic and pneumatic power and vacuum generating and storing, mechanical, hydraulic, pneumatic and vacuum devices (including those which also supply power)."
+        }
+      ]
+    },
+    {
+      "System": "C",
+      "Title": "Communicating, signaling and lighting",
+      "Subsystems": [
+        {
+          "System": "CA",
+          "Title": "Communicating non(excludes headsets, loudspeakers, etc)",
+          "Definition": "Includes intercommunication systems, public address systems, airborne and airborne multifunction and special purpose communication devices."
+        },
+        {
+          "System": "CB",
+          "Title": "Signaling",
+          "Definition": "Includes signal lights, mechanical signaling devices and special purpose signaling devices."
+        },
+        {
+          "System": "CC",
+          "Title": "Lighting",
+          "Definition": "Includes area, search, marking and identification lighting and special purpose lighting."
+        }
+      ]
+    },
+    {
+      "System": "D",
+      "Title": "Engine and missile system checkout and testing",
+      "Subsystems": [
+        {
+          "System": "DA",
+          "Title": "Engine checkout and testing",
+          "Definition": "Includes automotive engine, air vehicle engine and missile engine testing and general and special purpose engine testing. Note: This code is also applicable to engine modules and accessories."
+        },
+        {
+          "System": "DB",
+          "Title": "Missile system checkout and testing",
+          "Definition": "Includes missile guidance, missile target or flight programming, missile telemetering and training, missile hydraulic, pneumatic and fuel systems checkout, miscellaneous missiles system checkout and testing and missile countdown equipment."
+        }
+      ]
+    },
+    {
+      "System": "E",
+      "Title": "Gas and liquid supplying, processing, storing and shipping",
+      "Subsystems": [
+        {
+          "System": "EA",
+          "Title": "Gas storage, processing, supplying and shipping",
+          "Definition": "Includes gas storage containers, gas storage processing, supplying and shipping equipment and vehicles and multipurpose and special purpose gas handling equipment."
+        },
+        {
+          "System": "EB",
+          "Title": "Liquid storage, processing, supplying and shipping",
+          "Definition": "Includes liquid storage containers, liquid storage, processing, supplying and shipping equipment and vehicles and multipurpose and special purpose liquid handling equipment."
+        }
+      ]
+    },
+    {
+      "System": "F",
+      "Title": "Personnel and solid material protection",
+      "Subsystems": [
+        {
+          "System": "FA",
+          "Title": "Shelters and chambers",
+          "Definition": "Includes personnel and maintenance shelters, test chambers and test shelters, special purpose and multipurpose shelters and chambers."
+        },
+        {
+          "System": "FB",
+          "Title": "Protective deflectors, shields, screens and coverings",
+          "Definition": "Includes deflectors, shields, screens, protective coverings, miscellaneous protective equipment."
+        },
+        {
+          "System": "FC",
+          "Title": "Supports for shoring and shipping",
+          "Definition": "Includes supports for storing and shipping."
+        },
+        {
+          "System": "FD",
+          "Title": "Special purpose and multipurpose devices",
+          "Definition": "Includes special purpose and multipurpose devices."
+        },
+        {
+          "System": "FE",
+          "Title": "Flight clothing and accessories",
+          "Definition": "Includes flight clothing and accessories."
+        }
+      ]
+    },
+    {
+      "System": "G",
+      "Title": "Maintenance and servicing",
+      "Subsystems": [
+        {
+          "System": "GA",
+          "Title": "General mechanical cleaning, degreasing and scaling",
+          "Definition": "Includes pressure and vacuum cleaners, spray cleaners and degreasers, scalars, special purpose and multipurpose cleaning devices."
+        },
+        {
+          "System": "GB",
+          "Title": "Deicing and decontaminating",
+          "Definition": "Includes deicing and decontaminating equipment."
+        },
+        {
+          "System": "GC",
+          "Title": "Road and runway cleaning and repairing",
+          "Definition": "Includes road and runway cleaning and repairing, combination and special purpose road and runway cleaning and repairing and associated devices."
+        },
+        {
+          "System": "GD",
+          "Title": "Lubricating",
+          "Definition": "Includes oiling and greasing equipment and special purpose lubricating equipment."
+        },
+        {
+          "System": "GE",
+          "Title": "Wheel, tire and mechanical system servicing",
+          "Definition": "Includes wheel and tire servicing, brake, hydraulic and pneumatic systems servicing and special purpose and multipurpose mechanical system servicing."
+        },
+        {
+          "System": "GF",
+          "Title": "Special purpose and multipurpose servicing",
+          "Definition": "Includes maintenance tool sets, kits and machines, repair kits, maintenance trailers, welding machines, purging units, spray outfit preservation units, etc."
+        },
+        {
+          "System": "GG",
+          "Title": "Maintenance platform, stands, supports and accessories",
+          "Definition": "Includes maintenance platforms and stands for personnel, equipment supports, weapon and special purpose supports and maintenance accessories."
+        },
+        {
+          "System": "GH",
+          "Title": "Special machines",
+          "Definition": "Includes maintenance tools, (eg, extractors, guiders, stackers, specific spanners) and also other means such as complex machines/parts interfaces."
+        }
+      ]
+    },
+    {
+      "System": "H",
+      "Title": "Handling, moving, stopping, propelling and landing",
+      "Subsystems": [
+        {
+          "System": "HA",
+          "Title": "Hoisting, jacking, lifting, towing and positioning",
+          "Definition": "Includes hoisting, lifting, jacking, erecting and towing equipment and special purpose and multipurpose lifting and positioning equipment."
+        },
+        {
+          "System": "HB",
+          "Title": "Transporting of equipment and solid material",
+          "Definition": "Includes powered trucks and tractors, hand trucks, carts, dollies, trailers, transporting vehicles and devices, accessory equipment for transporting, delivery and recovery systems, tires and tubes."
+        },
+        {
+          "System": "HC",
+          "Title": "Launching",
+          "Definition": "Includes air vehicle, guided missile, rocket and space vehicles launching equipment and special purpose and multipurpose launching equipment."
+        },
+        {
+          "System": "HD",
+          "Title": "Arresting, parking and securing",
+          "Definition": "Includes auxiliary braking, emergency braking and arresting, securing, checking, looking and parking and similar storing."
+        },
+        {
+          "System": "HE",
+          "Title": "Special purpose and multipurpose handling and moving",
+          "Definition": "Includes combined lifting and moving vehicles and equipment (trailers, dollies and cradles for air vehicle equipment and components handing, installation, removal, transportation and storage; handling adapter sets; trailers for ammunition lifting and transportation; trucks for loading munitions, fuel tanks, pylons and special weapons onto air vehicles, etc)."
+        },
+        {
+          "System": "HF",
+          "Title": "Propulsion system",
+          "Definition": "Includes rocket engines, motors and hybrids, reciprocating engines, turbine engines and miscellaneous engines and components."
+        }
+      ]
+    },
+    {
+      "System": "J",
+      "Title": "Heating, cooling, ventilating, humidity control, pressurizing and filtering",
+      "Subsystems": [
+        {
+          "System": "JA",
+          "Title": "Heating",
+          "Definition": "Includes area heating equipment and special purpose and multipurpose heating equipment."
+        },
+        {
+          "System": "JB",
+          "Title": "Air cooling and air conditioning",
+          "Definition": "Includes air cooling and air conditioning equipment and special purpose and multipurpose cooling equipment."
+        },
+        {
+          "System": "JC",
+          "Title": "Ventilating and air circulating",
+          "Definition": "Includes ventilating and air circulating and special purpose and multipurpose ventilating and air conditioning equipment."
+        },
+        {
+          "System": "JD",
+          "Title": "Humidity controlling",
+          "Definition": "Includes humidity reducing, humidity increasing, constant humidity equipment and special purpose and multipurpose humidity controlling equipment."
+        },
+        {
+          "System": "JE",
+          "Title": "Refrigerating",
+          "Definition": "Includes general purpose refrigerating equipment and special purpose and multipurpose pressurizing equipment."
+        },
+        {
+          "System": "JF",
+          "Title": "Multipurpose and special purpose equipment",
+          "Definition": "Includes multipurpose and special purpose heating, cooling, ventilating and humidity control equipment."
+        },
+        {
+          "System": "JG",
+          "Title": "Pressurizing",
+          "Definition": "Includes compartment pressurizing and special purpose and multipurpose pressurizing equipment."
+        },
+        {
+          "System": "JH",
+          "Title": "Water cooling",
+          "Definition": "Includes engine cooling systems and components and special purpose and multipurpose water cooling equipment."
+        },
+        {
+          "System": "JI",
+          "Title": "Filtering",
+          "Definition": "Includes pneumatic and liquid filtering and special purpose and multipurpose filtering equipment."
+        }
+      ]
+    },
+    {
+      "System": "K",
+      "Title": "Fire fighting, rescue and survival",
+      "Subsystems": [
+        {
+          "System": "KA",
+          "Title": "Fire fighting, crash and rescue equipment",
+          "Definition": "Includes fire fighting, crash, rescue equipment and special purpose and multipurpose fire fighting, crash and rescue equipment."
+        },
+        {
+          "System": "KB",
+          "Title": "Survival equipment and devices",
+          "Definition": "Includes survival tools and accessories, survival vehicles and special purpose and multipurpose survival items."
+        }
+      ]
+    },
+    {
+      "System": "L",
+      "Title": "Training and simulating",
+      "Subsystems": [
+        {
+          "System": "LA",
+          "Title": "Pilot and flight crew flight simulators",
+          "Definition": "Includes basic flight and advanced flight simulator trainers, instrument, flight trainers and mobile training units."
+        },
+        {
+          "System": "LB",
+          "Title": "Ground crew training flight simulators",
+          "Definition": "Includes flight principle trainers, flight control, navigation, warning indicator instrument system trainers, mechanical and electrical systems trainers, engine operation and maintenance trainers, aircraft servicing equipment trainers and mobile training units."
+        },
+        {
+          "System": "LC",
+          "Title": "Armament trainers",
+          "Definition": "Includes stationary airborne gunnery, free airborne gunnery, airborne rocketry, high altitude bombing, ground support bombing, armament components and multipurpose armament trainers and mobile training units."
+        },
+        {
+          "System": "LD",
+          "Title": "Navigation trainers",
+          "Definition": "Includes dead-reckoning, celestial, electronic and crew navigation trainers, mobile and aerospace navigation training units."
+        },
+        {
+          "System": "LE",
+          "Title": "Radar and communications trainers",
+          "Definition": "Includes primary and advanced communications equipment trainers, primary and advanced radar equipment trainers and radar countermeasures trainers."
+        },
+        {
+          "System": "LF",
+          "Title": "Psychological and psychophysiological trainers",
+          "Definition": "Includes low pressure chambers, ejection seat trainers, underwater escape trainers and other survival procedures, space environment and vertigo simulator trainers."
+        },
+        {
+          "System": "LG",
+          "Title": "Ground-to-ground and ground-to-air missile trainers",
+          "Definition": "Includes ground crew, missile operation and maintenance trainers, launch control and flight control equipment trainers."
+        },
+        {
+          "System": "LH",
+          "Title": "Special project trainers",
+          "Definition": "Includes synthetic warfare tactics trainers and combat information centers equipment trainers."
+        },
+        {
+          "System": "LJ",
+          "Title": "Training aids",
+          "Definition": "Includes charts and posters, maneuvering boards and demonstrator panels, self instruction cards, training manuals, three-dimensional models, projectors, sound recorders and reproducers, training films and recordings and miscellaneous classroom teaching aids."
+        },
+        {
+          "System": "LK",
+          "Title": "Command training programs (tangible items)",
+          "Definition": "Includes service-school training programs and activity training programs."
+        },
+        {
+          "System": "LL",
+          "Title": "Miscellaneous training and simulating devices",
+          "Definition": "Includes automotive and airfield training devices, simulators for material testing, hydraulic, pneumatic, oxygen, fuel, air systems training, dummy guided missiles, simulated bombs for test aid training purposes, training dummy or practice warhead and aircraft simulated rockets."
+        }
+      ]
+    },
+    {
+      "System": "M",
+      "Title": "Detecting, ranging and fire control",
+      "Subsystems": [
+        {
+          "System": "MA",
+          "Title": "Detecting, range bearing and search",
+          "Definition": "Includes transmitting, receiving, designating, indicating and locating equipment."
+        },
+        {
+          "System": "MB",
+          "Title": "Directing",
+          "Definition": "Includes computing sights and devices, optical sighting and ranging, stabilizing mechanisms and transmitting and receiving equipment."
+        },
+        {
+          "System": "MC",
+          "Title": "Miscellaneous fire control",
+          "Definition": "Includes fuse setters, ordnance cable system, aiming circles, flash and round ranging sets."
+        }
+      ]
+    },
+    {
+      "System": "N",
+      "Title": "Demolition and destruction",
+      "Subsystems": [
+        {
+          "System": "NA",
+          "Title": "Guns",
+          "Definition": "Includes air vehicle and non air vehicle guns, ammunition feeders, loaders, storage drums, etc."
+        },
+        {
+          "System": "NB",
+          "Title": "Ammunition",
+          "Definition": "Includes dummy or blank ammunition, tracer projectiles, live or special purpose ammunition."
+        },
+        {
+          "System": "NC",
+          "Title": "Bombs, rockets and missiles",
+          "Definition": "Includes photo flashing, chemical warfare, general purpose, practice, guided or drones bombs and rockets and warheads and explosive components."
+        }
+      ]
+    },
+    {
+      "System": "O",
+      "Title": "Flight control and navigation",
+      "Subsystems": [
+        {
+          "System": "OA",
+          "Title": "Automatic flight or remote control",
+          "Definition": "Includes guided missiles and spaces vehicles."
+        },
+        {
+          "System": "OB",
+          "Title": "Navigation",
+          "Definition": "Includes airborne and non airborne direction finding equipment."
+        }
+      ]
+    },
+    {
+      "System": "P",
+      "Title": "Ignition systems",
+      "Subsystems": [
+        {
+          "System": "PA",
+          "Title": "Engine ignition system",
+          "Definition": "Includes air vehicle and non air vehicle ignition systems."
+        },
+        {
+          "System": "PB",
+          "Title": "Special ignition systems",
+          "Definition": "Includes special purpose and multipurpose ignition systems."
+        }
+      ]
+    },
+    {
+      "System": "Q",
+      "Title": "Photographic",
+      "Subsystems": [
+        {
+          "System": "QA",
+          "Title": "Picture taking equipment",
+          "Definition": "Includes strike recording, aerial mapping, still and motion pictures."
+        },
+        {
+          "System": "QB",
+          "Title": "Picture processing equipment",
+          "Definition": "Includes processing mechanisms, developers, washers and driers."
+        },
+        {
+          "System": "QC",
+          "Title": "Picture using equipment",
+          "Definition": "Includes still projectors, motion picture projectors and viewing devices."
+        }
+      ]
+    },
+    {
+      "System": "R",
+      "Title": "Data processing and storing",
+      "Subsystems": [
+        {
+          "System": "RA",
+          "Title": "Analog computing",
+          "Definition": "Includes all analog computing devices."
+        },
+        {
+          "System": "RB",
+          "Title": "Digital computing",
+          "Definition": "Includes all digital computing devices."
+        },
+        {
+          "System": "RC",
+          "Title": "Hybrid computing",
+          "Definition": "Includes all computing equipment that is a hybrid of analog and digital."
+        },
+        {
+          "System": "RD",
+          "Title": "Input/output and storage",
+          "Definition": "Includes all input and out devices such as keyboards, mice, displays, projectors, flash cards, hard disks and other storage media."
+        },
+        {
+          "System": "RE",
+          "Title": "Collating, reading and interpreting",
+          "Definition": "Includes cameras and scanners."
+        },
+        {
+          "System": "RF",
+          "Title": "Special purpose equipment",
+          "Definition": "Includes special purpose and multipurpose data processing equipment."
+        }
+      ]
+    },
+    {
+      "System": "S",
+      "Title": "Automatic test equipment (ATE)",
+      "Subsystems": [
+        {
+          "System": "SA",
+          "Title": "Available for projects",
+          "Definition": ""
+        }
+      ]
+    }
+  ]
+}

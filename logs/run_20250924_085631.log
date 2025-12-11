@@ -1,0 +1,16 @@
+2025-09-24 08:56:31,659 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 08:56:31,710 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-24 08:56:31,736 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 08:56:41,403 - INFO - LLM successfully returned: {'systemCode': 'C00', 'infoCode': 'computer systems, software and data'}
+2025-09-24 08:56:41,404 - WARNING - LLM returned invalid systemCode 'C00'. Defaulting to '00'.
+2025-09-24 08:56:41,404 - WARNING - LLM returned invalid infoCode 'computer systems, software and data'. Defaulting to '000'.
+2025-09-24 08:56:41,406 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 08:56:41,408 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 08:56:41,408 - INFO - --- Processing: system_composition.docx ---
+2025-09-24 08:56:41,433 - INFO - Querying LLM (llama3.2:latest) with structural analysis...
+2025-09-24 08:56:42,639 - INFO - LLM successfully returned: {'systemCode': 'C00', 'infoCode': '[C01, C02, C03, C04, C05, C06, C07, C13, C14, C15, C20, C21, C22, C23, C25, C26, C27, C30, C31, C32, C33, C34, C35, C50, C51, C52, C53, C60, C61, C62, C70, C72, C73, C74, C75, C90, C91, C92, C95, C96]'}
+2025-09-24 08:56:42,642 - WARNING - LLM returned invalid systemCode 'C00'. Defaulting to '00'.
+2025-09-24 08:56:42,642 - WARNING - LLM returned invalid infoCode '[C01, C02, C03, C04, C05, C06, C07, C13, C14, C15, C20, C21, C22, C23, C25, C26, C27, C30, C31, C32, C33, C34, C35, C50, C51, C52, C53, C60, C61, C62, C70, C72, C73, C74, C75, C90, C91, C92, C95, C96]'. Defaulting to '000'.
+2025-09-24 08:56:42,643 - INFO - Successfully created: DMC-P15-A-00-00-0000-00A-000A-D.docx
+2025-09-24 08:56:42,643 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-24 08:56:42,643 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250924_085642.json' ---

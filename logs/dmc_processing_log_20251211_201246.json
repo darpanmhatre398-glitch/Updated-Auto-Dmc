@@ -1,0 +1,51 @@
+{
+    "data_sources": {
+        "sns_files": [
+            "Maintained SNS - Generic.json"
+        ],
+        "total_systems": 14,
+        "total_info_codes": 580
+    },
+    "successful": [
+        {
+            "file": "AVS-A-04-10-01-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-15-100-0000-00A-120A-D",
+            "output_file": "DMC-USERMODEL-A-15-100-0000-00A-120A-D.docx",
+            "dmc_parts": {
+                "systemCode": "15",
+                "infoCode": "120",
+                "subSystemCode": "10",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-09-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-14-300-0000-00A-140A-D",
+            "output_file": "DMC-USERMODEL-A-14-300-0000-00A-140A-D.docx",
+            "dmc_parts": {
+                "systemCode": "14",
+                "infoCode": "140",
+                "subSystemCode": "30",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "AVS-A-04-10-15-001A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-14-100-0000-00A-130A-D",
+            "output_file": "DMC-USERMODEL-A-14-100-0000-00A-130A-D.docx",
+            "dmc_parts": {
+                "systemCode": "14",
+                "infoCode": "130",
+                "subSystemCode": "10",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": []
+}

@@ -1,0 +1,13 @@
+2025-09-19 15:40:54,843 - INFO - --- Starting Autonomous S1000D DMC Generation Process ---
+2025-09-19 15:40:54,888 - INFO - --- Processing: diesel_engine_faults.docx ---
+2025-09-19 15:40:54,909 - INFO - Querying LLM (llama3.2:latest)...
+2025-09-19 15:40:55,582 - INFO - LLM successfully returned: {'systemCode': 'A7', 'infoCode': '841: Fault finding procedure (Type: proced)'}
+2025-09-19 15:40:55,582 - WARNING - LLM returned invalid infoCode '841: Fault finding procedure (Type: proced)'. Defaulting to '000'.
+2025-09-19 15:40:55,583 - INFO - Successfully created: DMC-PROJECT-A-A7-00-0000-00A-000A-D_Troubleshooting_Diesel_Engine_Faults.docx
+2025-09-19 15:40:55,587 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:40:55,588 - INFO - --- Processing: launcher_unpacking_guide.docx ---
+2025-09-19 15:40:55,619 - INFO - Querying LLM (llama3.2:latest)...
+2025-09-19 15:40:55,925 - INFO - LLM successfully returned: {'systemCode': 'B1', 'infoCode': '842'}
+2025-09-19 15:40:55,926 - INFO - Successfully created: DMC-PROJECT-A-B1-00-0000-00A-842A-D_Unpacking_of_the_Launcher_System.docx
+2025-09-19 15:40:55,946 - INFO - Moved original file to 'documents_to_process\processed'.
+2025-09-19 15:40:55,947 - INFO - --- Process Complete. Summary log saved to 'logs\summary_20250919_154055.json' ---

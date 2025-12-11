@@ -1,0 +1,45 @@
+{
+    "successful": [],
+    "failed": [
+        {
+            "file": "DMC-P15B-000-C0-00-56-01-A-040A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-02-A-040A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-03-A-040A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-04-A-009A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-05-A-009A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-06-A-009A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-07-A-009A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "DMC-P15B-000-C0-00-56-08-A-009A-D.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "launcher_unpacking_guide.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        },
+        {
+            "file": "system_composition.docx",
+            "reason": "LLM failed to return valid DMC parts."
+        }
+    ]
+}

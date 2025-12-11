@@ -1,0 +1,602 @@
+{
+  "system_id = 00": [
+    {
+      "System": "00",
+      "Title": "Product, General",
+      "Definition": "General information for the complete Product, procedures for the Product safety and general Product maintenance, use of the Product safety and protective devices, information on the technical publication required to support the Product.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Product, Description",
+          "Definition": "General description with illustrations of the Product and its systems to include type of Product, its roles, accommodation, salient constructional features, power system installation, systems and operational equipment."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Product, General maintenance",
+          "Definition": "Those instructions necessary for the Product maintenance condition, electrical (static) grounding."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Product, Safety",
+          "Definition": "Those specific or Product peculiar instructions necessary to make safe and prepare the Product for maintenance action. Includes instructions for returning the Product to its serviceable state."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Safety and protective devices",
+          "Definition": "Those instructions necessary for the use or operation of devices such as safety pins, safety locks, safety pin flag assemblies, safety struts, safety strut extensions, etc. Instructions for removal and installation of protective covers, bungs, blanks, etc, are to be included."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Technical publication",
+          "Definition": "Information on the technical publication required to support the Product (not a technical publication project in its own right) such as the Lists of Applicable Publications, Publication Guide, the coding system of technical publications, instruction for handling and updating technical publication."
+        },
+        {
+          "Subsystem": "-41",
+          "Title": "Publications",
+          "Definition": "Information on the suite of publications that are required by the customer."
+        },
+        {
+          "Subsystem": "-42",
+          "Title": "Information Sets",
+          "Definition": "Information on the information sets that were used to produce the suite of publications that are required by the customer."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Material data",
+          "Definition": "Information concerning all material (products) used for the maintenance of the complete Product and its systems."
+        },
+        {
+          "Subsystem": "-60 thru -80",
+          "Title": "Available for projects",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-90",
+          "Title": "Battle damage repair",
+          "Definition": "Information and data which cannot be allocated to a specific SNS because the involved zone of the Product contains more than one hardware 'system'."
+        }
+      ]
+    },
+    {
+      "System": "04",
+      "Title": "Worthiness (fit for purpose) limitations",
+      "Definition": "This System provides guidance for the calculation of lives for for critical items/components and defines the operating parameters for such calculations.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Fatigue index calculations",
+          "Definition": "Procedures and formulae for calculating Fatigue Index/Fatigue Lives of the Product structure from Fatigue Meter readings."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Operating spectrums",
+          "Definition": "Assumed operating spectrums for the Product from which the safe fatigue lives are calculated."
+        }
+      ]
+    },
+    {
+      "System": "05",
+      "Title": "Scheduled/unscheduled maintenance",
+      "Definition": "Manufacturers' recommendation for time limits inspection (both scheduled and unscheduled).",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Time limits",
+          "Definition": "Those manufacturer recommended time limits for maintenance and overhaul of the Product, its systems and subassemblies, and life of its parts."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Scheduled maintenance checks lists",
+          "Definition": "A list of the manufacturer recommended scheduled and unscheduled maintenance checks and inspections, including operating tests applicable to the Product, its systems and subassemblies. The checks listed at -40, -50 and -60 must be included."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Available for projects",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Scheduled maintenance checks",
+          "Definition": "Those manufacturer recommended maintenance checks and inspections of the Product, its systems and sub-assemblies dictated by the time limits specified in -10 above. This section lists in more detail the items which are outlined on the user job forms (usually by title only) and cross references the detailed procedures included in the individual maintenance practices."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Unscheduled maintenance checks",
+          "Definition": "Those maintenance checks and inspections on the Product, its systems and sub-assemblies which are dictated by special or unusual conditions which are not related to the time limits specified in -10 above."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Acceptance and functional check usage",
+          "Definition": "Those current status functional checks necessary to fulfill inspection requirements to prove the safety/usage of all components and systems following delivery or maintenance activities."
+        },
+        {
+          "Subsystem": "80",
+          "Title": "Maintenance allocation",
+          "Definition": "The maintenance authority and responsibility for the performance of maintenance functions on a Product, including grouped maintenance functions (where necessary), lists of tools and lists of remarks."
+        }
+      ]
+    },
+    {
+      "System": "06",
+      "Title": "Dimensions and areas",
+      "Definition": "Those illustrations and text which show the principal dimensions of the Product and the zones, areas and reference lines used to locate sub-assemblies/components. It also includes all access and drainage provisions.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Principal dimensions",
+          "Definition": "To include a conventional 3-view illustration of the Product with principal dimensions."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Reference lines",
+          "Definition": "To include a system for locating sub-assemblies/components in relation to the Product reference lines."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Zones and areas",
+          "Definition": "To include Product sub-division by zone/area to identify the zone/area in which the maintenance task is done."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Access provisions",
+          "Definition": "To identify all access doors and panels, and maintenance access points. Note Walkways are covered in System 12."
+        }
+      ]
+    },
+    {
+      "System": "07",
+      "Title": "Lifting, shoring, recovering and transporting",
+      "Definition": "Includes all necessary procedures to lift the Product with jacks or slings, and to recover it in any of the conditions to which it can be subjected, including maintenance and repair. It also includes information on recovering the Product from any condition to which it can be subjected (including emergency recovering) and how to transport it by air/road/rail, etc.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Jacking",
+          "Definition": "Information on jacking points, adapters, balance weights, jacking procedures and the jacks used to lift the Product during Product maintenance, repair and recovery."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Shoring",
+          "Definition": "Information on shoring points, shoring procedures and the shoring equipment used during Product maintenance, repair and recovery."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Slinging",
+          "Definition": "Information on slinging points, slinging procedures and the slings used to lift the Product during maintenance, repair and recovery."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Recovering",
+          "Definition": "Information on recovery procedures and the tools and equipment required to recover the Product from any condition to which it can be subjected, including emergency recovery."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Transporting",
+          "Definition": "Information on how to dismantle the Product to a standard of breakdown consistent with the Product in which it can have to be transported. Information for the manufacture of transportation sledges or pallets. For removal procedures and maintenance information, refer to appropriate system/subsystem."
+        }
+      ]
+    },
+    {
+      "System": "08",
+      "Title": "Leveling and weighing",
+      "Definition": "This System includes the necessary information to level the Product for any of the various maintenance, overhaul or major repairs which becomes necessary during the life of the Product. It also includes those on- Product sub-assemblies or components which are specifically dedicated to record, store or compute mass and balance data. Includes those maintenance practices necessary to prepare the Product for weighing and the weighing procedure. Mass and center of gravity (c.g.) data also to be included.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mass and balance",
+          "Definition": "Those sub-assemblies or components on the Product dedicated to the specific function of recording, storing or computing mass and balance data."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Leveling",
+          "Definition": "Those instructions necessary to prepare the Product for leveling and the leveling procedure. Includes information on the leveling equipment used."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Weighing",
+          "Definition": "Those instructions necessary to prepare the Product for weighing and the weighing procedure. Includes information on the weighing equipment used. To include limits of variation allowed between physical recorded mass and calculated mass based and specific Product record."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Mass and c.g. data",
+          "Definition": "Mass and moment or index information characteristic of the Product, limitations, datum points and lines, center of gravity, range, mass and balance management of the fuel and other expendable loads, residual fuel, ballast and the effects of role change. Can include:\n- Expression of c.g. as a percentage of Mean Aerodynamic Chord (MAC)\n- Diagram of c.g. envelope and equipment location charts if necessary\n- Effect on the c.g. position of dropping or picking up stores (with an example)\nRelevant equipment included in the basic mass, plus variable equipment (ie, 'role' or 'fit-list' equipment), tabulated and showing mass, load arm and moment or index of each item. Relationship between the Product and ECU datum lines including the jet pipe and/or propeller datum lines and the effect of an ECU change (with a worked example)."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Static stability",
+          "Definition": "Information detailing the static stability limits of the Product. Can include information required to determine the minimum nose wheel reaction necessary to ensure that the Product is stable about its main wheels whilst being moved and whilst static during servicing operations, and to ensure the Product remains stable during jacking operations. Can include tabular and graphical data for the calculation of nose wheel reaction in relation to Product mass and residual moment for both a fully equipped Product and for situations where items of equipment/stores have been removed or the fuel state is outside the normal sequence. Safety precautions and limitations cover de-fueling sequences, maximum movement speeds and movement on gradients or over rough ground."
+        }
+      ]
+    },
+    {
+      "System": "09",
+      "Title": "Handling and maneuvering",
+      "Definition": "Those instructions necessary to handle and taxi the Product. Illustrations showing the location of attachment points, turning radius, etc, are included. Includes those maintenance procedures necessary to prepare the Product for handling and taxiing.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Handling",
+          "Definition": "Those instructions necessary to tow, winch or handle the Product in normal or other conditions such as towing and handling with engines removed, berthing sea vessels, etc. It includes the equipment and materials required such as tow bars, steering arms, towing cables/bridles, etc, safety precautions and limitations."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Maneuvering",
+          "Definition": "Those instructions necessary to maneuver or taxi the Product in normal or abnormal conditions such as adverse weather conditions, etc. It includes procedures to be used such as use of engines, interphone and brakes, ground turning techniques, etc; safety precautions and limitations such as exhaust danger areas, minimum turning radius, friction coefficients for various ground conditions, etc."
+        }
+      ]
+    },
+    {
+      "System": "10",
+      "Title": "Parking, mooring, storing and return to service",
+      "Definition": "This System is to contain the necessary information to park, moor and/or store the Product in all conditions to which it can be subjected. Where appropriate, it is to include the procedures to prepare for parking, mooring and storing and any related return to service requirements. Illustrations, where appropriate, are to show, for example, locations of any fixing or mooring points and any controls used in the parking/mooring and storing procedure.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Parking",
+          "Definition": "Information necessary to park the Product in all weather conditions, where parking is considered as a routine short-term activity (eg, overnight, over-weekend) performed on a serviceable Product (ie, where return to service can normally be expected to be accomplished by a standard pre-operation check). Includes equipment required."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Mooring",
+          "Definition": "Information necessary to moor the Product under all weather conditions, where mooring is considered as a long or short term activity whose purpose is to tie down or otherwise secure the unit. Must also include information such as special techniques applicable to ballasting, installation and use of special support equipment applicable to mooring (eg, installation of tie-down rings to strong points) precautions and limits for the safety of the Product in high wind conditions, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Storing",
+          "Definition": "Information necessary to store the Product in normal or abnormal conditions under all weather conditions, where storing is considered as a non-operational period of long or short term duration in excess of that defined for parking. It includes all appropriate inspection and preventive maintenance to safeguard structural and system integrity during storage. Where applicable, a stored Product can also be moored. Mooring during storage is covered under Section -20, not integrated within Section -30.\n\nThis includes equipment required.\nIt also includes information concerning, but not limited to:\n- techniques for entry into and removal from storage (eg, cleaning and inhibition/de-inhibition), fluid system draining/replenishing, static grounding, protective blanking, etc\n- timescales for routine in-storage maintenance such as wheel rotation, pressure checks, engine running, etc\n- procedures or techniques uniquely applicable to long or short term storage (project-defined terms)\n- preparation of the Product after storage and return to service."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Return to Service",
+          "Definition": "Those instructions necessary to prepare the Product for operation following mooring, parking or a period of storage."
+        }
+      ]
+    },
+    {
+      "System": "11",
+      "Title": "Placards and markings",
+      "Definition": "All procurable placards, labels, etc, is included in the Illustrated Parts Catalog. They are illustrated, showing the part number, legend and location. The maintenance publications must provide the approximate location (eg, FWD UPPER RH) and illustrate each placard, label, marking, self-illuminating sign, etc, required for safety information, maintenance significant information or by government regulations. Those required by government regulations are so identified.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Exterior color schemes and markings",
+          "Definition": "The specifications and requirements covering Product exterior color schemes and markings."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Exterior placards and markings",
+          "Definition": "Those placards and markings required for ground servicing and instructions, inspections, cautions, warnings, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Interior placards and markings",
+          "Definition": "Those placards, markings self-illuminating signs, etc, required for interior general and emergency information, instructions, cautions, warnings, etc."
+        }
+      ]
+    },
+    {
+      "System": "12",
+      "Title": "Servicing",
+      "Definition": "Those instructions for the replenishment and depletion of fluids, scheduled and unscheduled servicing, applicable to the whole Product. The information is concise and preferably in tabular or chart form. Precautions to be observed in servicing a particular container (eg, tank, reservoir, bottle, LOX converter, tire) such as grounding and prevention of fire hazards, is clearly stated. A diagram showing the location of regular and emergency servicing points is included. 'No-step' areas or walkways, with necessary precautions, are indicated.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Replenishing and depleting",
+          "Definition": "Those instructions necessary for the replenishment or depletion of fluids. Container capacities in US, imperial and SI units of measure are included. ANA or other standard specification number and grade (if applicable) of fuel, oil, fluid, and other material used are given. Specifications and grades should be shown grouped on one page to facilitate revisions. For fuel, give expansion volume, total fuel capacity, sump capacity, net fuel capacity (as applicable) for each tank. For oil give allowance for expansion."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Scheduled servicing",
+          "Definition": "Those instructions necessary to carry out servicing that can be scheduled. Includes instructions such as those for periodic lubrication of components, radioactivity decontamination, Product external and internal cleaning, etc. It does not include lubrication procedures required for the accomplishment of maintenance practices."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Unscheduled servicing",
+          "Definition": "Those instructions necessary to carry out servicing that is normally unscheduled. Includes instructions such as those for ice and snow removal from parked Product."
+        }
+      ]
+    },
+    {
+      "System": "14",
+      "Title": "Product loading and offloading",
+      "Definition": "This System contains those procedures and illustrations necessary to load and offload internal and external stores and munitions and cargo. The System also contains information on the support equipment and special tools required. Crossreferences are made to applicable systems for information on the Product attachment points, pylons and carriers.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Support equipment",
+          "Definition": "A list of all support equipment and special tools, also information and illustrations as necessary on those items not covered in other documentation."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Cargo",
+          "Definition": "Examples of loading and offloading techniques, interior layout, floor loadings, location and strength of lashing points, methods of stowing and securing, capacities and dimensions of compartment and doors."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Internal and external stores",
+          "Definition": "A list of stores carried and the carrier/adapter on which they are fitted."
+        },
+        {
+          "Subsystem": "-31",
+          "Title": "Basic information",
+          "Definition": "Includes the basic information on internal and external stores."
+        },
+        {
+          "Subsystem": "-32",
+          "Title": "Supplementary information",
+          "Definition": "Includes any supplementary information on internal and external stores."
+        },
+        {
+          "Subsystem": "-33",
+          "Title": "Loading procedures",
+          "Definition": "Includes the loading procedures for internal and external stores."
+        },
+        {
+          "Subsystem": "-34",
+          "Title": "Offloading procedures",
+          "Definition": "Includes the offloading procedures for internal and external stores."
+        },
+        {
+          "Subsystem": "-35",
+          "Title": "Loading and offloading procedures checklists",
+          "Definition": "Includes the checklists for loading and offloading of internal and external stores."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Non-nuclear munitions",
+          "Definition": "A list of the non-nuclear munitions (eg, rockets, missiles, bombs, ammunition) and the carrier/adapter on which they are fitted."
+        },
+        {
+          "Subsystem": "-41",
+          "Title": "Basic information",
+          "Definition": "Includes the basic information on non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-42",
+          "Title": "Supplementary information",
+          "Definition": "Includes any supplementary information on non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-43",
+          "Title": "Loading procedures",
+          "Definition": "Includes the loading procedures for non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-44",
+          "Title": "Offloading procedures",
+          "Definition": "Includes the offloading procedures for non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-45",
+          "Title": "Loading and offloading procedures checklists",
+          "Definition": "Includes the checklists for loading and offloading for non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-46",
+          "Title": "Integrated combat turnaround procedures",
+          "Definition": "Includes information on integrated combat turnaround procedures."
+        },
+        {
+          "Subsystem": "-47",
+          "Title": "Integrated combat turnaround procedures checklists",
+          "Definition": "Includes the checklists for integrated combat turnaround procedures."
+        },
+        {
+          "Subsystem": "-48",
+          "Title": "Cross servicing checklists",
+          "Definition": "Includes the checklists for cross servicing for non-nuclear munitions."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Nuclear munitions",
+          "Definition": "A list of the nuclear munitions and the carrier/adapter on which they are fitted."
+        }
+      ]
+    },
+    {
+      "System": "15",
+      "Title": "Crew information",
+      "Definition": "This System provides all specific information given to crew for performing all the designed missions of the Product. Description and function of the Product systems, system controls and installed equipment are included only to the extent that the information is essential to crew/operators and is not covered in the relevant system (21 and up).\nNote\nSub-subsystem 15-04, 15-05 and 15-06 are used for breaking down the information for land and sea systems. Refer to Chap 5.2.3.1 and Chap 5.2.3.2.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": "This section contains an introduction which gives a general overview of the salient features of the Product."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Aircraft release/operating limitations",
+          "Definition": "This section contains all limitations that must be observed throughout the cleared operating envelope."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Operational characteristics",
+          "Definition": "This section contains a comprehensive description of the operational characteristics of the Product including both those advantageous and those undesirable."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Normal procedures",
+          "Definition": "This section contains in narrative and/or checklist form all normal procedures required to accomplish operation. Procedures for special conditions such as scramble or missions requiring intermediate operational stops re included. This section also contains the handling of installed equipment, which is not satisfactorily covered in the systems with regard to crew."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Emergency procedures",
+          "Definition": "This section contains in narrative and/or checklists form the procedures to be followed to meet any emergency that could reasonably be expected."
+        },
+        {
+          "Subsystem": "-41",
+          "Title": "General",
+          "Definition": "Includes general information on crew/operator emergency procedures."
+        },
+        {
+          "Subsystem": "-42",
+          "Title": "Ground emergencies",
+          "Definition": "Includes information on crew/operator ground based emergency procedures."
+        },
+        {
+          "Subsystem": "-43",
+          "Title": "Initialization emergencies",
+          "Definition": "Includes information on crew/operator initialization emergency procedures."
+        },
+        {
+          "Subsystem": "-44",
+          "Title": "System related emergencies",
+          "Definition": "Includes information on crew/operator system related emergency procedures."
+        },
+        {
+          "Subsystem": "-45",
+          "Title": "Single or multiengine failures",
+          "Definition": "Includes information on crew/operator single or multi-engine emergency failure procedures."
+        },
+        {
+          "Subsystem": "-46",
+          "Title": "Arrival/Disembarking emergencies",
+          "Definition": "Includes information on crew/operator arrival/disembarking emergencies."
+        },
+        {
+          "Subsystem": "-47",
+          "Title": "Control system failures",
+          "Definition": "Includes information on control system failures."
+        },
+        {
+          "Subsystem": "-48",
+          "Title": "Other emergencies or failures",
+          "Definition": "Includes information on other emergencies or failures."
+        },
+        {
+          "Subsystem": "-49",
+          "Title": "Multi-function display readouts giving emergency information",
+          "Definition": "Includes information on crew/operator multi-function display related emergencies."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Special conditions",
+          "Definition": "This section contains information pertaining to the operation of the Product under special conditions (eg, adverse weather and climatic conditions)."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Performance data",
+          "Definition": "This section contains the Product performance data required by the project and agreed upon in the Performance Substantiation document."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Role Operation/Weapon system procedures",
+          "Definition": "This section contains in narrative and/or checklist form all normal and reversionary procedures relating to role operation and the role/weapons systems not covered in the relevant systems (21 and up). All relevant safety requirements must be specified."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Configuration",
+          "Definition": "This section contains the various stores configurations, including weapons and fuel tanks, carried both internally and externally and should include details of the effect on weight, drag index, limitations."
+        }
+      ]
+    },
+    {
+      "System": "16",
+      "Title": "Change of role",
+      "Definition": "Those instructions necessary to change the Product from one role to another.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": "List of the primary and secondary roles of the Product, and the role equipment to be removed/installed, presented in tabular format."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Role changes",
+          "Definition": "Individual procedures to cover all changes from any one role to any other role including any necessary testing."
+        }
+      ]
+    },
+    {
+      "System": "18",
+      "Title": "Vibration and noise analysis and attenuation",
+      "Definition": "This System provides the necessary information to enable operators to monitor and diagnose vibration and noise levels in order to identify imbalance, damage or misalignment in the Product dynamic and structural components. It also includes those Product and components which furnish a means of automatically controlling and/or reducing the force and/or value of the levels of vibration and/or noise within the Product through the use of active or passive systems/equipment.",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General",
+          "Definition": ""
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Vibration analysis",
+          "Definition": "Those instructions necessary to monitor, measure, diagnose and locate sources of vibration in dynamic and structural components."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Noise analysis",
+          "Definition": "Those instructions necessary to monitor, measure, diagnose and locate sources of noise in dynamic and structural components."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Active attenuation/actuation",
+          "Definition": "That portion of the system which from a power source ensures distribution to the system and provides a physical means of reducing vibration. Included are items such as actuating mechanisms, control valves, motors, plumbing, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Sensing",
+          "Definition": "Those sub-assemblies or components which provide a means of detecting vibration levels and conveying information to the control computing or indicating systems. Includes items such as accelerometers."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Control/computing",
+          "Definition": "Those Product or components used for processing data, from multiple sources, employed to activate and control attenuation systems. Includes items such as computers, switches, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Passive attenuation",
+          "Definition": "Those Product and components which provide a means of passive attenuation. Includes items such as vibration absorbers, suspension bars, etc."
+        }
+      ]
+    }
+  ]
+}

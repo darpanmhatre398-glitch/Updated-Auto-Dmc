@@ -1,0 +1,29 @@
+{
+    "successful": [
+        {
+            "file": "DMC-P15-A-A1-00-0000-00A-000A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-24-00-0000-00A-000A-D",
+            "dmc_parts": {
+                "systemCode": "24",
+                "infoCode": "000",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        },
+        {
+            "file": "DMC-P15-A-A4-00-0000-00A-040A-D.docx",
+            "assigned_dmc": "DMC-USERMODEL-A-06-00-0000-00A-000A-D",
+            "dmc_parts": {
+                "systemCode": "06",
+                "infoCode": "000",
+                "subSystemCode": "0",
+                "subSubSystemCode": "0",
+                "disassyCode": "00",
+                "disassyCodeVariant": "A"
+            }
+        }
+    ],
+    "failed": []
+}

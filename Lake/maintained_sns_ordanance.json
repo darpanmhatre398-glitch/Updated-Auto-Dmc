@@ -1,0 +1,2122 @@
+
+{
+  "Systems:00": [
+    {
+      "System": "A0",
+      "Title": "Propulsion, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Propulsion, General",
+          "Definition": "A system or equipment for producing and delivering power, to move/position the launcher."
+        }
+      ]
+    },
+    {
+      "System": "A1",
+      "Title": "Power unit, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Power unit, General",
+          "Definition": "The power unit element refers to a discrete means for generating and delivering power for maneuvering the ordnance system in the battlefield. It can include, for example, flywheel and clutch assemblies."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Engine",
+          "Definition": "Refers to a diesel, petrol, electric, etc fuelled means for generating power and a means whereby this power can be delivered to the transmission. It can include, for example, flywheel and clutch assemblies and engine mounted cooling, fuel, air and exhaust, lubrication, auxiliary and electrical systems."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Cooling system",
+          "Definition": "Refers to systems designed to maintain the correct operating temperatures for the power unit. It includes, for example, cooling air ducting, coolant pumps, liquid filled radiators, intercoolers, fans and associated heat exchange equipment."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Fuel systems",
+          "Definition": "Refers to a system or equipment designed to deliver fuel to the power unit. It includes, for example, fuel storage facilities, pumps, filters, delivery pipes, drainage and cut-off valves, Fuel Injector Pumps (FIP) and injectors."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Air and exhaust systems",
+          "Definition": "Refers to a system which supplies air to, or collects and removes exhaust gasses from the engine. It includes, for example, all pipes, ducting, filters, couplings, gaskets, turbochargers/superchargers, silencers and catalytic converters."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Lubrication systems",
+          "Definition": "Refers to a system that provides lubrication to the power unit and any external components related to the power unit lubrication system. It includes, for example, delivery and return pipes, pumps, filters, intercoolers and separately mounted heat exchangers."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Electrical",
+          "Definition": "Refers to a system that provides or uses electrical power associated with the power unit. It includes, for example, starter motors, alternators and generators directly mounted on the power unit. It also includes, for example, ignition system components including spark plugs, distributor, coils and leads."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls, items and associated systems in, or directly mounted on, the power unit. It includes, for example, engine mountings."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Hydraulic",
+          "Definition": "Refers to a system that provides or uses hydraulic power associated with the power unit. It includes, for example, hydraulic pumps, valves, pipes, and tanks. It also includes any external components related to the power unit hydraulic systems."
+        }
+      ]
+    },
+    {
+      "System": "A2",
+      "Title": "Transmission, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Transmission, General",
+          "Definition": "Refers to a means to transmit power from the engine to the driving member and can include clutch, torque converter, gearbox. It can also include steering and brakes if they are integral to the transmission. Also included are differentials and power takeoffs."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Gearbox",
+          "Definition": "Refers to a means for varying the speed/torque delivered from the power unit to the driving member. It can include the steering control and brake assemblies."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Steering control assembly",
+          "Definition": "Refers to a discrete means for varying the drive applied, through the transmission system, to each of the launcher's driving members."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Brake assembly",
+          "Definition": "Refers to a discrete means for applying braking forces through the launcher transmission system."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Auxiliary drive/ the power takeoff",
+          "Definition": "Refers to an auxiliary means of obtaining an output from the engine. It includes transfer gearboxes which can also include a slip differential."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Clutch",
+          "Definition": "Refers to a means for engaging/disengaging the transmission to/from the engine, when fitted as a separate assembly."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Drive shaft",
+          "Definition": "Refers to the means for connecting power output from the engine to the driving member. It includes muff couplings, universal joints, chains, belts and final drives."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Torque converter",
+          "Definition": "Refers to a means for varying the torque delivered from the engine to the driving member."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Differential",
+          "Definition": "Refers to a means for changing the direction of rotation delivered from the engine to the driving member or wheels."
+        }
+      ]
+    },
+    {
+      "System": "A3",
+      "Title": "Automotive/remote piloting and digital control systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Automotive/ remote piloting and digital control systems, General",
+          "Definition": "The automotive and remote piloting and Digital Automotive Control System (DACS) element refers to that equipment (hardware/software) installed in the launcher which is used to plan and control its speed and direction either autonomously or via tele-operation. This includes equipment which senses, processes and displays imagery data such as stereo vision systems, laser scanners, multiple sensor fusion algorithms and processors, image enhancement algorithms and processors etc. This includes, for example, equipment which performs intelligence analysis and planning functions such as automated route planners, image understanding algorithms and processors, computer aided driving algorithms, DACS and processors."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Control",
+          "Definition": "Refers to processing and control elements. It includes central processors, analogue/digital converters, associated software, memory boards, servo units, actuators, associated wiring, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Sensors",
+          "Definition": "Refers to sensors which are specifically associated with providing inputs to an automotive/remote piloting system or DACS."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicators",
+          "Definition": "Refers to the part of the system used to indicate/ monitor an automotive/remote piloting system or DACS. It includes indicators, wiring, etc."
+        }
+      ]
+    },
+    {
+      "System": "A4",
+      "Title": "Controls (drivers), General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Controls (drivers), General",
+          "Definition": "Given in this element are the controls required to start, stop, steer and generally control the launcher, commensurate with the mobility role of the equipment. It includes, for example, on-board diagnostic systems."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Foot controls",
+          "Definition": "Refers to the foot-operated controls to start, stop, steer and generally control the launcher. It includes, for example, pedal assemblies (clutch, brake, accelerator, etc), associated linkages, cables, hydraulic/pneumatic connections, master and slave cylinders, brake shoes and pads and disks and drums."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Hand controls",
+          "Definition": "Refers to the hand-operated controls to start, stop, steer and generally control the launcher. It includes, for example, stop/start, steering (wheel, tiller, etc) and braking controls."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Ancillary controls",
+          "Definition": "Refers to ancillary controls and associated systems. It includes, for example, such items as screen wash equipment, windscreen wipers and adjustable wing mirrors."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Propulsion control systems",
+          "Definition": "Refers to systems which monitor and/or control engine speed and performance."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Instrumentation",
+          "Definition": "Refers to systems (hardware/software) which monitor/ report on the operation of launcher systems. It includes, for example, the driver's instrumentation panel, warning lights and condition monitoring systems."
+        }
+      ]
+    },
+    {
+      "System": "A5",
+      "Title": "Launcher propulsion, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher propulsion, General",
+          "Definition": "The launcher propulsion element provides the forces to expel the complete round from the launcher to the target. It does not include propulsion provided by the projectile."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Chemical",
+          "Definition": "Refers to the chemical launch element."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Mechanical",
+          "Definition": "Refers to the mechanical launch element."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Electrical",
+          "Definition": "Refers to the electrical launch element, including magnetic propulsion systems."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Pneumatic",
+          "Definition": "Refers to the pneumatic launch element."
+        }
+      ]
+    },
+    {
+      "System": "A6",
+      "Title": "projectile propulsion, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile propulsion, General",
+          "Definition": "The projectile propulsion element provides the forces to transport the complete round from the launch position to the target. For artillery ammunition this element includes the cartridge case and if applicable the primer as well as the explosive charge itself. It does not include propulsion provided by the launcher assembly."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Chemical",
+          "Definition": "Refers to the chemical projectile propulsion element, including such devices as chemical precision initiation charges."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Mechanical",
+          "Definition": "Refers to the mechanical projectile propulsion element."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Electrical",
+          "Definition": "Refers to the electrical projectile propulsion element. It includes such devices as electric power charges."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Pneumatic",
+          "Definition": "Refers to the pneumatic projectile propulsion element."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Rocket motor",
+          "Definition": "Refers to the rocket motor projectile propulsion element."
+        }
+      ]
+    },
+    {
+      "System": "B0",
+      "Title": "Structure, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Structure, General",
+          "Definition": "Framework and/or basic structural housing for a system, including load bearing components."
+        }
+      ]
+    },
+    {
+      "System": "B1",
+      "Title": "Frame/carriage/ trail legs, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Frame/carriage/ trail legs General",
+          "Definition": "The frame/carriage/trail legs element refers to the primary load bearing components of the launcher which provide the structural integrity to withstand operational loading stresses generated whilst in use, for example when traversing various terrain profiles. This element applies to firing posts, wheeled frames, etc. It does not apply to hand-held weapons. It includes all structural subassemblies and appendages which attach directly to the primary structure. This element, for example, includes towing and lifting fittings, bumpers, hatches and grilles. It also includes provision to accommodate other subsystems such as mountings for suspension, weapons, turret, track body, cab, special equipment, loads etc."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Frame/firing post",
+          "Definition": "Refers to the basic structural housing for a non-wheeled ordnance system, including load bearing components, recoil mechanisms, mountings, firing platforms, stays, fittings and fixtures."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Carriage",
+          "Definition": "Refers to the basic structural housing for a wheeled ordnance system, including load bearing components, recoil mechanisms, mountings, towing assemblies, fittings and fixtures."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Trail legs/spades",
+          "Definition": "Refers to trail legs and spades provided to ensure launch platform stability during firing. They can also be used for towing."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Traverse/ elevation mechanism",
+          "Definition": "Refers to elevating/ traversing mechanisms (manual or powered) and their associated systems/components directly mounted on the frame/carriage/trail legs."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Armor",
+          "Definition": "Refers to protective amour and associated components directly mounted on the frame/carriage/trail legs."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Ammunition storage",
+          "Definition": "Refers to ammunition storage facilities and associated components directly mounted on the frame/carriage/trail legs."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Seats",
+          "Definition": "Refers to seating which is directly mounted on the frame/ carriage/trail legs."
+        }
+      ]
+    },
+    {
+      "System": "B2",
+      "Title": "Suspension/ wheels, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Suspension/ wheels, General",
+          "Definition": "The suspension/track/wheels element refers to the means for providing mobility or generating tractive effort, thrust and lift, generally at or in proximity to the earth's surface and adapting the launcher to the irregularities of the surface. It includes, for example, wheels and steering gears for traction and control functions. Also, it includes springs, shock absorbers, braking mechanisms, and other suspension members."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Suspension unit",
+          "Definition": "Refers to the means for adapting the launcher to irregularities of the surface. It includes shock absorbers, leaf and coil springs, pneumatic suspension units, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Axle",
+          "Definition": "Refers to axle assemblies. It includes, for example, axle arms, links, torsion arms, bearings, wheels that transfer tractive effort to the surface and rolling wheels, hub assemblies, tires, valves, inner-tubes, brake drums, pads, slave cylinders and discs."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Braking assembly",
+          "Definition": "Refers to a means for preventing un-planned movement of the ordnance system, not integral to the axle assembly. It includes, for example, hydraulic master cylinders, pipes, cables, over-run braking systems and hand brakes."
+        }
+      ]
+    },
+    {
+      "System": "B3",
+      "Title": "projectile structure, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile structure, General",
+          "Definition": "This element refers to the portion of the complete round which carries the payload to the target. It includes the casing of a projectile, the housing of a bomb and the body of a torpedo."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Projectile casing",
+          "Definition": "Refers to the basic casing of the projectile. It includes those structural devices which provide stability (eg, fins)."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Bomb housing",
+          "Definition": "Refers to the basic housing of the bomb. It includes those structural devices which provide power, stability and control (eg, fins, parachutes, anchors, batteries)."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Torpedo body",
+          "Definition": "Refers to the basic housing of the torpedo. It includes those structural devices which provide power, stability and control (eg, fins, parachutes, anchors, batteries)."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Rocket housing",
+          "Definition": "Refers to the basic housing of the rocket. It includes those structural devices which provide power, stability and control (eg, fins, parachutes, anchors, batteries)."
+        }
+      ]
+    },
+    {
+      "System": "C0",
+      "Title": "Armaments, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Armaments, General",
+          "Definition": "A defensive or offensive system or equipment."
+        }
+      ]
+    },
+    {
+      "System": "C1",
+      "Title": "Gun control systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Gun control systems, General",
+          "Definition": "The gun control element refers to that equipment (hardware/ software) installed in the launcher which provides intelligence necessary to power elevate and traverse the weapons systems and also to control via stabilization systems, and gun drives, including gun position indicators and sensors."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Installation",
+          "Definition": "Refers to the Gun Control Equipment (GCE) installation."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Control panel",
+          "Definition": "Refers to control panels associated with GCE."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Power supply",
+          "Definition": "Refers to power supply units associated with GCE."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Switch units",
+          "Definition": "Refers to switch units associated with GCE. It includes trimming units, fire control switches, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Gun controller",
+          "Definition": "Refers to control systems associated with GCE. It includes controls for the gun, motor generators, metadynes, amplidynes, magnicons, power amplifiers."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Power motors",
+          "Definition": "Refers to gearbox drive motors, associated with GCE. It includes the power, elevation and traverse drive motors."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Gyroscope assembly",
+          "Definition": "Refers to gyroscope assemblies associated with GCE."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary GCE controls and associated systems. It includes such items as turnbuckle assemblies, traverse displacement units, fire control quadrants, inter-connecting boxes, wiring, connectors, etc."
+        }
+      ]
+    },
+    {
+      "System": "C2",
+      "Title": "Fire control systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Fire control systems, General",
+          "Definition": "The fire control element refers to that equipment (hardware/ software) installed in the launcher which provides intelligence necessary for weapons delivery such as launching and firing. This element includes, for example, radar and other sensors necessary for search recognition, meteorological and/ or tracking; controls and displays, fire control computers, and computer programs."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Computer/ interface",
+          "Definition": "Refers to computer interface systems and equipment associated with fire control systems. It includes computer/ interface units, program loading facilities, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Control/monitor",
+          "Definition": "Refers to control and monitoring equipment associated with the fire control systems."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Filter units",
+          "Definition": "Refers to filter units associated with the fire control systems."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Sensors",
+          "Definition": "Refers to sensors associated with the fire control systems. It includes sensors for elevation and traverse displacement, trunnion tilt, sighting angle, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Firing handles",
+          "Definition": "Refers to firing handles associated with the fire control systems, including trigger mechanisms."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Fire control boxes",
+          "Definition": "Refers to control boxes associated with the fire control system. It includes the commander's, and gunner's control boxes, the loader's safety box, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary items and associated systems. It includes, for example, such items as junction boxes, cables, connectors and services."
+        }
+      ]
+    },
+    {
+      "System": "C3",
+      "Title": "Thermal imaging, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Thermal imaging, General",
+          "Definition": "This element refers to that equipment (hardware/software) which provides a thermal picture for the crew or operator to use for surveillance and weapon guidance. It includes thermal imaging sensor heads, drive units, processors, sights, power supply units, and display units."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Sensor",
+          "Definition": "Refers to sensors specifically associated with thermal imaging systems. It includes scanner head assemblies, IR telescopes, tilt sensors, focal telescopes, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Processing",
+          "Definition": "Refers to processing elements associated with thermal imaging systems. It includes symbology units, processors, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Display",
+          "Definition": "Refers to the display elements of a thermal imaging system. It includes binocular viewers, commander's and gunner's display units, display drive units, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Control",
+          "Definition": "Refers to the control elements of a thermal imaging system. It includes servo units, gunner's and commander's control units, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Converter units",
+          "Definition": "Refers to converter elements of a thermal imaging system. It includes isolating converter units, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Structure and framework",
+          "Definition": "Refers to framework and/or basic structural housing for a thermal imaging system, including load bearing components."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls, items and associated systems related to thermal imaging systems. It includes such items as wash/wipe equipment, cables, connectors, services, etc."
+        }
+      ]
+    },
+    {
+      "System": "C4",
+      "Title": "Thermal imaging cooling systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Thermal imaging cooling systems, General",
+          "Definition": "This element refers to that equipment which provides a cooling medium, for thermal images. It will include, for example, compressors, bottles, pipes, fans, mini coolers, air cleaning columns and stirling cycle cooling machines."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Compressors",
+          "Definition": "Refers to the part of the system used to pressurize the cooling system. It includes motors, pumps, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Storage",
+          "Definition": "Refers to the part of the system used for storage of coolant. It includes tanks, pressurized containers, filling systems, sumps, drains, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Distribution",
+          "Definition": "Refers to the part of the system used for distribution of coolant. It includes pipes, valves, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Indicating",
+          "Definition": "Refers to the part of the system used to monitor the condition of coolant (quantity, temperature and pressure). It includes transmitters, indicators, wiring, warning systems, etc."
+        }
+      ]
+    },
+    {
+      "System": "C5",
+      "Title": "Optical sighting systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Optical sighting systems, General",
+          "Definition": "The optical element refers to the sighting systems for search, observation, identification, tracking, range-finding and will include sensors and displays associated with this system."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Surveillance",
+          "Definition": "Refers to optical surveillance equipment. It includes, for example, such items as observation periscopes, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Sighting",
+          "Definition": "Refers to optical sighting equipment. It includes, for example, such items as sighting and aiming periscopes and iron sights."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Reticle image projector",
+          "Definition": "Refers to a means for displaying a reticle image in/on the sighting device."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Sighting unit",
+          "Definition": "Refers to a means for displaying a reticle image in the sighting device."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls, items and associated systems related to optical sighting systems. It includes such items as wash/ wipe equipment, cables, connectors, services, etc."
+        }
+      ]
+    },
+    {
+      "System": "C6",
+      "Title": "Weapon/gun, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Weapon/gun, General",
+          "Definition": "The weapon/gun element refers to the means for the launcher to deliver fire on hostile targets or for logistics and other vehicles to exercise self-defense. This element includes, for example, the main gun/ elevating mass and secondary armaments such as small arms and mortars. Fire control, gun control, and optical systems are excluded."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Launcher",
+          "Definition": "The launcher assembly provides initial guidance for launch of projectiles. It includes, for example, barrels, tubes (mortar, torpedo, etc) and rails."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Breech, housing and firing mechanism",
+          "Definition": "Refers to a system which provides a means of access for the projectile/case to enter the barrel. It also provides a pressure seal and firing mechanism, together with the means by which the breech and firing mechanism are housed within the equipment. It includes all associated housing items."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Mountings",
+          "Definition": "Refers to the means for attaching the barrel assembly and can include the mountlet assembly as well as the means to balance the armament system. It also includes tripods and bipods."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Recoil mechanism",
+          "Definition": "Refers to systems which provide a means for absorbing energy created by projectile launch. It includes recuperator and recoil assemblies, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Smoke discharger",
+          "Definition": "Refers to a means for dispersing smoke/fumes generated when a round is fired."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Secondary armaments installation",
+          "Definition": "Refers to systems which provide a secondary armaments installation."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Sights",
+          "Definition": "Refers to a mechanical sighting system used on small arms, machine guns, man-portable launchers, etc."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary items and associated systems. It includes, for example, such items as spare barrels and other parts, wallets, cleaning kits and sustained fire kits."
+        }
+      ]
+    },
+    {
+      "System": "C7",
+      "Title": "Automatic loading systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Automatic loading systems, General",
+          "Definition": "The automatic loading element consists of that equipment (hardware/software) providing the means to select ammunition from a stored position, its transfer to and loading of the armament system. This element also includes the means to eject spent cases and misfired rounds. Components include all ammunition storage racks, transfer/ lift mechanisms, ramming and ejecting mechanisms as well as specialized hydraulic and electrical controls. It does not include storage provided externally from the main system."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Storage (ready round)",
+          "Definition": "Refers to ammunition storage racks, bins, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Rocket pods/mine racks/dispensers",
+          "Definition": "Provides a means of holding/supporting the projectile during transportation, and a means of releasing the projectile."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Transfer/lift",
+          "Definition": "Refers to the means to select ammunition from a stored position in the launcher and transfer it to the armament system. It includes transfer and lift mechanisms."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Loading/ramming",
+          "Definition": "Refers to the means to loading the armament system. It includes ramming and ejecting mechanisms."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Feed mechanism",
+          "Definition": "The feed mechanism element refers to the equipment for placing ammunition in a position, ready for chambering."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Automatic loading devices",
+          "Definition": "The automatic loading element consists of that equipment providing the means to select ammunition from a stored position and transferring it to a feed mechanism or ready magazine."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Control",
+          "Definition": "Refers to the means to control loading the armament system. It includes specialized hydraulic and electrical controls and safety devices."
+        }
+      ]
+    },
+    {
+      "System": "C8",
+      "Title": "Armaments projectile, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Armaments projectile, General",
+          "Definition": "This element refers to the portion of the projectile which carries the payload to the target. It is the basic housing of the bomb or rocket, casing of the projectile, body of a torpedo or the tactical munitions dispenser containing sub-munitions. It also includes those structural devices which provide stability and control (eg, fins, parachutes, anchors)."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Payload",
+          "Definition": "Payload element refers to the subsystem which contains the warhead and its support assemblies. In some munitions such as small arms and munitions, the payload can only be the warhead. With complex munitions the payload can contain sub munitions (the payload subsystem can also include discrete guidance and control, fuse, safety/armament and propulsion systems)."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fuse",
+          "Definition": "Fuse element refers to the mechanical or electronic device in the projectile designed to detonate or to set forces into action to detonate the charge or primer under desired conditions."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Initial safety & arming",
+          "Definition": "The initial safety and arming element refers to the device in the projectile which controls the capability of initiating the explosive sequence."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Secondary safety & arming",
+          "Definition": "The secondary safety and arming element refers to the device in the complete round which controls the capability of initiating the explosive sequence, should the initial safety and arming device fail."
+        }
+      ]
+    },
+    {
+      "System": "C9",
+      "Title": "Dispenser containing sub-munitions, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Dispenser containing submunitions, General",
+          "Definition": "This element refers to the portion of the projectile which carries sub-munitions to the target."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Tactical munitions dispenser",
+          "Definition": "Tactical munitions dispenser containing sub-munitions, other than those contained within the payload."
+        }
+      ]
+    },
+    {
+      "System": "D0",
+      "Title": "Electrical systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Electrical systems, General",
+          "Definition": "A system or equipment for generation, distribution and/or control of electric power."
+        }
+      ]
+    },
+    {
+      "System": "D1",
+      "Title": "Launcher electrical systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher for electrical systems, General",
+          "Definition": "This element refers to the electrical or electronic systems of the launcher. It will include wiring harnesses, line replaceable units (LRUs), sensors, lighting, batteries, generators, etc."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Generating",
+          "Definition": "Refers to generating systems and equipment related to the launcher. It includes such items as alternators, dynamos, generator panels, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Batteries",
+          "Definition": "Refers to battery equipment related to the launcher. It includes such items as battery containers, lagging kits, battery assemblies, connecting straps, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Instrumentation",
+          "Definition": "Refers to instrumentation systems and equipment related to the launcher. It includes such items as tachometers, speedometers, indicating panels, electronic circuit panels, control transmitters, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Lights",
+          "Definition": "Refers to lighting systems and equipment related to the launcher. It includes such items as inspection lights, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Wiring",
+          "Definition": "Refers to wiring and cable looms related to the launcher. It includes looms, wires, harnesses, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Electrical equipment",
+          "Definition": "Refers to electrical equipment related to the launcher. It includes, for example, actuators, engine controls and ignition systems."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Distribution",
+          "Definition": "Refers to electrical distribution systems and equipment related to the launcher. It includes such items as controllers, switches, relays, regulators, etc."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Protection",
+          "Definition": "Refers to electrical protection systems and equipment related to the launcher. It includes such items as fuses, fusible links, trip switches, etc."
+        },
+        {
+          "Subsystem": "-90",
+          "Title": "Control",
+          "Definition": "Refers to control systems and equipment related to the launcher. It includes such items as controllers, switches, relays, regulators, etc."
+        }
+      ]
+    },
+    {
+      "System": "D2",
+      "Title": "projectile electrical systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile electrical systems, General",
+          "Definition": "This element refers to the devices within the projectile which provide electrical power."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "AC power",
+          "Definition": "Refers to AC power systems within the projectile (eg, generators)."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "DC power",
+          "Definition": "Refers to DC power systems within the projectile (eg, batteries, quartz crystal)."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "External power",
+          "Definition": "That portion of the system within the projectile that connects external electrical power sources (eg, battery charging points)."
+        }
+      ]
+    },
+    {
+      "System": "E0",
+      "Title": "Communications, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Communications, information. General",
+          "Definition": "A system or equipment for transferring information."
+        }
+      ]
+    },
+    {
+      "System": "E1",
+      "Title": "Launcher communications, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher communications, General",
+          "Definition": "The communications element refers to that equipment (hardware/ software) which provides the means within the system for commanding, controlling and transmitting/ receiving information and data to launcher crews and other personnel exterior to the operating environment. This element includes radio frequency equipment, microwave and optic communication links, networked equipment for multiple launcher control and intercoms and external phones systems. It can include navigational system and data displays when these are integral with the equipment of crew stations of the turret assembly or drivers automotive display."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "UHF/SHF/EHF",
+          "Definition": "Refers to that portion of the system used for communications utilizing ultra, super and extra high frequency (UHF, SHF, EHF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "VHF",
+          "Definition": "Refers to that portion of the system used for communications utilizing very high frequency (VHF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "HF",
+          "Definition": "Refers to that portion of the system used for communications utilizing high frequency (HF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "LF",
+          "Definition": "Refers to that portion of the system used for communications utilizing low frequency (LF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Audio",
+          "Definition": "Refers to that portion of the system used for voice communications. It includes such items as intercoms, headphones, loudspeakers, switching/control panels, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Digital",
+          "Definition": "Refers to that portion of the system used for digital/data communications. It includes modems, encryption devices, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Satellite",
+          "Definition": "Refers to that portion of the system used for communications via satellites. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Optical",
+          "Definition": "Refers to that portion of the system used for communications via line-of-site. It includes transmitters, receivers, control, signaling devices, etc."
+        },
+        {
+          "Subsystem": "-90",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls and associated systems. It includes such items as wiring, connectors, etc."
+        }
+      ]
+    },
+    {
+      "System": "E2",
+      "Title": "Launcher identification friend/foe (IFF), General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher identification friend/foe (IFF), General",
+          "Definition": "IFF equipment is common to all services and is therefore interactive with many other users. It covers the equipment (hardware/software) that identifies friend or foe and transmits that information using the launcher communication system(s)."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Transmitting",
+          "Definition": "Refers to that part of the launcher system which is used to send data."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Receiving",
+          "Definition": "Refers to that part of the launcher system which is used to receive IFF data."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "Refers to that part of the launcher system which is used to display IFF data."
+        }
+      ]
+    },
+    {
+      "System": "E3",
+      "Title": "Projectile communications, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile communications, General",
+          "Definition": "The communications element refers to that equipment (hardware/software) which provides the means within the system for commanding, controlling and transmitting/ receiving information and data to the projectile. This element includes radio frequency equipment, microwave and optical communication links and networked equipment for multiple control. It can include navigational system and data displays when these are integral with the projectile equipment."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "UHF/SHF/EHF",
+          "Definition": "Refers to that portion of the system used for communications utilizing ultra, super and extra high frequency (UHF, SHF, EHF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "VHF",
+          "Definition": "Refers to that portion of the system used for communications utilizing very high frequency (VHF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "HF",
+          "Definition": "Refers to that portion of the system used for communications utilizing high frequency (HF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "LF",
+          "Definition": "Refers to that portion of the system used for communications utilizing low frequency (LF) carriers. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Digital",
+          "Definition": "Refers to that portion of the system used for digital/data communications. It includes modems, encryption devices, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Satellite",
+          "Definition": "Refers to that portion of the system used for communications via satellites. It includes transmitters, receivers, control, antennas, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Optical",
+          "Definition": "Refers to that portion of the system used for communications via line-of-site. It includes transmitters, receivers, control, signaling devices, etc."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls and associated systems. It includes such items as wiring, connectors, etc."
+        }
+      ]
+    },
+    {
+      "System": "E4",
+      "Title": "Projectile identification friend/foe (IFF), General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile identification friend/foe (IFF), General",
+          "Definition": "IFF equipment is common to all services and is therefore interactive with many other users. It covers the equipment (hardware/software) within the projectile that identifies friend or foe."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Transmitting",
+          "Definition": "Refers to that part of the launcher system which is used to send data."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Receiving",
+          "Definition": "Refers to that part of the launcher system which is used to receive IFF data."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "Refers to that part of the launcher system which is used to display IFF data."
+        }
+      ]
+    },
+    {
+      "System": "F0",
+      "Title": "Navigation, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Navigation, manage, General",
+          "Definition": "A system or equipment used to determine, conduct, or plot a position or course."
+        }
+      ]
+    },
+    {
+      "System": "F1",
+      "Title": "Launcher navigation, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher (hardware/ software) navigation, General",
+          "Definition": "The navigation element refers to that equipment installed in the launcher which permits the crew to determine location and to plot a course. It includes navigation systems such as dead reckoning, inertial and global positioning systems. Landmark recognition algorithms and processors are also included."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Independent",
+          "Definition": "Refers to that portion of the system (hardware/software) which provides information to determine position and is independent on ground installations or orbiting satellites. It includes inertial guidance systems, tracking systems, sextants, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Dependant",
+          "Definition": "Refers to that portion of the system (hardware/software) which provides information to determine position and is mainly dependant on ground installations or orbiting satellites. It includes GPS, radio compass, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Computing",
+          "Definition": "Refers to that portion of the system (hardware/software) which combines/processes navigational data to compute or manage the geographical position of the launcher. It includes course computers, landmark recognition algorithms, processors, displays, etc."
+        }
+      ]
+    },
+    {
+      "System": "F2",
+      "Title": "Launcher guidance and control, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher guidance and control, General",
+          "Definition": "This system refers to the complex of electronic equipment/ hardware/software, based on the launcher, which evaluates and correlates the path of the projectile with target information and which performs the necessary functions to enable the payload to intercept the target. This element also includes emplacement of mines."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Computers/ software",
+          "Definition": "This element refers to any computational devices hardware/ software associated with launcher-based guidance and control of the projectile. This element also includes emplacement of mines."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Control consoles",
+          "Definition": "This element refers to any control consoles (hardware/ software), associated with launcher-based guidance and control of the projectile. This element also includes emplacement of mines."
+        }
+      ]
+    },
+    {
+      "System": "F3",
+      "Title": "Projectile guidance and control, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile guidance and control, General",
+          "Definition": "This system refers to the complex of electronic equipment/ hardware/software which evaluates and correlates the path of the projectile with target information and which performs the necessary functions to enable the payload to intercept the target. It includes, for example, laser guided bombs."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Projectile builtin stability mechanisms",
+          "Definition": "This element refers to the control devices within the projectile which provide stability during flight. It does not include fixed fins, etc which form part of the structure."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Projectile builtin control mechanisms",
+          "Definition": "This element refers to the devices within the projectile which provide guidance control. For example navigation systems, laser target sensors, etc."
+        }
+      ]
+    },
+    {
+      "System": "G0",
+      "Title": "Surveillance, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Surveillance, General",
+          "Definition": "A system or equipment used to sense the environment."
+        }
+      ]
+    },
+    {
+      "System": "G1",
+      "Title": "Launcher surveillance, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher surveillance, General",
+          "Definition": "The surveillance element is defined as all equipment (hardware/software) and associated systems used to sense the surrounding environment and then process, display and record the resulting information. This can include, for example, Meteorological equipment. It does not include specific thermal imaging or meteorological/atmospheric systems."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Control",
+          "Definition": "Refers to the processing, control and recording elements of the sensor systems. It includes central processors, analogue/ digital converters, associated software, storage units, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Indicating",
+          "Definition": "Refers to the part of the system used to indicate/monitor sensor information. It includes data identification, indicators, displays panels, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Recording",
+          "Definition": "Refers to the part of the system used to record sensor information."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Infra-red",
+          "Definition": "Refers to that portion of a system that uses heat-sensing devices to acquire information. It includes infra-red scanners and image intensifiers. It does not include specific thermal imaging systems."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Laser",
+          "Definition": "Refers to that portion of a system that uses laser devices to acquire information. It includes distance measuring, target identification, etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Radar",
+          "Definition": "Refers to that portion of a system that uses radar devices to acquire information. It includes antennas, receivers, transmitters, indicators, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Magnetic",
+          "Definition": "Refers to that portion of a system that uses magnetic sensors to acquire information. It includes magnetometers, amplifiers, processors, indicators, etc."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Sonar",
+          "Definition": "Refers to that portion of a system that uses sonar to acquire information. It includes modulators, transducers, processors, indicators, etc."
+        },
+        {
+          "Subsystem": "-90",
+          "Title": "Acoustic",
+          "Definition": "Refers to that portion of a system that uses sound to acquire information. It includes listening devices, amplifiers, processors, indicators, etc."
+        }
+      ]
+    },
+    {
+      "System": "G2",
+      "Title": "Launcher sensors, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher sensors, General",
+          "Definition": "The sensor element refers to those systems (hardware/ software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Radar",
+          "Definition": "The radar element refers to those radar systems (hardware/ software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Sonar",
+          "Definition": "The sonar element refers to those sonar systems (hardware/ software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Thermal",
+          "Definition": "The thermal imaging element refers to those thermal imaging and image intensifying systems (hardware/ software) within the launcher that provide data required for targeting, launch, and payload delivery."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Laser",
+          "Definition": "The laser element refers to those laser target-designator systems (hardware/software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Magnetic",
+          "Definition": "The magnetic element refers to those magnetic systems (hardware/software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Acoustic",
+          "Definition": "The acoustic element refers to those sound sensing systems (hardware/ software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Pressure",
+          "Definition": "The pressure element refers to those pressure systems (hardware/software) within the launcher that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Proximity",
+          "Definition": "This element refers to the proximity sensing systems (hardware/software) within the launcher that provide proximity sensing data required for targeting, launch, arming and payload delivery."
+        }
+      ]
+    },
+    {
+      "System": "G3",
+      "Title": "Projectile sensors, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile sensors, General",
+          "Definition": "The sensor element refers to those systems (hardware/ software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Radar",
+          "Definition": "The radar element refers to those radar systems (hardware/ software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Sonar",
+          "Definition": "The sonar element refers to those sonar systems (hardware/ software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Thermal",
+          "Definition": "The thermal imaging element refers to those thermal imaging and image intensifying systems (hardware/ software) within the projectile that provide data required for targeting, launch, and payload delivery."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Laser",
+          "Definition": "The laser element refers to those laser target-designator systems (hardware/software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Magnetic",
+          "Definition": "The magnetic element refers to those magnetic systems (hardware/software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Acoustic",
+          "Definition": "The acoustic element refers to those sound sensing systems (hardware/software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Pressure",
+          "Definition": "The pressure element refers to those pressure systems (hardware/software) within the projectile that provide data required for targeting, launch, arming and payload delivery."
+        },
+        {
+          "Subsystem": "-80",
+          "Title": "Proximity",
+          "Definition": "This element refers to the proximity sensing systems (hardware/software) within the projectile that provide proximity sensing data required for targeting, launch, arming and payload delivery."
+        }
+      ]
+    },
+    {
+      "System": "G4",
+      "Title": "Meteorological/atmospheric research, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Meteorological/ atmospheric research, General",
+          "Definition": "Refers to the systems and devices which furnish a means of providing, processing and recording meteorological data."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Weather",
+          "Definition": "Refers to that portion of a system which is used to detect, measure, process or record weather (moisture, temperature, cloud, wind, etc) data. It includes hygrometers, thermometers, anemometers, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Air turbulence",
+          "Definition": "Refers to that portion of a system which is used to detect, measure, process or record air turbulence data."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Pollutants",
+          "Definition": "Refers to that portion of a system which is used to detect, measure, process or record contaminated particles."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Magnetic/ gravitational",
+          "Definition": "Refers to that portion of a system which is used to detect, measure, process or record the earth's magnetic or gravitational forces."
+        }
+      ]
+    },
+    {
+      "System": "H0",
+      "Title": "Steering, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Steering, General",
+          "Definition": "A system or equipment used to guide or govern direction."
+        }
+      ]
+    },
+    {
+      "System": "H1",
+      "Title": "Launcher guidance, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher guidance, General",
+          "Definition": "This element refers to the devices within the launcher used to guide or govern direction of the projectile."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Guidance mechanism",
+          "Definition": "This element refers to the devices (hardware/software) within the launcher used to govern direction of the projectile."
+        }
+      ]
+    },
+    {
+      "System": "H2",
+      "Title": "Projectile guidance, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile guidance, General",
+          "Definition": "This element refers to the devices within the projectile used to govern direction or placement."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Projectile direction control",
+          "Definition": "This element refers to the devices within the projectile which provide direction control. For example rudders, etc."
+        }
+      ]
+    },
+    {
+      "System": "J0",
+      "Title": "Ventilation/ heating/cooling, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Ventilation/ heating/cooling, General",
+          "Definition": "A system or equipment used to provide a controlled environment."
+        }
+      ]
+    },
+    {
+      "System": "J1",
+      "Title": "Launcher ventilation/ heating/cooling, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher ventilation/ heating/cooling, General",
+          "Definition": "This element refers to those subassemblies or components which provide a micro-climatic condition (heating or cooling), for the launcher, including heating/cooling suits or components. It also covers purification systems not covered by NBC."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Compression",
+          "Definition": "That portion of the system and its controls which supplies pressurized air/gas. Includes items such as controls and indicating systems related to pressure, gas-filled systems, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Distribution",
+          "Definition": "That portion of the system used to induct and distribute air. It includes equipment rack cooling, seals, demisting, waveguide pressurization system and items of such systems, like blowers, ducting and inlets."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Heating",
+          "Definition": "That portion of the system and its controls which supply heated air. It includes items such as heater units, wiring, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Cooling",
+          "Definition": "That portion of the system and its controls which supply cooled air. Includes items such as the cooling unit, indicating systems related to the cooler operation, wiring etc. Does not include temperature control and indicating systems."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Temperature control",
+          "Definition": "That portion of the system used to control the temperature of the air. Includes items such as, thermal sensing devices, switches, indicators, wiring etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Moisture/air",
+          "Definition": "That portion of the system used to contaminant control moisture in the air, to control ozone concentrations, to filter radioactive debris and chemical/biological contaminants, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Liquid coolant",
+          "Definition": "Those components required to supply liquid coolant to a cooling system."
+        }
+      ]
+    },
+    {
+      "System": "J2",
+      "Title": "Projectile ventilation/ heating/cooling, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile ventilation/ heating/cooling, General",
+          "Definition": "Those units and components which furnish a means of pressurizing, heating, cooling, moisture controlling, filtering and treating the air/gas used to condition areas of the projectile system environment. It includes cooling, heating, vents, ducts, seals, wiring etc."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Compression",
+          "Definition": "That portion of the system and its controls which supplies pressurized air/gas. Includes items such as controls and indicating systems related to pressure, gas-filled systems, etc."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Distribution",
+          "Definition": "That portion of the system used to induct and distribute air. It includes equipment rack cooling, seals, demisting, waveguide pressurization system and items of such systems like blowers, ducting and inlets."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Heating",
+          "Definition": "That portion of the system and its controls which supply heated air. Includes items such as heater units, wiring, etc."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Cooling",
+          "Definition": "That portion of the system and its controls which supply cooled air. Includes items such as the cooling unit, indicating systems related to the cooler operation, wiring etc. Does not include temperature control and indicating systems."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Temperature control",
+          "Definition": "That portion of the system used to control the temperature of the air. Includes items such as, thermal sensing devices, switches, indicators, wiring etc."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Moisture/air",
+          "Definition": "That portion of the system used to contaminant control moisture in the air, to control ozone concentrations, to filter radioactive debris and chemical/biological contaminants, etc."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Liquid coolant",
+          "Definition": "Those components required to supply liquid coolant to an equipment cooling system."
+        }
+      ]
+    },
+    {
+      "System": "K0",
+      "Title": "Hydraulic systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Hydraulic systems, General",
+          "Definition": "A system or equipment for generation, distribution and/or control of hydraulic (or pneumatic) power."
+        }
+      ]
+    },
+    {
+      "System": "K1",
+      "Title": "Launcher hydraulic system, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher hydraulic system, General",
+          "Definition": "This element refers to a system or equipment within the launcher for the generation, distribution and/or control of hydraulic power."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Main",
+          "Definition": "This element refers to a system or equipment within the launcher which is used to generate, store, distribute or control hydraulic power. It includes such items as tanks, valves, pumps, plumbing, etc. It does not include user systems classified elsewhere, or their connecting valves."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Auxiliary",
+          "Definition": "That portion of the launcher hydraulic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main hydraulic system."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "That part of the launcher hydraulic system which is used to monitor condition of the hydraulic system or fluid. It includes transmitters, indicators, warning systems, etc."
+        }
+      ]
+    },
+    {
+      "System": "K2",
+      "Title": "Projectile hydraulic system, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile hydraulic system, General",
+          "Definition": "This element refers to a system or equipment within the projectile for the generation, distribution and/or control of hydraulic power."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Main",
+          "Definition": "This element refers to a system or equipment within the projectile which is used to generate, store, distribute or control hydraulic power. It includes such items as tanks, valves, pumps, plumbing, etc. It does not include user systems classified elsewhere, or their connecting valves."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Auxiliary",
+          "Definition": "That portion of the projectile hydraulic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main hydraulic system."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "That part of the projectile hydraulic system which is used to monitor condition of the hydraulic system or fluid. It includes transmitters, indicators, warning systems, etc."
+        }
+      ]
+    },
+    {
+      "System": "K3",
+      "Title": "Launcher pneumatic systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher pneumatic systems, General",
+          "Definition": "This element refers to a system or equipment (hardware/ software) within the launcher for the generation, distribution and/or control of pneumatic (including vacuum) power."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Main",
+          "Definition": "This element refers to a system or equipment within the launcher which is used to generate, store, distribute or control pneumatic power. It includes such items as tanks, valves, pumps, plumbing, etc. It does not include user systems classified elsewhere, or their connecting valves."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Auxiliary",
+          "Definition": "That portion of the launcher pneumatic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main pneumatic system."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "That part of the launcher pneumatic system which is used to monitor condition of the system. It includes transmitters, indicators, warning systems, etc."
+        }
+      ]
+    },
+    {
+      "System": "K4",
+      "Title": "Projectile pneumatic systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile pneumatic systems, General",
+          "Definition": "This element refers to a system or equipment (hardware/ software) within the projectile for the generation, distribution and/or control of pneumatic (including vacuum) power."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Main",
+          "Definition": "This element refers to a system or equipment within the projectile which is used to generate, store, distribute or control pneumatic power. It includes such items as tanks, valves, pumps, plumbing, etc. It does not include user systems classified elsewhere, or their connecting valves."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Auxiliary",
+          "Definition": "That portion of the projectile pneumatic system which is classified as auxiliary, emergency or standby and which is used to supplement, or replace the main pneumatic system."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Indicating",
+          "Definition": "That part of the projectile pneumatic system which is used to monitor condition of the system. It includes transmitters, indicators, warning systems, etc."
+        }
+      ]
+    },
+    {
+      "System": "L0",
+      "Title": "Electronic system, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Electronic system, General",
+          "Definition": "A system or equipment using electronic/automated software and/or firmware elements not specifically included in other systems."
+        }
+      ]
+    },
+    {
+      "System": "L1",
+      "Title": "Launcher electronic system, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher electronic system, General",
+          "Definition": "This element refers to a system or equipment within the launcher which uses electronic/automated software and/or firmware elements not specifically included in other systems."
+        }
+      ]
+    },
+    {
+      "System": "L2",
+      "Title": "Projectile electronic system, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile electronic system, General",
+          "Definition": "This element refers to a system or equipment within the projectile which uses electronic/automated software and/or firmware elements not specifically included in other systems."
+        }
+      ]
+    },
+    {
+      "System": "M0",
+      "Title": "Auxiliary, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Auxiliary, main General",
+          "Definition": "Subsidiary systems that provide services or support to systems or equipment."
+        }
+      ]
+    },
+    {
+      "System": "M1",
+      "Title": "Launcher auxiliary systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher auxiliary systems, General",
+          "Definition": "This element refers to subsidiary systems that provide services or support to main systems or equipment related to the launcher system."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Magazine",
+          "Definition": "The magazine element refers to the structure or compartment for storing ammunition or explosives in a 'ready for use' condition, or position, not directly mounted on the launcher."
+        }
+      ]
+    },
+    {
+      "System": "M2",
+      "Title": "Projectile auxiliary systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile auxiliary systems, General",
+          "Definition": "This element refers to subsidiary systems that provide services or support to main systems or equipment within the projectile."
+        }
+      ]
+    },
+    {
+      "System": "M3",
+      "Title": "Adapter kits, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Adapter kits, General",
+          "Definition": "The adapter kits element refers to the equipment (hardware/software) for adapting the launch system to particular applications. For example, vehicle adapter kits and for adaption to different aircraft and/ or ship models. Also, kits for backpacking, etc."
+        }
+      ]
+    },
+    {
+      "System": "N0",
+      "Title": "Survivability, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Survivability, General",
+          "Definition": "A system or equipment used to provide hazard detection, protection, survivability and escape facilities."
+        }
+      ]
+    },
+    {
+      "System": "N1",
+      "Title": "Launcher fire protection systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher fire protection systems, General",
+          "Definition": "This element refers to systems (hardware/software) that provide a warning to the launcher crew that a possible fire hazard exists. It includes the suppression/fire fighting and heat sensors required for this system."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Detecting",
+          "Definition": "Refers to that part of the system which is used to sense the presence of excessive heat, smoke or fire."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Indicating",
+          "Definition": "Refers to that part of the system which is used to indicate the presence of excessive heat, smoke or fire."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Extinguishing",
+          "Definition": "Refers to that part of the system, either fixed or portable, which is used to extinguish fire."
+        }
+      ]
+    },
+    {
+      "System": "N2",
+      "Title": "Launcher nuclear, biological and chemical protection, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher nuclear, biological and or chemical protection, General",
+          "Definition": "The NBC element refers to those subassemblies or components which provide nuclear, biological and chemical detection, protection and survivability to the launcher and/ or crew, either individually or collectively, during an NBC attack. This can include a positive pressure system, purification system, ventilated face piece (mask), NBC detection and warning devices, decontamination equipment and chemical resistant coatings. It can also include environmental control equipment, such as heaters, coolers, etc."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Pack",
+          "Definition": "Refers to NBC protection packs."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Control",
+          "Definition": "Refers to NBC protection controls."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Pressure relief",
+          "Definition": "Refers to pressure relief devices specifically fitted for NBC protection purposes."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Door assemblies",
+          "Definition": "Refers to NBC protection fitted to doors and hatches."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls and associated systems. It can include, for example, such items as wiring, connectors, heaters, coolers and ducting."
+        }
+      ]
+    },
+    {
+      "System": "N3",
+      "Title": "Projectile fire protection systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile fire protection systems, General",
+          "Definition": "This element refers to systems (hardware/software) that provide a warning within the projectile that a possible fire hazard exists. It includes the suppression/fire fighting and heat sensors required for this system."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Detecting",
+          "Definition": "Refers to that part of the system which is used to sense the presence of excessive heat, smoke or fire."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Indicating",
+          "Definition": "Refers to that part of the system which is used to indicate the presence of excessive heat, smoke or fire."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Extinguishing",
+          "Definition": "Refers to that part of the system, either fixed or portable, which is used to extinguish fire."
+        }
+      ]
+    },
+    {
+      "System": "N4",
+      "Title": "Projectile nuclear, biological and chemical protection, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile nuclear, biological and chemical protection, General",
+          "Definition": "The NBC element refers to those subassemblies or components which provide nuclear, biological and chemical detection, protection and survivability to the projectile, either individually or collectively, during an NBC attack. This includes a positive pressure system, purification system, NBC detection and protection devices, decontamination equipment and chemical resistant coatings."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Pack",
+          "Definition": "Refers to NBC protection packs."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Control",
+          "Definition": "Refers to NBC protection controls."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Pressure relief",
+          "Definition": "Refers to pressure relief devices specifically fitted for NBC protection purposes."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Door assemblies",
+          "Definition": "Refers to NBC protection fitted to doors and hatches."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Ancillary",
+          "Definition": "Refers to ancillary controls and associated systems. It includes such items as wiring, connectors, etc."
+        }
+      ]
+    },
+    {
+      "System": "P0",
+      "Title": "Special equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Special equipment, General",
+          "Definition": "A system or equipment used to provide a special mission capability."
+        }
+      ]
+    },
+    {
+      "System": "P1",
+      "Title": "Launcher special to type equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher special to type equipment, General",
+          "Definition": "This element refers to that special equipment (hardware/ software) to be mated to a launcher, to enable the achievement of a special mission capability, recovery operations, winterization, etc. It can include, for example blades, booms, cranes, winches, robotic arms, and manipulators."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Launcher special recovery equipment",
+          "Definition": "This element refers to that special recovery equipment (hardware/software) to be mated to a launcher, to enable the achievement of a recovery capability. It includes cranes and towing equipment."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Launcher special fit equipment",
+          "Definition": "This element refers to that special fit equipment (hardware/ software) to be mated to a launcher, to enable the achievement of a specialized capability. It will include supply, DROPS, lift trucks, side loaders, etc."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Launcher special purpose equipment",
+          "Definition": "This element refers to that special-to-purpose equipment (hardware/software) to be mated to a launcher, for the achievement of a special mission purpose. It covers, for example, ISO container bodies and equipment and other special purpose vehicles."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Installation kit",
+          "Definition": "The installation kit element refers to the equipment (hardware/software) for installation of the launch system related to a particular application."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Portability kit",
+          "Definition": "The portability kit refers to that equipment required to prepare the launcher for transportation, other than its prime means of movement."
+        },
+        {
+          "Subsystem": "-60",
+          "Title": "Bore variation/ velocity change kits",
+          "Definition": "This refers to equipment (hardware/software) designed to affect the velocity of a projectile."
+        },
+        {
+          "Subsystem": "-70",
+          "Title": "Winterization kit",
+          "Definition": "The winterization kit element refers to the equipment (hardware/software) for protection of the launcher/ crew, in adverse weather conditions."
+        }
+      ]
+    },
+    {
+      "System": "P2",
+      "Title": "Projectile special equipment/ systems, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile special equipment/ systems, General",
+          "Definition": "A system or equipment used to provide a special mission capability for the projectile."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Portability kit",
+          "Definition": "The portability kit refers to that equipment required to prepare projectiles for transportation."
+        }
+      ]
+    },
+    {
+      "System": "Q0",
+      "Title": "Outfit and furnishings, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Outfit and furnishings, General",
+          "Definition": "A function or equipment used to provide habitability or operability that is not specifically included in other systems."
+        }
+      ]
+    },
+    {
+      "System": "Q1",
+      "Title": "Launcher stowage, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher stowage, General",
+          "Definition": "This element is required to provide for personal equipment stowage as well as operational equipment stowage on or in the launcher."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Charge bin",
+          "Definition": "Refers to charge bin stowage facilities."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Shell stowage",
+          "Definition": "Refers to shell stowage facilities."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Ammunition",
+          "Definition": "Refers to stowage facilities for both secondary and personal ammunition."
+        },
+        {
+          "Subsystem": "-40",
+          "Title": "Launcher internal",
+          "Definition": "Refers to stowage facilities within the launcher."
+        },
+        {
+          "Subsystem": "-50",
+          "Title": "Launcher external",
+          "Definition": "Refers to stowage facilities mounted on launcher."
+        }
+      ]
+    },
+    {
+      "System": "Q2",
+      "Title": "Complete equipment schedule (CES), General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Complete equipment schedule General",
+          "Definition": "This element refers to lists detailing the equipment required by the user to operate and maintain the system. It includes, for example, both fitted and loose items, spares, tools and (CES), operator manuals."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Production CES",
+          "Definition": "This element refers to the production version of the CES."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Service CES",
+          "Definition": "This element refers to the service version of the CES."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Complex CES",
+          "Definition": "This element refers to the complex version of the CES."
+        }
+      ]
+    },
+    {
+      "System": "Q3",
+      "Title": "Projectile stowage, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile stowage, General",
+          "Definition": "This element is required to provide for equipment stowage on or in the projectile."
+        }
+      ]
+    },
+    {
+      "System": "R0",
+      "Title": "Training, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Training, General",
+          "Definition": "The training element is defined as the deliverable training services, devices, accessories, aids, equipment and facilities used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency. This element includes all effort associated design, development and production of deliverable training equipment as well as the execution of training services."
+        }
+      ]
+    },
+    {
+      "System": "R1",
+      "Title": "Training services, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Training services, General",
+          "Definition": "The training services element refers to the deliverable training services, used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Devices/ accessories/aids",
+          "Definition": "The training devices/accessories/aids element refers to the deliverable devices, accessories and aids used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Equipment",
+          "Definition": "The training equipment element refers to the deliverable training equipment used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+        },
+        {
+          "Subsystem": "-30",
+          "Title": "Facilities",
+          "Definition": "The training facilities element refers to the deliverable training facilities used to provide instruction through which personnel will acquire sufficient concepts, skills and aptitudes to both operate and maintain the system with maximum efficiency."
+        }
+      ]
+    },
+    {
+      "System": "S0",
+      "Title": "Repair, test and support, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Repair test and support, General",
+          "Definition": "A system, equipment or facilities used to maintain operational capability."
+        }
+      ]
+    },
+    {
+      "System": "S1",
+      "Title": "Launcher repair facilities, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher repair facilities, General",
+          "Definition": "This element refers to the facility which will allow unserviceable launchers to be repaired, tested and returned to service use."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mobile",
+          "Definition": "This element refers to a mobile facility which will allow unserviceable launchers to be repaired, tested and returned to service use."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fixed",
+          "Definition": "This element refers to a static facility which will allow unserviceable launchers to be repaired, tested and returned to service use."
+        }
+      ]
+    },
+    {
+      "System": "S2",
+      "Title": "Sighting systems repair facility, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Sighting systems repair facility, General",
+          "Definition": "This element refers to equipment (hardware/software) that enables the repair, test or calibration of the optical sighting equipment, including laser range finders for example."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mobile",
+          "Definition": "Refers to mobile (man-portable or vehicle mounted) equipment (hardware/software), which can be in a vehicle container or box body, that enables the repair, test and/or calibration of optical sighting equipment."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fixed",
+          "Definition": "Refers to static (permanent or temporary) equipment (hardware/software) that enables the repair, test or calibration of optical sighting equipment."
+        }
+      ]
+    },
+    {
+      "System": "S3",
+      "Title": "Thermal imaging repair facility, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Thermal imaging repair facility, General",
+          "Definition": "To provide a transportable facility (hardware/software) whereby thermal imaging equipment including its associated cooling systems can be repaired, tested and returned to service. The equipment covered will include, for example, clean air equipment, jigs, fixtures, computer interface adapters and test equipment."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mobile",
+          "Definition": "Refers to mobile (man-portable or vehicle mounted) equipment (hardware/software), which can be in a vehicle container or box body, that enables the repair, test and/or calibration of thermal imaging equipment."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fixed",
+          "Definition": "Refers to static (permanent or temporary) equipment (hardware/software) that enables the repair, test or calibration of thermal imaging equipment."
+        }
+      ]
+    },
+    {
+      "System": "S4",
+      "Title": "General purpose electronic repair facility, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "General purpose electronic repair facility, General",
+          "Definition": "This element refers to equipment (hardware/software) that enables unserviceable electrical/electronic items to be repaired, tested and returned to service use."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mobile",
+          "Definition": "Refers to mobile (man-portable or vehicle mounted) equipment (hardware/software), which can be in a vehicle container or box body, that enables the repair, test and/or calibration of general purpose electronic equipment."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fixed",
+          "Definition": "Refers to static (permanent or temporary) equipment (hardware/software) that enables the repair, test or calibration of general purpose electronic equipment."
+        }
+      ]
+    },
+    {
+      "System": "S5",
+      "Title": "Projectile repair facilities, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile repair facilities, General",
+          "Definition": "This element refers to the facility which will allow unserviceable projectiles to be repaired, tested and returned to service use."
+        },
+        {
+          "Subsystem": "-10",
+          "Title": "Mobile",
+          "Definition": "This element refers to a mobile facility which will allow unserviceable projectiles to be repaired, tested and returned to service use."
+        },
+        {
+          "Subsystem": "-20",
+          "Title": "Fixed",
+          "Definition": "This element refers to a static facility which will allow unserviceable projectiles to be repaired, tested and returned to service use."
+        }
+      ]
+    },
+    {
+      "System": "S6",
+      "Title": "Launcher common support equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher common support equipment, General",
+          "Definition": "The launcher common support equipment element refers to those items required to support and maintain the launcher or portions of the launcher systems while not directly engaged in the performance of its mission, and which are presently in the MOD inventory for support of other systems. This element includes all efforts required to assure the availability of this equipment for support of the particular defense Product item. It also includes the acquisition of additional quantities of this equipment if caused by the introduction of the defense material item into operational service."
+        }
+      ]
+    },
+    {
+      "System": "S7",
+      "Title": "Projectile common support equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile common support equipment, General",
+          "Definition": "The projectile common support equipment element refers to those items required to support and maintain the projectiles or portions of the projectile systems while not directly engaged in the performance of their mission, and which are presently in the MOD inventory for support of other systems. This element includes all efforts required to assure the availability of this equipment for support of the particular defense Product item. It also includes the acquisition of additional quantities of this equipment if caused by the introduction of the defense material item into operational service."
+        }
+      ]
+    },
+    {
+      "System": "S8",
+      "Title": "Launcher test and measurement equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher test and measurement equipment, General",
+          "Definition": "The launcher test and measurement equipment element is defined as common testing and measurement equipment which allows an operator or maintenance function to evaluate operational conditions of a launcher system or equipment by performing specific diagnostics, screening or QA effort at an organizational, intermediate, or depot level of equipment support. It includes test measurement and diagnostic equipment, precision measuring equipment, automatic test equipment, manual test equipment, automatic test systems, test program sets, appropriate interconnect devices, automated load modules, tap(s), and related software, firmware and support hardware (power supply equipment, etc) used at all levels of maintenance. It includes packages which enable a line or shop replaceable unit, printed circuit boards, or similar items to be diagnosed using automatic test equipment."
+        }
+      ]
+    },
+    {
+      "System": "S9",
+      "Title": "Projectile test and measurement equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile test and measurement equipment, General",
+          "Definition": "The projectile test and measurement equipment element is defined as common testing and measurement equipment which allows an operator or maintenance function to evaluate operational conditions of a projectile, subsystem or equipment by performing specific diagnostics, screening or QA effort at an organizational, intermediate, or depot level of equipment support. It includes test measurement and diagnostic equipment, precision measuring equipment, automatic test equipment, manual test equipment, automatic test systems, test program sets, appropriate interconnect devices, automated load modules, tap(s), and related software, firmware and support hardware (power supply equipment, etc) used at all levels of maintenance. It includes packages which enable a line or shop replaceable unit, printed circuit boards, or similar items to be diagnosed using automatic test equipment."
+        }
+      ]
+    },
+    {
+      "System": "SA",
+      "Title": "Launcher support and handling equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Launcher support and handling equipment, General",
+          "Definition": "The launcher support and handling equipment element is defined as the deliverable tools and handling equipment used for support of the launcher system. It typically includes ground support equipment, vehicular support equipment, powered support equipment, non-powered support equipment, and software support equipment."
+        }
+      ]
+    },
+    {
+      "System": "SB",
+      "Title": "Projectile support and handling equipment, General",
+      "Subsystems": [
+        {
+          "Subsystem": "-00",
+          "Title": "Projectile support and handling equipment, General",
+          "Definition": "The projectile support and handling equipment element is defined as the deliverable tools and handling equipment used for support of the projectile (eg, munitions Product handling equipment and software support equipment)."
+        }
+      ]
+    }
+  ]
+}

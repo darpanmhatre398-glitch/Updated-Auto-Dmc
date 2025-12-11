@@ -1,0 +1,3 @@
+2025-09-24 09:11:51,701 - INFO - --- Starting Enhanced S1000D DMC Generation Process ---
+2025-09-24 09:11:51,701 - CRITICAL - SNS XML file not found at s1000d_data\sns.xml. This is essential. Aborting.
+2025-09-24 09:11:51,701 - CRITICAL - Info Codes JSON file not found at s1000d_data\info_codes.json. This is essential. Aborting.
